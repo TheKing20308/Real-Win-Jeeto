@@ -1,0 +1,17 @@
+assets/bin/Data/boot.config:296-638421279711075323
+assets/bin/Data/data.unity3d:17791468-638421279711231566
+assets/bin/Data/Managed/Metadata/global-metadata.dat:6602868-638421287215040008
+assets/bin/Data/Managed/Resources/mscorlib.dll-resources.dat:337563-638421287215847871
+assets/bin/Data/Managed/Resources/Newtonsoft.Json.dll-resources.dat:900-638421287221427158
+assets/bin/Data/Managed/Resources/System.Data.dll-resources.dat:93718-638421287208729300
+assets/bin/Data/RuntimeInitializeOnLoads.json:381-638417845437000945
+assets/bin/Data/ScriptingAssemblies.json:3368-638421279711075323
+assets/bin/Data/sharedassets2.resource:1496768-638421279711075323
+assets/bin/Data/unity default resources:4222168-638417845436432875
+assets/bin/Data/unity_app_guid:36-638421287214274543
+assets/build_info:41-638421279711075323
+assets/google-services-desktop.json:1025-638417845436905667
+jniLibs/arm64-v8a/libil2cpp.so:36967328-638421287671767862
+jniLibs/arm64-v8a/libmain.so:13312-638421279711075323
+jniLibs/armeabi-v7a/libil2cpp.so:33759780-638421287672779013
+jniLibs/armeabi-v7a/libmain.so:31712-638421279711075323

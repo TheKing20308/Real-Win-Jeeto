@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "551439710417",
+    "project_id": "boomly-7856a",
+    "storage_bucket": "boomly-7856a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:551439710417:android:8e7d34b35bc68851bfadf0",
+        "android_client_info": {
+          "package_name": "com.ludo.boomly"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "551439710417-mc6dvgca4vsnlftmqnka671j2tpfj646.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfUmvYUBQSO142O2zekdETlAGWen3ujY4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "551439710417-mc6dvgca4vsnlftmqnka671j2tpfj646.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

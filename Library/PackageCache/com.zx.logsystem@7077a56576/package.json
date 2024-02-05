@@ -1,0 +1,12 @@
+{
+    "name": "com.zx.logsystem",
+    "version": "0.0.1",
+    "displayName": "zx log system",
+    "description": "custom debug code for better use",
+    "unity": "2022.3",
+    "author": {
+        "name": "zx",
+        "email": "j.bodse98@gmail.com",
+        "url": "https://www.google.com"
+    }
+}

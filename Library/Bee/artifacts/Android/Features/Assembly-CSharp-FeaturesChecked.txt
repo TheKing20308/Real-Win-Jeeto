@@ -1,0 +1,9 @@
+UnityEngine.Networking
+UnityEngine.Network
+UnityEngine.WWW
+UnityEngine.Networking.UnityWebRequest
+UnityEngine.Handheld::Vibrate
+UnityEngine.Application::get_internetReachability
+UnityEngine.Input::get_touches
+UnityEngine.Input::GetTouch
+UnityEngine.Input::get_touchCount

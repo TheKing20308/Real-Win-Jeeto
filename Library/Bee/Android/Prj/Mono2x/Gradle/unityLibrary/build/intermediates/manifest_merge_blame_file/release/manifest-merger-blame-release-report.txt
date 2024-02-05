@@ -1,0 +1,154 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.unity3d.player"
+5    android:versionCode="1"
+6    android:versionName="1" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="22"
+9-->C:\Game Build\Real Win Jeeto 2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="30" />
+10-->C:\Game Build\Real Win Jeeto 2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
+11
+12    <uses-feature android:glEsVersion="0x00030000" />
+12-->C:\Game Build\Real Win Jeeto 2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:3-52
+12-->C:\Game Build\Real Win Jeeto 2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:17-49
+13    <uses-feature
+13-->C:\Game Build\Real Win Jeeto 2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:3-91
+14        android:name="android.hardware.vulkan.version"
+14-->C:\Game Build\Real Win Jeeto 2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:17-63
+15        android:required="false" />
+15-->C:\Game Build\Real Win Jeeto 2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:64-88
+16
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->C:\Game Build\Real Win Jeeto 2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:3-65
+17-->C:\Game Build\Real Win Jeeto 2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:20-62
+18    <uses-permission android:name="android.permission.VIBRATE" />
+18-->C:\Game Build\Real Win Jeeto 2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:3-64
+18-->C:\Game Build\Real Win Jeeto 2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:20-61
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->C:\Game Build\Real Win Jeeto 2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:3-77
+19-->C:\Game Build\Real Win Jeeto 2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:20-74
+20
+21    <uses-feature
+21-->C:\Game Build\Real Win Jeeto 2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:3-88
+22        android:name="android.hardware.touchscreen"
+22-->C:\Game Build\Real Win Jeeto 2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:17-60
+23        android:required="false" />
+23-->C:\Game Build\Real Win Jeeto 2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:61-85
+24    <uses-feature
+24-->C:\Game Build\Real Win Jeeto 2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:3-99
+25        android:name="android.hardware.touchscreen.multitouch"
+25-->C:\Game Build\Real Win Jeeto 2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:17-71
+26        android:required="false" />
+26-->C:\Game Build\Real Win Jeeto 2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:72-96
+27    <uses-feature
+27-->C:\Game Build\Real Win Jeeto 2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:3-108
+28        android:name="android.hardware.touchscreen.multitouch.distinct"
+28-->C:\Game Build\Real Win Jeeto 2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:17-80
+29        android:required="false" />
+29-->C:\Game Build\Real Win Jeeto 2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:81-105
+30
+31    <application
+31-->C:\Game Build\Real Win Jeeto 2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:3-23:17
+32        android:extractNativeLibs="true"
+32-->C:\Game Build\Real Win Jeeto 2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:49-81
+33        android:icon="@mipmap/app_icon"
+33-->C:\Game Build\Real Win Jeeto 2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:82-113
+34        android:label="@string/app_name" >
+34-->C:\Game Build\Real Win Jeeto 2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:16-48
+35
+36        <!--
+37         The MessagingUnityPlayerActivity is a class that extends
+38         UnityPlayerActivity to work around a known issue when receiving
+39         notification data payloads in the background.
+40        -->
+41        <activity
+41-->C:\Game Build\Real Win Jeeto 2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:5-14:16
+42            android:name="com.google.firebase.MessagingUnityPlayerActivity"
+42-->C:\Game Build\Real Win Jeeto 2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:15-78
+43            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+43-->C:\Game Build\Real Win Jeeto 2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:148-329
+44            android:hardwareAccelerated="false"
+44-->C:\Game Build\Real Win Jeeto 2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:365-400
+45            android:launchMode="singleTask"
+45-->C:\Game Build\Real Win Jeeto 2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:116-147
+46            android:resizeableActivity="false"
+46-->C:\Game Build\Real Win Jeeto 2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:330-364
+47            android:screenOrientation="fullUser" >
+47-->C:\Game Build\Real Win Jeeto 2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:79-115
+48            <intent-filter>
+48-->C:\Game Build\Real Win Jeeto 2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:7-11:23
+49                <action android:name="android.intent.action.MAIN" />
+49-->C:\Game Build\Real Win Jeeto 2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:9-61
+49-->C:\Game Build\Real Win Jeeto 2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:17-58
+50
+51                <category android:name="android.intent.category.LAUNCHER" />
+51-->C:\Game Build\Real Win Jeeto 2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:9-69
+51-->C:\Game Build\Real Win Jeeto 2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:19-66
+52            </intent-filter>
+53
+54            <meta-data
+54-->C:\Game Build\Real Win Jeeto 2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:7-82
+55                android:name="unityplayer.UnityActivity"
+55-->C:\Game Build\Real Win Jeeto 2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:18-58
+56                android:value="true" />
+56-->C:\Game Build\Real Win Jeeto 2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:59-79
+57            <meta-data
+57-->C:\Game Build\Real Win Jeeto 2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:7-78
+58                android:name="android.notch_support"
+58-->C:\Game Build\Real Win Jeeto 2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:18-54
+59                android:value="true" />
+59-->C:\Game Build\Real Win Jeeto 2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:55-75
+60        </activity>
+61
+62        <service
+62-->C:\Game Build\Real Win Jeeto 2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:5-16:15
+63            android:name="com.google.firebase.messaging.MessageForwardingService"
+63-->C:\Game Build\Real Win Jeeto 2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:14-83
+64            android:exported="false"
+64-->C:\Game Build\Real Win Jeeto 2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:141-165
+65            android:permission="android.permission.BIND_JOB_SERVICE" >
+65-->C:\Game Build\Real Win Jeeto 2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:84-140
+66        </service>
+67
+68        <meta-data
+68-->C:\Game Build\Real Win Jeeto 2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:5-69
+69            android:name="unity.splash-mode"
+69-->C:\Game Build\Real Win Jeeto 2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:16-48
+70            android:value="0" />
+70-->C:\Game Build\Real Win Jeeto 2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:49-66
+71        <meta-data
+71-->C:\Game Build\Real Win Jeeto 2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:5-74
+72            android:name="unity.splash-enable"
+72-->C:\Game Build\Real Win Jeeto 2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:16-50
+73            android:value="True" />
+73-->C:\Game Build\Real Win Jeeto 2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:51-71
+74        <meta-data
+74-->C:\Game Build\Real Win Jeeto 2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:5-78
+75            android:name="unity.launch-fullscreen"
+75-->C:\Game Build\Real Win Jeeto 2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:16-54
+76            android:value="True" />
+76-->C:\Game Build\Real Win Jeeto 2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:55-75
+77        <meta-data
+77-->C:\Game Build\Real Win Jeeto 2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:5-84
+78            android:name="unity.allow-resizable-window"
+78-->C:\Game Build\Real Win Jeeto 2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:16-59
+79            android:value="False" />
+79-->C:\Game Build\Real Win Jeeto 2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:60-81
+80        <meta-data
+80-->C:\Game Build\Real Win Jeeto 2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:5-81
+81            android:name="notch.config"
+81-->C:\Game Build\Real Win Jeeto 2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:16-43
+82            android:value="portrait|landscape" />
+82-->C:\Game Build\Real Win Jeeto 2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:44-78
+83        <meta-data
+83-->C:\Game Build\Real Win Jeeto 2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:5-84
+84            android:name="unity.auto-report-fully-drawn"
+84-->C:\Game Build\Real Win Jeeto 2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:16-60
+85            android:value="true" />
+85-->C:\Game Build\Real Win Jeeto 2\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:61-81
+86    </application>
+87
+88</manifest>

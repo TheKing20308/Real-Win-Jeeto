@@ -1,0 +1,942 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+extern const RuntimeMethod* Listener_MessageReceivedDelegateMethod_m95C378CA304819447149A2A4A9AEC137F47956DE_RuntimeMethod_var;
+extern const RuntimeMethod* Listener_TokenReceivedDelegateMethod_mB4ACFCE59C870A1CDAFDD056655102F56CD17C85_RuntimeMethod_var;
+extern const RuntimeMethod* SWIGExceptionHelper_SetPendingApplicationException_m060171326D3019978B8787843E25864D51C7FAA1_RuntimeMethod_var;
+extern const RuntimeMethod* SWIGExceptionHelper_SetPendingArgumentException_mA9DCC213D165EE7CCA5227529BA5542A4D2D8751_RuntimeMethod_var;
+extern const RuntimeMethod* SWIGExceptionHelper_SetPendingArgumentNullException_m890F72E31BC6A96FF2A1F7906C188AA1D26C89AD_RuntimeMethod_var;
+extern const RuntimeMethod* SWIGExceptionHelper_SetPendingArgumentOutOfRangeException_mEB8E8B44C42D54AD9E0160B9EE2F7862637B3E0F_RuntimeMethod_var;
+extern const RuntimeMethod* SWIGExceptionHelper_SetPendingArithmeticException_m275F6E5A16018DCBAA2681A7FD3FE45FD9389751_RuntimeMethod_var;
+extern const RuntimeMethod* SWIGExceptionHelper_SetPendingDivideByZeroException_m05C0DE6E237D8E63649531A8AAA6B8906E6EC630_RuntimeMethod_var;
+extern const RuntimeMethod* SWIGExceptionHelper_SetPendingIOException_mAE6AEF4401C6393115479364B05173FE5A4D4E20_RuntimeMethod_var;
+extern const RuntimeMethod* SWIGExceptionHelper_SetPendingIndexOutOfRangeException_mE5189F13B9831CFEEACC0F704AA1EE4C28D6977A_RuntimeMethod_var;
+extern const RuntimeMethod* SWIGExceptionHelper_SetPendingInvalidCastException_mBCAEC39E36BE3422612773135A1347C38B9EE204_RuntimeMethod_var;
+extern const RuntimeMethod* SWIGExceptionHelper_SetPendingInvalidOperationException_mE112B67C45E3FE746CC170726DCAE25F581F6321_RuntimeMethod_var;
+extern const RuntimeMethod* SWIGExceptionHelper_SetPendingNullReferenceException_m29AC22ED749B13344003A120E77C26E7C736A4E4_RuntimeMethod_var;
+extern const RuntimeMethod* SWIGExceptionHelper_SetPendingOutOfMemoryException_m85D046E64786517BF671D14464F013E6E10F74FF_RuntimeMethod_var;
+extern const RuntimeMethod* SWIGExceptionHelper_SetPendingOverflowException_m925DE663512069FE450704037A528E83270A91BE_RuntimeMethod_var;
+extern const RuntimeMethod* SWIGExceptionHelper_SetPendingSystemException_m801705A321121C304A58AD98B229F83BD2D974CE_RuntimeMethod_var;
+extern const RuntimeMethod* SWIGStringHelper_CreateString_mD8088413B24D769437B4E09A4AB7826A55A5A9A7_RuntimeMethod_var;
+
+
+
+// 0x00000001 System.Void Firebase.Messaging.FirebaseMessaging::.cctor()
+extern void FirebaseMessaging__cctor_m45EE226B1C1F1F9135F774C848E2BF7338D0C1D1 (void);
+// 0x00000002 System.Void Firebase.Messaging.FirebaseMessaging::.ctor()
+extern void FirebaseMessaging__ctor_m5574C7C33D3F1A83E74A6F2711D6FD370C1F5B4E (void);
+// 0x00000003 System.Void Firebase.Messaging.FirebaseMessaging::add_MessageReceivedInternal(System.EventHandler`1<Firebase.Messaging.MessageReceivedEventArgs>)
+extern void FirebaseMessaging_add_MessageReceivedInternal_mAC5DE7ED74C283AC7AE2EC37D227B00D22A61FFC (void);
+// 0x00000004 System.Void Firebase.Messaging.FirebaseMessaging::remove_MessageReceivedInternal(System.EventHandler`1<Firebase.Messaging.MessageReceivedEventArgs>)
+extern void FirebaseMessaging_remove_MessageReceivedInternal_m10D722935157A07D23EFB5EB3A7146CC0B050A15 (void);
+// 0x00000005 System.Void Firebase.Messaging.FirebaseMessaging::add_TokenReceivedInternal(System.EventHandler`1<Firebase.Messaging.TokenReceivedEventArgs>)
+extern void FirebaseMessaging_add_TokenReceivedInternal_m10E4057024EE240222342CCB7B0561E8B86A6118 (void);
+// 0x00000006 System.Void Firebase.Messaging.FirebaseMessaging::remove_TokenReceivedInternal(System.EventHandler`1<Firebase.Messaging.TokenReceivedEventArgs>)
+extern void FirebaseMessaging_remove_TokenReceivedInternal_m0A58E53FE8B89547AB5B4A73164400784E619DEA (void);
+// 0x00000007 System.Void Firebase.Messaging.FirebaseMessaging::CreateOrDestroyListener()
+extern void FirebaseMessaging_CreateOrDestroyListener_m8A5BD5BDC87A8746952190E5F3BC682F8152BEB3 (void);
+// 0x00000008 Firebase.FirebaseApp Firebase.Messaging.FirebaseMessaging::get_App()
+extern void FirebaseMessaging_get_App_mDCAE72EB21733A53ADE3764AA141D413031B566C (void);
+// 0x00000009 System.Boolean Firebase.Messaging.FirebaseMessaging::get_TokenRegistrationOnInitEnabled()
+extern void FirebaseMessaging_get_TokenRegistrationOnInitEnabled_m4C19ACC05AE94D7F9CD860DF541C6208B1E4E9EA (void);
+// 0x0000000A System.Void Firebase.Messaging.FirebaseMessaging::set_TokenRegistrationOnInitEnabled(System.Boolean)
+extern void FirebaseMessaging_set_TokenRegistrationOnInitEnabled_m1831D76AC2FFAD2CC33C5A499FA7DBD422C250C3 (void);
+// 0x0000000B System.Boolean Firebase.Messaging.FirebaseMessaging::get_DeliveryMetricsExportedToBigQueryEnabled()
+extern void FirebaseMessaging_get_DeliveryMetricsExportedToBigQueryEnabled_m06018461B2F70F64433782B1DFBE4E1E6B533C80 (void);
+// 0x0000000C System.Void Firebase.Messaging.FirebaseMessaging::set_DeliveryMetricsExportedToBigQueryEnabled(System.Boolean)
+extern void FirebaseMessaging_set_DeliveryMetricsExportedToBigQueryEnabled_mFA8D305949258F8796368CD315B21D72FD31DB83 (void);
+// 0x0000000D System.Threading.Tasks.Task`1<System.String> Firebase.Messaging.FirebaseMessaging::GetTokenAsync()
+extern void FirebaseMessaging_GetTokenAsync_m21AABFA9552959DD10479545CAE7E7C8FF7643AB (void);
+// 0x0000000E System.Threading.Tasks.Task Firebase.Messaging.FirebaseMessaging::DeleteTokenAsync()
+extern void FirebaseMessaging_DeleteTokenAsync_m8C3C653740DBB5E59BC0B044DBE607E1F772C8E9 (void);
+// 0x0000000F System.Void Firebase.Messaging.FirebaseMessaging::add_MessageReceived(System.EventHandler`1<Firebase.Messaging.MessageReceivedEventArgs>)
+extern void FirebaseMessaging_add_MessageReceived_m7593D2A9A31F8D9D6C63C5721DD27D6029AD51DD (void);
+// 0x00000010 System.Void Firebase.Messaging.FirebaseMessaging::remove_MessageReceived(System.EventHandler`1<Firebase.Messaging.MessageReceivedEventArgs>)
+extern void FirebaseMessaging_remove_MessageReceived_mC78F77D418BC853D058C936B5FD9F4653DBC6D0C (void);
+// 0x00000011 System.Void Firebase.Messaging.FirebaseMessaging::add_TokenReceived(System.EventHandler`1<Firebase.Messaging.TokenReceivedEventArgs>)
+extern void FirebaseMessaging_add_TokenReceived_m104BD22FC0B8EB65EAD116DD143E307DC074B58D (void);
+// 0x00000012 System.Void Firebase.Messaging.FirebaseMessaging::remove_TokenReceived(System.EventHandler`1<Firebase.Messaging.TokenReceivedEventArgs>)
+extern void FirebaseMessaging_remove_TokenReceived_m57733EDA0C697B1C9C675C7222933E9DFD72D1DC (void);
+// 0x00000013 System.Void Firebase.Messaging.FirebaseMessaging::Subscribe(System.String)
+extern void FirebaseMessaging_Subscribe_m620D8DBDBB68CF5BF33EBE7EBF2EDDB99BB3ECEA (void);
+// 0x00000014 System.Void Firebase.Messaging.FirebaseMessaging::Unsubscribe(System.String)
+extern void FirebaseMessaging_Unsubscribe_m59CE7BC9AD3AA306D3807E4551403391FCD4F450 (void);
+// 0x00000015 System.Boolean Firebase.Messaging.FirebaseMessaging::IsTokenRegistrationOnInitEnabledInternal()
+extern void FirebaseMessaging_IsTokenRegistrationOnInitEnabledInternal_m00B72038C042B665FC5FDE24C5813DB951A097A7 (void);
+// 0x00000016 System.Void Firebase.Messaging.FirebaseMessaging::SetTokenRegistrationOnInitEnabledInternal(System.Boolean)
+extern void FirebaseMessaging_SetTokenRegistrationOnInitEnabledInternal_m756EDCA5B31F361ECB5089127F7B1D9975BFAED8 (void);
+// 0x00000017 System.Threading.Tasks.Task Firebase.Messaging.FirebaseMessaging::RequestPermissionAsync()
+extern void FirebaseMessaging_RequestPermissionAsync_mD58F048A50CD1B735BE6033456922A42671670DA (void);
+// 0x00000018 System.Threading.Tasks.Task Firebase.Messaging.FirebaseMessaging::SubscribeAsync(System.String)
+extern void FirebaseMessaging_SubscribeAsync_m648779F7705CF77214D393454CE0E00175C1858F (void);
+// 0x00000019 System.Threading.Tasks.Task Firebase.Messaging.FirebaseMessaging::UnsubscribeAsync(System.String)
+extern void FirebaseMessaging_UnsubscribeAsync_mA91F8F827D8AC38546796C20E4EDB2A9A42EC5C4 (void);
+// 0x0000001A System.Boolean Firebase.Messaging.FirebaseMessaging::DeliveryMetricsExportToBigQueryEnabledInternal()
+extern void FirebaseMessaging_DeliveryMetricsExportToBigQueryEnabledInternal_mF1AD3A2AEA2E327F22862EE8A270E6136196A11E (void);
+// 0x0000001B System.Void Firebase.Messaging.FirebaseMessaging::SetDeliveryMetricsExportToBigQueryInternal(System.Boolean)
+extern void FirebaseMessaging_SetDeliveryMetricsExportToBigQueryInternal_m80ECFE5606DE53BD7A0C6836D710603C8407A131 (void);
+// 0x0000001C System.Threading.Tasks.Task`1<System.String> Firebase.Messaging.FirebaseMessaging::GetTokenInternalAsync()
+extern void FirebaseMessaging_GetTokenInternalAsync_mCB702AE3D2C04219844464C952E986771323DB67 (void);
+// 0x0000001D System.Threading.Tasks.Task Firebase.Messaging.FirebaseMessaging::DeleteTokenInternalAsync()
+extern void FirebaseMessaging_DeleteTokenInternalAsync_m31A43C4617CC07448FB4A543B2F9979ABE04FEE4 (void);
+// 0x0000001E System.Void Firebase.Messaging.FirebaseMessaging::SetListenerCallbacks(Firebase.Messaging.FirebaseMessaging/Listener/MessageReceivedDelegate,Firebase.Messaging.FirebaseMessaging/Listener/TokenReceivedDelegate)
+extern void FirebaseMessaging_SetListenerCallbacks_m2F889DF8DECE9469967BEF550C78D5EDDCFAB454 (void);
+// 0x0000001F System.Void Firebase.Messaging.FirebaseMessaging::SetListenerCallbacksEnabled(System.Boolean,System.Boolean)
+extern void FirebaseMessaging_SetListenerCallbacksEnabled_mCC6695D568D9818EA1F0D26712FB2A0EE87E73A3 (void);
+// 0x00000020 System.Void Firebase.Messaging.FirebaseMessaging::SendPendingEvents()
+extern void FirebaseMessaging_SendPendingEvents_m9AEBB8B89CA851876F0E41A21C8F517836378886 (void);
+// 0x00000021 System.IntPtr Firebase.Messaging.FirebaseMessaging::MessageCopyNotification(System.IntPtr)
+extern void FirebaseMessaging_MessageCopyNotification_mBDE449E1BE3BC2BDB06CD88250C714C6DDA6465A (void);
+// 0x00000022 System.IntPtr Firebase.Messaging.FirebaseMessaging::NotificationCopyAndroidNotificationParams(System.IntPtr)
+extern void FirebaseMessaging_NotificationCopyAndroidNotificationParams_m7DD4C4D386B8C61E1DE718DC02B6A4E7DE6CD339 (void);
+// 0x00000023 System.Void Firebase.Messaging.FirebaseMessaging/Listener::.ctor()
+extern void Listener__ctor_m87D2A4FC1D1CFAF89AB68D83165777A9F92E63C0 (void);
+// 0x00000024 Firebase.Messaging.FirebaseMessaging/Listener Firebase.Messaging.FirebaseMessaging/Listener::Create()
+extern void Listener_Create_m66A522F9620BBB2E3BD693E9DE08D843B27D89F3 (void);
+// 0x00000025 System.Void Firebase.Messaging.FirebaseMessaging/Listener::Destroy()
+extern void Listener_Destroy_m3D943DABEC593DC4A33D3321B9C6CCBE30F68ED7 (void);
+// 0x00000026 Firebase.FirebaseApp Firebase.Messaging.FirebaseMessaging/Listener::get_App()
+extern void Listener_get_App_m74B7B56CA815EA9173AD5470B80CE6FE51A489AA (void);
+// 0x00000027 System.Void Firebase.Messaging.FirebaseMessaging/Listener::Finalize()
+extern void Listener_Finalize_m1B8FDFA1B1FFD19A9F42B1C93B211A3274BD4851 (void);
+// 0x00000028 System.Void Firebase.Messaging.FirebaseMessaging/Listener::Dispose()
+extern void Listener_Dispose_m3C1C99DA6E56534E4A654434061702E518946B19 (void);
+// 0x00000029 System.Int32 Firebase.Messaging.FirebaseMessaging/Listener::MessageReceivedDelegateMethod(System.IntPtr)
+extern void Listener_MessageReceivedDelegateMethod_m95C378CA304819447149A2A4A9AEC137F47956DE (void);
+// 0x0000002A System.Void Firebase.Messaging.FirebaseMessaging/Listener::TokenReceivedDelegateMethod(System.String)
+extern void Listener_TokenReceivedDelegateMethod_mB4ACFCE59C870A1CDAFDD056655102F56CD17C85 (void);
+// 0x0000002B System.Void Firebase.Messaging.FirebaseMessaging/Listener/MessageReceivedDelegate::.ctor(System.Object,System.IntPtr)
+extern void MessageReceivedDelegate__ctor_m7C746AD1F9449816B6CFE442E53CB22D66785344 (void);
+// 0x0000002C System.Int32 Firebase.Messaging.FirebaseMessaging/Listener/MessageReceivedDelegate::Invoke(System.IntPtr)
+extern void MessageReceivedDelegate_Invoke_mF0C934D7A2A469F4B8A32D59984AB41641151EDF (void);
+// 0x0000002D System.IAsyncResult Firebase.Messaging.FirebaseMessaging/Listener/MessageReceivedDelegate::BeginInvoke(System.IntPtr,System.AsyncCallback,System.Object)
+extern void MessageReceivedDelegate_BeginInvoke_mF2940D30F9D8F8D3A04FDA7D206A98B84E8DEAB7 (void);
+// 0x0000002E System.Int32 Firebase.Messaging.FirebaseMessaging/Listener/MessageReceivedDelegate::EndInvoke(System.IAsyncResult)
+extern void MessageReceivedDelegate_EndInvoke_mDA1B54977055957DBEDBF8D66BCE7A6AA8B3F2C0 (void);
+// 0x0000002F System.Void Firebase.Messaging.FirebaseMessaging/Listener/TokenReceivedDelegate::.ctor(System.Object,System.IntPtr)
+extern void TokenReceivedDelegate__ctor_m7213BFF7CDB058058B92B871EFE65B9C5C906EF3 (void);
+// 0x00000030 System.Void Firebase.Messaging.FirebaseMessaging/Listener/TokenReceivedDelegate::Invoke(System.String)
+extern void TokenReceivedDelegate_Invoke_m63E4E2B3A6D238DAF46E0B9B1A119BAD5E1259A0 (void);
+// 0x00000031 System.IAsyncResult Firebase.Messaging.FirebaseMessaging/Listener/TokenReceivedDelegate::BeginInvoke(System.String,System.AsyncCallback,System.Object)
+extern void TokenReceivedDelegate_BeginInvoke_mF5B9047FA346E63998546B7445F892E8CD57407C (void);
+// 0x00000032 System.Void Firebase.Messaging.FirebaseMessaging/Listener/TokenReceivedDelegate::EndInvoke(System.IAsyncResult)
+extern void TokenReceivedDelegate_EndInvoke_mEB332FB98E09FA220BBAFABA7BBAB1046A45533A (void);
+// 0x00000033 System.Void Firebase.Messaging.FirebaseMessaging/Listener/<MessageReceivedDelegateMethod>c__AnonStorey0::.ctor()
+extern void U3CMessageReceivedDelegateMethodU3Ec__AnonStorey0__ctor_m762A83BDCF700C20F4D5EB358FEBA76246EED9FC (void);
+// 0x00000034 System.Int32 Firebase.Messaging.FirebaseMessaging/Listener/<MessageReceivedDelegateMethod>c__AnonStorey0::<>m__0()
+extern void U3CMessageReceivedDelegateMethodU3Ec__AnonStorey0_U3CU3Em__0_mD7FEE9E350C8DA15A5810CE09D1E6306186FDF1E (void);
+// 0x00000035 System.Void Firebase.Messaging.FirebaseMessaging/Listener/<TokenReceivedDelegateMethod>c__AnonStorey1::.ctor()
+extern void U3CTokenReceivedDelegateMethodU3Ec__AnonStorey1__ctor_mF49B2EA70CE3B50B376905BF0379B60147A466C5 (void);
+// 0x00000036 System.Void Firebase.Messaging.FirebaseMessaging/Listener/<TokenReceivedDelegateMethod>c__AnonStorey1::<>m__0()
+extern void U3CTokenReceivedDelegateMethodU3Ec__AnonStorey1_U3CU3Em__0_m39CC1C02602244E79D6C1CCE642F6BA3CBF57013 (void);
+// 0x00000037 System.Void Firebase.Messaging.FirebaseMessagingPINVOKE::.cctor()
+extern void FirebaseMessagingPINVOKE__cctor_mE8C924D788B5A3205542A4CE24631B01FDCA77F0 (void);
+// 0x00000038 System.Void Firebase.Messaging.FirebaseMessagingPINVOKE::.ctor()
+extern void FirebaseMessagingPINVOKE__ctor_m28D5E69F9FAD91D684DF701DFD2E89D665B4404D (void);
+// 0x00000039 System.IntPtr Firebase.Messaging.FirebaseMessagingPINVOKE::new_MessagingOptions()
+extern void FirebaseMessagingPINVOKE_new_MessagingOptions_m62A6D9E43B5680C9C10438BB4CE0D501F7757832 (void);
+// 0x0000003A System.Void Firebase.Messaging.FirebaseMessagingPINVOKE::MessagingOptions_SuppressNotificationPermissionPrompt_set(System.Runtime.InteropServices.HandleRef,System.Boolean)
+extern void FirebaseMessagingPINVOKE_MessagingOptions_SuppressNotificationPermissionPrompt_set_mE87ACFF2EC98A7950978DD1F1CB96C862B3000BA (void);
+// 0x0000003B System.Boolean Firebase.Messaging.FirebaseMessagingPINVOKE::MessagingOptions_SuppressNotificationPermissionPrompt_get(System.Runtime.InteropServices.HandleRef)
+extern void FirebaseMessagingPINVOKE_MessagingOptions_SuppressNotificationPermissionPrompt_get_mD4FAB02A28C710E9968D74714523D2F6C9BBE9D6 (void);
+// 0x0000003C System.Void Firebase.Messaging.FirebaseMessagingPINVOKE::delete_MessagingOptions(System.Runtime.InteropServices.HandleRef)
+extern void FirebaseMessagingPINVOKE_delete_MessagingOptions_m81B773FA04F99C2FCECE0A7C620C43257B9C94FA (void);
+// 0x0000003D System.String Firebase.Messaging.FirebaseMessagingPINVOKE::AndroidNotificationParams_ChannelId_get(System.Runtime.InteropServices.HandleRef)
+extern void FirebaseMessagingPINVOKE_AndroidNotificationParams_ChannelId_get_mED7D6B65F23DE9A57FF98A764DE32FB5D748BFEF (void);
+// 0x0000003E System.IntPtr Firebase.Messaging.FirebaseMessagingPINVOKE::new_AndroidNotificationParams()
+extern void FirebaseMessagingPINVOKE_new_AndroidNotificationParams_m6AF890BC6F9461A69A85121F491C53BF484996A7 (void);
+// 0x0000003F System.Void Firebase.Messaging.FirebaseMessagingPINVOKE::delete_AndroidNotificationParams(System.Runtime.InteropServices.HandleRef)
+extern void FirebaseMessagingPINVOKE_delete_AndroidNotificationParams_mDB617E24E0DD728EBA986BED3393415C296C1B21 (void);
+// 0x00000040 System.IntPtr Firebase.Messaging.FirebaseMessagingPINVOKE::new_FirebaseNotification()
+extern void FirebaseMessagingPINVOKE_new_FirebaseNotification_m8FCE37C2E5F68CF6579CC705B13FC29FDC55B788 (void);
+// 0x00000041 System.Void Firebase.Messaging.FirebaseMessagingPINVOKE::delete_FirebaseNotification(System.Runtime.InteropServices.HandleRef)
+extern void FirebaseMessagingPINVOKE_delete_FirebaseNotification_mF22FF56EE091E89BC9552FB1973ACA133164ABF2 (void);
+// 0x00000042 System.String Firebase.Messaging.FirebaseMessagingPINVOKE::FirebaseNotification_Title_get(System.Runtime.InteropServices.HandleRef)
+extern void FirebaseMessagingPINVOKE_FirebaseNotification_Title_get_m79C024471BA851F554224435CA90A05B7F7EC437 (void);
+// 0x00000043 System.String Firebase.Messaging.FirebaseMessagingPINVOKE::FirebaseNotification_Body_get(System.Runtime.InteropServices.HandleRef)
+extern void FirebaseMessagingPINVOKE_FirebaseNotification_Body_get_mA085D3A805C3AFA96693BBE2FEF5E04F776DC735 (void);
+// 0x00000044 System.String Firebase.Messaging.FirebaseMessagingPINVOKE::FirebaseNotification_Icon_get(System.Runtime.InteropServices.HandleRef)
+extern void FirebaseMessagingPINVOKE_FirebaseNotification_Icon_get_m5D3005E5668CE48C1E4D2E95D84A38A70320FC45 (void);
+// 0x00000045 System.String Firebase.Messaging.FirebaseMessagingPINVOKE::FirebaseNotification_Sound_get(System.Runtime.InteropServices.HandleRef)
+extern void FirebaseMessagingPINVOKE_FirebaseNotification_Sound_get_mD67E4581D401A3218868F95C51CE8D9DCB2302BE (void);
+// 0x00000046 System.String Firebase.Messaging.FirebaseMessagingPINVOKE::FirebaseNotification_Badge_get(System.Runtime.InteropServices.HandleRef)
+extern void FirebaseMessagingPINVOKE_FirebaseNotification_Badge_get_m73E0B4DE7E95E04C3338A85F34DDF103812473A0 (void);
+// 0x00000047 System.String Firebase.Messaging.FirebaseMessagingPINVOKE::FirebaseNotification_Tag_get(System.Runtime.InteropServices.HandleRef)
+extern void FirebaseMessagingPINVOKE_FirebaseNotification_Tag_get_mC43AF80798202FB7D3B9B8C877A5563E25BEE0A8 (void);
+// 0x00000048 System.String Firebase.Messaging.FirebaseMessagingPINVOKE::FirebaseNotification_Color_get(System.Runtime.InteropServices.HandleRef)
+extern void FirebaseMessagingPINVOKE_FirebaseNotification_Color_get_mA62578F5DF42D5999DAEC55E1E46F8909C546DB0 (void);
+// 0x00000049 System.String Firebase.Messaging.FirebaseMessagingPINVOKE::FirebaseNotification_ClickAction_get(System.Runtime.InteropServices.HandleRef)
+extern void FirebaseMessagingPINVOKE_FirebaseNotification_ClickAction_get_m5DCB41BCBD33804ADF1B2CCC4A74313650695165 (void);
+// 0x0000004A System.String Firebase.Messaging.FirebaseMessagingPINVOKE::FirebaseNotification_BodyLocalizationKey_get(System.Runtime.InteropServices.HandleRef)
+extern void FirebaseMessagingPINVOKE_FirebaseNotification_BodyLocalizationKey_get_mD0E12483924A8228F556B8548F7900308E1073CA (void);
+// 0x0000004B System.IntPtr Firebase.Messaging.FirebaseMessagingPINVOKE::FirebaseNotification_BodyLocalizationArgs_get(System.Runtime.InteropServices.HandleRef)
+extern void FirebaseMessagingPINVOKE_FirebaseNotification_BodyLocalizationArgs_get_m128D205AE4100A744598994A70638FB935722545 (void);
+// 0x0000004C System.String Firebase.Messaging.FirebaseMessagingPINVOKE::FirebaseNotification_TitleLocalizationKey_get(System.Runtime.InteropServices.HandleRef)
+extern void FirebaseMessagingPINVOKE_FirebaseNotification_TitleLocalizationKey_get_mCAC46BCFA67C2B0B3E197B590EAB823F904851CC (void);
+// 0x0000004D System.IntPtr Firebase.Messaging.FirebaseMessagingPINVOKE::FirebaseNotification_TitleLocalizationArgs_get(System.Runtime.InteropServices.HandleRef)
+extern void FirebaseMessagingPINVOKE_FirebaseNotification_TitleLocalizationArgs_get_m2E59E2D6B32B9C9E9DFA7AFF6988972C685C91BE (void);
+// 0x0000004E System.IntPtr Firebase.Messaging.FirebaseMessagingPINVOKE::new_FirebaseMessage()
+extern void FirebaseMessagingPINVOKE_new_FirebaseMessage_mECD55C5864C872A7F5CC08D66043B13A8915ADDC (void);
+// 0x0000004F System.Void Firebase.Messaging.FirebaseMessagingPINVOKE::delete_FirebaseMessage(System.Runtime.InteropServices.HandleRef)
+extern void FirebaseMessagingPINVOKE_delete_FirebaseMessage_m6E96B7ED6F6A0B340134144BFA6FF591FD843FDB (void);
+// 0x00000050 System.String Firebase.Messaging.FirebaseMessagingPINVOKE::FirebaseMessage_From_get(System.Runtime.InteropServices.HandleRef)
+extern void FirebaseMessagingPINVOKE_FirebaseMessage_From_get_m5AEE384F6239C758EF3196B8F70B993CFE0513A6 (void);
+// 0x00000051 System.Void Firebase.Messaging.FirebaseMessagingPINVOKE::FirebaseMessage_To_set(System.Runtime.InteropServices.HandleRef,System.String)
+extern void FirebaseMessagingPINVOKE_FirebaseMessage_To_set_m2BF33B675534EB88FC4EA6876922D82ACD456884 (void);
+// 0x00000052 System.String Firebase.Messaging.FirebaseMessagingPINVOKE::FirebaseMessage_To_get(System.Runtime.InteropServices.HandleRef)
+extern void FirebaseMessagingPINVOKE_FirebaseMessage_To_get_m85EED0AFDF1BAAFC89D191FB9AB4F7A1BF30CBE3 (void);
+// 0x00000053 System.String Firebase.Messaging.FirebaseMessagingPINVOKE::FirebaseMessage_CollapseKey_get(System.Runtime.InteropServices.HandleRef)
+extern void FirebaseMessagingPINVOKE_FirebaseMessage_CollapseKey_get_m2911462D893EB8BF5C4AECD1EB92CB0726334346 (void);
+// 0x00000054 System.Void Firebase.Messaging.FirebaseMessagingPINVOKE::FirebaseMessage_Data_set(System.Runtime.InteropServices.HandleRef,System.Runtime.InteropServices.HandleRef)
+extern void FirebaseMessagingPINVOKE_FirebaseMessage_Data_set_mBC41D1822630F4A2F56E4603BCF8783529636411 (void);
+// 0x00000055 System.IntPtr Firebase.Messaging.FirebaseMessagingPINVOKE::FirebaseMessage_Data_get(System.Runtime.InteropServices.HandleRef)
+extern void FirebaseMessagingPINVOKE_FirebaseMessage_Data_get_m4ACA036AE0D59F5BFEC187FFD6A79D0157028D7E (void);
+// 0x00000056 System.IntPtr Firebase.Messaging.FirebaseMessagingPINVOKE::FirebaseMessage_RawDataInternal_get(System.Runtime.InteropServices.HandleRef)
+extern void FirebaseMessagingPINVOKE_FirebaseMessage_RawDataInternal_get_m79A050B510DA49202E6D8B45D1FC6741488234DA (void);
+// 0x00000057 System.Void Firebase.Messaging.FirebaseMessagingPINVOKE::FirebaseMessage_MessageId_set(System.Runtime.InteropServices.HandleRef,System.String)
+extern void FirebaseMessagingPINVOKE_FirebaseMessage_MessageId_set_mC858D3361244FFD8BB5BA9813CE086626FD012F8 (void);
+// 0x00000058 System.String Firebase.Messaging.FirebaseMessagingPINVOKE::FirebaseMessage_MessageId_get(System.Runtime.InteropServices.HandleRef)
+extern void FirebaseMessagingPINVOKE_FirebaseMessage_MessageId_get_m8A91EED8C6493AF99DE495240F4E26D18C180ACF (void);
+// 0x00000059 System.String Firebase.Messaging.FirebaseMessagingPINVOKE::FirebaseMessage_MessageType_get(System.Runtime.InteropServices.HandleRef)
+extern void FirebaseMessagingPINVOKE_FirebaseMessage_MessageType_get_m783E254011520D8809FFE1AB3A5821158BC9A88F (void);
+// 0x0000005A System.String Firebase.Messaging.FirebaseMessagingPINVOKE::FirebaseMessage_Priority_get(System.Runtime.InteropServices.HandleRef)
+extern void FirebaseMessagingPINVOKE_FirebaseMessage_Priority_get_mC133DA4D5FD08040D6F868DF46DFCCBEB27EC7BF (void);
+// 0x0000005B System.Int32 Firebase.Messaging.FirebaseMessagingPINVOKE::FirebaseMessage_TimeToLiveInternal_get(System.Runtime.InteropServices.HandleRef)
+extern void FirebaseMessagingPINVOKE_FirebaseMessage_TimeToLiveInternal_get_m9929FA0AD178B0E84260A59D14E307E9A1402493 (void);
+// 0x0000005C System.String Firebase.Messaging.FirebaseMessagingPINVOKE::FirebaseMessage_Error_get(System.Runtime.InteropServices.HandleRef)
+extern void FirebaseMessagingPINVOKE_FirebaseMessage_Error_get_m17D2FE9C32CDAF67C09AA379C1AD495342276797 (void);
+// 0x0000005D System.String Firebase.Messaging.FirebaseMessagingPINVOKE::FirebaseMessage_ErrorDescription_get(System.Runtime.InteropServices.HandleRef)
+extern void FirebaseMessagingPINVOKE_FirebaseMessage_ErrorDescription_get_m2DE0CFDECB8640F66C5E3D3430D755D9163BB761 (void);
+// 0x0000005E System.Boolean Firebase.Messaging.FirebaseMessagingPINVOKE::FirebaseMessage_NotificationOpened_get(System.Runtime.InteropServices.HandleRef)
+extern void FirebaseMessagingPINVOKE_FirebaseMessage_NotificationOpened_get_mAD956F57B433F63327F5B624E1FBFDF2977CC005 (void);
+// 0x0000005F System.String Firebase.Messaging.FirebaseMessagingPINVOKE::FirebaseMessage_LinkInternal_get(System.Runtime.InteropServices.HandleRef)
+extern void FirebaseMessagingPINVOKE_FirebaseMessage_LinkInternal_get_m8264B3903B899E6BFEF3816D923D00DC5DF88D44 (void);
+// 0x00000060 System.String Firebase.Messaging.FirebaseMessagingPINVOKE::FirebaseMessage_original_priority_get(System.Runtime.InteropServices.HandleRef)
+extern void FirebaseMessagingPINVOKE_FirebaseMessage_original_priority_get_m958F88AABD26BFE2B64DE52065DAF17CA886BD92 (void);
+// 0x00000061 System.Int64 Firebase.Messaging.FirebaseMessagingPINVOKE::FirebaseMessage_SentTimeInternal_get(System.Runtime.InteropServices.HandleRef)
+extern void FirebaseMessagingPINVOKE_FirebaseMessage_SentTimeInternal_get_mE88F2734F78764152137FD810C08776F229E0244 (void);
+// 0x00000062 System.Boolean Firebase.Messaging.FirebaseMessagingPINVOKE::IsTokenRegistrationOnInitEnabledInternal()
+extern void FirebaseMessagingPINVOKE_IsTokenRegistrationOnInitEnabledInternal_m229BEA20B7B6678AACD4856107C37BF26FC2E56B (void);
+// 0x00000063 System.Void Firebase.Messaging.FirebaseMessagingPINVOKE::SetTokenRegistrationOnInitEnabledInternal(System.Boolean)
+extern void FirebaseMessagingPINVOKE_SetTokenRegistrationOnInitEnabledInternal_mE6744A31D42AB6CBAB850C8344BE196975FDF00E (void);
+// 0x00000064 System.IntPtr Firebase.Messaging.FirebaseMessagingPINVOKE::RequestPermission()
+extern void FirebaseMessagingPINVOKE_RequestPermission_m237A8F3236EF76BA8CE80B72ACAFE2838A75A957 (void);
+// 0x00000065 System.IntPtr Firebase.Messaging.FirebaseMessagingPINVOKE::Subscribe(System.String)
+extern void FirebaseMessagingPINVOKE_Subscribe_m4DB87EBEAEF92E530628CCE7783CE30F5948662A (void);
+// 0x00000066 System.IntPtr Firebase.Messaging.FirebaseMessagingPINVOKE::Unsubscribe(System.String)
+extern void FirebaseMessagingPINVOKE_Unsubscribe_m495FFB8DB434D036D8177D6522FDE700C6515223 (void);
+// 0x00000067 System.Boolean Firebase.Messaging.FirebaseMessagingPINVOKE::DeliveryMetricsExportToBigQueryEnabledInternal()
+extern void FirebaseMessagingPINVOKE_DeliveryMetricsExportToBigQueryEnabledInternal_m215ED893AC6F3F03AE39B6FE6898CDF090DBE108 (void);
+// 0x00000068 System.Void Firebase.Messaging.FirebaseMessagingPINVOKE::SetDeliveryMetricsExportToBigQueryInternal(System.Boolean)
+extern void FirebaseMessagingPINVOKE_SetDeliveryMetricsExportToBigQueryInternal_mE26E739BAB29FF7E7F801F718F0BA15EE9F3CD20 (void);
+// 0x00000069 System.IntPtr Firebase.Messaging.FirebaseMessagingPINVOKE::GetTokenInternalAsync()
+extern void FirebaseMessagingPINVOKE_GetTokenInternalAsync_mC4AC0DB08B64E2107866CFCB5890F6A381981C92 (void);
+// 0x0000006A System.IntPtr Firebase.Messaging.FirebaseMessagingPINVOKE::DeleteTokenInternalAsync()
+extern void FirebaseMessagingPINVOKE_DeleteTokenInternalAsync_m7E9BD957C0D07B2154991F4F90BF4BEBA9B9DC82 (void);
+// 0x0000006B System.Void Firebase.Messaging.FirebaseMessagingPINVOKE::SetListenerCallbacks(Firebase.Messaging.FirebaseMessaging/Listener/MessageReceivedDelegate,Firebase.Messaging.FirebaseMessaging/Listener/TokenReceivedDelegate)
+extern void FirebaseMessagingPINVOKE_SetListenerCallbacks_mF1DDB441F19EC45D4388A39FD09B77D5A76D44D2 (void);
+// 0x0000006C System.Void Firebase.Messaging.FirebaseMessagingPINVOKE::SetListenerCallbacksEnabled(System.Boolean,System.Boolean)
+extern void FirebaseMessagingPINVOKE_SetListenerCallbacksEnabled_m8AA0CF4CD39336092A4701D553229A8A86B3F004 (void);
+// 0x0000006D System.Void Firebase.Messaging.FirebaseMessagingPINVOKE::SendPendingEvents()
+extern void FirebaseMessagingPINVOKE_SendPendingEvents_mAD2515BF6CA3B8BBA483D3ECDFFE3E9FFA5211A5 (void);
+// 0x0000006E System.IntPtr Firebase.Messaging.FirebaseMessagingPINVOKE::MessageCopyNotification(System.IntPtr)
+extern void FirebaseMessagingPINVOKE_MessageCopyNotification_m98242B60DA017BEFEB2B57BE3DC5BC41E9BEC561 (void);
+// 0x0000006F System.IntPtr Firebase.Messaging.FirebaseMessagingPINVOKE::NotificationCopyAndroidNotificationParams(System.IntPtr)
+extern void FirebaseMessagingPINVOKE_NotificationCopyAndroidNotificationParams_m449476925BD90CD8A2F1B215A948A6C8BE79BAE2 (void);
+// 0x00000070 System.Void Firebase.Messaging.FirebaseMessagingPINVOKE/SWIGExceptionHelper::.cctor()
+extern void SWIGExceptionHelper__cctor_m5133CA4E9E9E6D4988839DBC266EFF6A88DE8441 (void);
+// 0x00000071 System.Void Firebase.Messaging.FirebaseMessagingPINVOKE/SWIGExceptionHelper::.ctor()
+extern void SWIGExceptionHelper__ctor_m74E1F593CDD0E2FA4B49CBD999705045945E5EB9 (void);
+// 0x00000072 System.Void Firebase.Messaging.FirebaseMessagingPINVOKE/SWIGExceptionHelper::SWIGRegisterExceptionCallbacks_FirebaseMessaging(Firebase.Messaging.FirebaseMessagingPINVOKE/SWIGExceptionHelper/ExceptionDelegate,Firebase.Messaging.FirebaseMessagingPINVOKE/SWIGExceptionHelper/ExceptionDelegate,Firebase.Messaging.FirebaseMessagingPINVOKE/SWIGExceptionHelper/ExceptionDelegate,Firebase.Messaging.FirebaseMessagingPINVOKE/SWIGExceptionHelper/ExceptionDelegate,Firebase.Messaging.FirebaseMessagingPINVOKE/SWIGExceptionHelper/ExceptionDelegate,Firebase.Messaging.FirebaseMessagingPINVOKE/SWIGExceptionHelper/ExceptionDelegate,Firebase.Messaging.FirebaseMessagingPINVOKE/SWIGExceptionHelper/ExceptionDelegate,Firebase.Messaging.FirebaseMessagingPINVOKE/SWIGExceptionHelper/ExceptionDelegate,Firebase.Messaging.FirebaseMessagingPINVOKE/SWIGExceptionHelper/ExceptionDelegate,Firebase.Messaging.FirebaseMessagingPINVOKE/SWIGExceptionHelper/ExceptionDelegate,Firebase.Messaging.FirebaseMessagingPINVOKE/SWIGExceptionHelper/ExceptionDelegate)
+extern void SWIGExceptionHelper_SWIGRegisterExceptionCallbacks_FirebaseMessaging_mE9FD8897A9E0114F13D220A164222ACC8572D236 (void);
+// 0x00000073 System.Void Firebase.Messaging.FirebaseMessagingPINVOKE/SWIGExceptionHelper::SWIGRegisterExceptionCallbacksArgument_FirebaseMessaging(Firebase.Messaging.FirebaseMessagingPINVOKE/SWIGExceptionHelper/ExceptionArgumentDelegate,Firebase.Messaging.FirebaseMessagingPINVOKE/SWIGExceptionHelper/ExceptionArgumentDelegate,Firebase.Messaging.FirebaseMessagingPINVOKE/SWIGExceptionHelper/ExceptionArgumentDelegate)
+extern void SWIGExceptionHelper_SWIGRegisterExceptionCallbacksArgument_FirebaseMessaging_m58DD8D2EF2B044A516367EC4A2E78EBB68641F13 (void);
+// 0x00000074 System.Void Firebase.Messaging.FirebaseMessagingPINVOKE/SWIGExceptionHelper::SetPendingApplicationException(System.String)
+extern void SWIGExceptionHelper_SetPendingApplicationException_m060171326D3019978B8787843E25864D51C7FAA1 (void);
+// 0x00000075 System.Void Firebase.Messaging.FirebaseMessagingPINVOKE/SWIGExceptionHelper::SetPendingArithmeticException(System.String)
+extern void SWIGExceptionHelper_SetPendingArithmeticException_m275F6E5A16018DCBAA2681A7FD3FE45FD9389751 (void);
+// 0x00000076 System.Void Firebase.Messaging.FirebaseMessagingPINVOKE/SWIGExceptionHelper::SetPendingDivideByZeroException(System.String)
+extern void SWIGExceptionHelper_SetPendingDivideByZeroException_m05C0DE6E237D8E63649531A8AAA6B8906E6EC630 (void);
+// 0x00000077 System.Void Firebase.Messaging.FirebaseMessagingPINVOKE/SWIGExceptionHelper::SetPendingIndexOutOfRangeException(System.String)
+extern void SWIGExceptionHelper_SetPendingIndexOutOfRangeException_mE5189F13B9831CFEEACC0F704AA1EE4C28D6977A (void);
+// 0x00000078 System.Void Firebase.Messaging.FirebaseMessagingPINVOKE/SWIGExceptionHelper::SetPendingInvalidCastException(System.String)
+extern void SWIGExceptionHelper_SetPendingInvalidCastException_mBCAEC39E36BE3422612773135A1347C38B9EE204 (void);
+// 0x00000079 System.Void Firebase.Messaging.FirebaseMessagingPINVOKE/SWIGExceptionHelper::SetPendingInvalidOperationException(System.String)
+extern void SWIGExceptionHelper_SetPendingInvalidOperationException_mE112B67C45E3FE746CC170726DCAE25F581F6321 (void);
+// 0x0000007A System.Void Firebase.Messaging.FirebaseMessagingPINVOKE/SWIGExceptionHelper::SetPendingIOException(System.String)
+extern void SWIGExceptionHelper_SetPendingIOException_mAE6AEF4401C6393115479364B05173FE5A4D4E20 (void);
+// 0x0000007B System.Void Firebase.Messaging.FirebaseMessagingPINVOKE/SWIGExceptionHelper::SetPendingNullReferenceException(System.String)
+extern void SWIGExceptionHelper_SetPendingNullReferenceException_m29AC22ED749B13344003A120E77C26E7C736A4E4 (void);
+// 0x0000007C System.Void Firebase.Messaging.FirebaseMessagingPINVOKE/SWIGExceptionHelper::SetPendingOutOfMemoryException(System.String)
+extern void SWIGExceptionHelper_SetPendingOutOfMemoryException_m85D046E64786517BF671D14464F013E6E10F74FF (void);
+// 0x0000007D System.Void Firebase.Messaging.FirebaseMessagingPINVOKE/SWIGExceptionHelper::SetPendingOverflowException(System.String)
+extern void SWIGExceptionHelper_SetPendingOverflowException_m925DE663512069FE450704037A528E83270A91BE (void);
+// 0x0000007E System.Void Firebase.Messaging.FirebaseMessagingPINVOKE/SWIGExceptionHelper::SetPendingSystemException(System.String)
+extern void SWIGExceptionHelper_SetPendingSystemException_m801705A321121C304A58AD98B229F83BD2D974CE (void);
+// 0x0000007F System.Void Firebase.Messaging.FirebaseMessagingPINVOKE/SWIGExceptionHelper::SetPendingArgumentException(System.String,System.String)
+extern void SWIGExceptionHelper_SetPendingArgumentException_mA9DCC213D165EE7CCA5227529BA5542A4D2D8751 (void);
+// 0x00000080 System.Void Firebase.Messaging.FirebaseMessagingPINVOKE/SWIGExceptionHelper::SetPendingArgumentNullException(System.String,System.String)
+extern void SWIGExceptionHelper_SetPendingArgumentNullException_m890F72E31BC6A96FF2A1F7906C188AA1D26C89AD (void);
+// 0x00000081 System.Void Firebase.Messaging.FirebaseMessagingPINVOKE/SWIGExceptionHelper::SetPendingArgumentOutOfRangeException(System.String,System.String)
+extern void SWIGExceptionHelper_SetPendingArgumentOutOfRangeException_mEB8E8B44C42D54AD9E0160B9EE2F7862637B3E0F (void);
+// 0x00000082 System.Void Firebase.Messaging.FirebaseMessagingPINVOKE/SWIGExceptionHelper/ExceptionDelegate::.ctor(System.Object,System.IntPtr)
+extern void ExceptionDelegate__ctor_m789977303B33F17AAA5360A3292D4A151C792D33 (void);
+// 0x00000083 System.Void Firebase.Messaging.FirebaseMessagingPINVOKE/SWIGExceptionHelper/ExceptionDelegate::Invoke(System.String)
+extern void ExceptionDelegate_Invoke_m4737E00FCEEDA47189CF121FBEF56854B2D0D391 (void);
+// 0x00000084 System.IAsyncResult Firebase.Messaging.FirebaseMessagingPINVOKE/SWIGExceptionHelper/ExceptionDelegate::BeginInvoke(System.String,System.AsyncCallback,System.Object)
+extern void ExceptionDelegate_BeginInvoke_m38EC8BB036B505657F759A26E3F4BE28E09FCA79 (void);
+// 0x00000085 System.Void Firebase.Messaging.FirebaseMessagingPINVOKE/SWIGExceptionHelper/ExceptionDelegate::EndInvoke(System.IAsyncResult)
+extern void ExceptionDelegate_EndInvoke_mBBE70D90534AC1185A5518ED58587E2704DD41B5 (void);
+// 0x00000086 System.Void Firebase.Messaging.FirebaseMessagingPINVOKE/SWIGExceptionHelper/ExceptionArgumentDelegate::.ctor(System.Object,System.IntPtr)
+extern void ExceptionArgumentDelegate__ctor_mD3AE8F3B0E1894F62FBDE8481B860EC23B3402C4 (void);
+// 0x00000087 System.Void Firebase.Messaging.FirebaseMessagingPINVOKE/SWIGExceptionHelper/ExceptionArgumentDelegate::Invoke(System.String,System.String)
+extern void ExceptionArgumentDelegate_Invoke_m98FEABFD2FC468FC00EDB504A85955B083FDC113 (void);
+// 0x00000088 System.IAsyncResult Firebase.Messaging.FirebaseMessagingPINVOKE/SWIGExceptionHelper/ExceptionArgumentDelegate::BeginInvoke(System.String,System.String,System.AsyncCallback,System.Object)
+extern void ExceptionArgumentDelegate_BeginInvoke_m2D93C34636D1DFCB0EFCAC6EB2BF8139CBF7AE01 (void);
+// 0x00000089 System.Void Firebase.Messaging.FirebaseMessagingPINVOKE/SWIGExceptionHelper/ExceptionArgumentDelegate::EndInvoke(System.IAsyncResult)
+extern void ExceptionArgumentDelegate_EndInvoke_mF2E23F3FF01CC5A367280A2FDE39E9EA74601270 (void);
+// 0x0000008A System.Void Firebase.Messaging.FirebaseMessagingPINVOKE/SWIGPendingException::.ctor()
+extern void SWIGPendingException__ctor_mEB4B15C81BFBBD3849B5E5499FBFB7FFF142E438 (void);
+// 0x0000008B System.Boolean Firebase.Messaging.FirebaseMessagingPINVOKE/SWIGPendingException::get_Pending()
+extern void SWIGPendingException_get_Pending_mB4EA8ACBC5721535378620BA12F382B9A7F5A661 (void);
+// 0x0000008C System.Void Firebase.Messaging.FirebaseMessagingPINVOKE/SWIGPendingException::Set(System.Exception)
+extern void SWIGPendingException_Set_mAEBE63CCE77CE276D93CCD547FCABBDDA44CD41C (void);
+// 0x0000008D System.Exception Firebase.Messaging.FirebaseMessagingPINVOKE/SWIGPendingException::Retrieve()
+extern void SWIGPendingException_Retrieve_mB7742B33A82F51C884CE900D5D7363092288C16D (void);
+// 0x0000008E System.Void Firebase.Messaging.FirebaseMessagingPINVOKE/SWIGPendingException::.cctor()
+extern void SWIGPendingException__cctor_m981735CCDAD2214DDE217B250B501E50000624DC (void);
+// 0x0000008F System.Void Firebase.Messaging.FirebaseMessagingPINVOKE/SWIGStringHelper::.cctor()
+extern void SWIGStringHelper__cctor_m2DBDB30961019C15858D5F5F9D24AA4AE522FCEA (void);
+// 0x00000090 System.Void Firebase.Messaging.FirebaseMessagingPINVOKE/SWIGStringHelper::.ctor()
+extern void SWIGStringHelper__ctor_m374221329F17BCC4EED8997888A382721EFCF171 (void);
+// 0x00000091 System.Void Firebase.Messaging.FirebaseMessagingPINVOKE/SWIGStringHelper::SWIGRegisterStringCallback_FirebaseMessaging(Firebase.Messaging.FirebaseMessagingPINVOKE/SWIGStringHelper/SWIGStringDelegate)
+extern void SWIGStringHelper_SWIGRegisterStringCallback_FirebaseMessaging_m7E9D6DDEBAAB3D995163D4FE671EC98B7071F8FA (void);
+// 0x00000092 System.String Firebase.Messaging.FirebaseMessagingPINVOKE/SWIGStringHelper::CreateString(System.String)
+extern void SWIGStringHelper_CreateString_mD8088413B24D769437B4E09A4AB7826A55A5A9A7 (void);
+// 0x00000093 System.Void Firebase.Messaging.FirebaseMessagingPINVOKE/SWIGStringHelper/SWIGStringDelegate::.ctor(System.Object,System.IntPtr)
+extern void SWIGStringDelegate__ctor_m959EEC67F999197EA2457A7CD4684BD8588DE11E (void);
+// 0x00000094 System.String Firebase.Messaging.FirebaseMessagingPINVOKE/SWIGStringHelper/SWIGStringDelegate::Invoke(System.String)
+extern void SWIGStringDelegate_Invoke_m866ADA89F2872028E0F92D392D9C9CE98DD5CE74 (void);
+// 0x00000095 System.IAsyncResult Firebase.Messaging.FirebaseMessagingPINVOKE/SWIGStringHelper/SWIGStringDelegate::BeginInvoke(System.String,System.AsyncCallback,System.Object)
+extern void SWIGStringDelegate_BeginInvoke_mFAB1DDA1D94AE9288BD29FF06D6A6F3E7B849D64 (void);
+// 0x00000096 System.String Firebase.Messaging.FirebaseMessagingPINVOKE/SWIGStringHelper/SWIGStringDelegate::EndInvoke(System.IAsyncResult)
+extern void SWIGStringDelegate_EndInvoke_m1471936A64F8A71B38B4C4AC78DD8A438DCE1BC8 (void);
+// 0x00000097 System.Void Firebase.Messaging.FirebaseMessage::.ctor(System.IntPtr,System.Boolean)
+extern void FirebaseMessage__ctor_mC5C9E0BADB0E232C7A30880B214C00E725862884 (void);
+// 0x00000098 System.Void Firebase.Messaging.FirebaseMessage::.ctor()
+extern void FirebaseMessage__ctor_m742FE4419880C19B9763BD1D0AEC5E6BB048DCA0 (void);
+// 0x00000099 System.Runtime.InteropServices.HandleRef Firebase.Messaging.FirebaseMessage::getCPtr(Firebase.Messaging.FirebaseMessage)
+extern void FirebaseMessage_getCPtr_mD81D6482F2E4D77D3C8B09A850FF2BB30084D9DF (void);
+// 0x0000009A System.Void Firebase.Messaging.FirebaseMessage::Finalize()
+extern void FirebaseMessage_Finalize_m4252175F6CDBBE170F715C29E46FDCFCF3939209 (void);
+// 0x0000009B System.Void Firebase.Messaging.FirebaseMessage::Dispose()
+extern void FirebaseMessage_Dispose_mDF6750A30E95068A13849BA85014E518D949D461 (void);
+// 0x0000009C System.TimeSpan Firebase.Messaging.FirebaseMessage::get_TimeToLive()
+extern void FirebaseMessage_get_TimeToLive_m6BD4BB702BDECAE1765DA2D2AA9930BF2B411FF3 (void);
+// 0x0000009D System.DateTime Firebase.Messaging.FirebaseMessage::get_SentTime()
+extern void FirebaseMessage_get_SentTime_mF70776E0B6011F8A94F0C60AD1E692925EE67631 (void);
+// 0x0000009E Firebase.Messaging.FirebaseNotification Firebase.Messaging.FirebaseMessage::get_Notification()
+extern void FirebaseMessage_get_Notification_mC9378F111739D7593BC3E8F085D9500B218A4A2F (void);
+// 0x0000009F System.Uri Firebase.Messaging.FirebaseMessage::get_Link()
+extern void FirebaseMessage_get_Link_m499FEB761A3F6A88E64F2D69F9A03F0E28D42E5A (void);
+// 0x000000A0 System.Byte[] Firebase.Messaging.FirebaseMessage::get_RawData()
+extern void FirebaseMessage_get_RawData_mB4FC7C03D209D02B28D4357E19F3E776B4A4450B (void);
+// 0x000000A1 System.String Firebase.Messaging.FirebaseMessage::get_From()
+extern void FirebaseMessage_get_From_m6A8B7F66B7C0E65663FF0054C694CF5C957AC8E4 (void);
+// 0x000000A2 System.Void Firebase.Messaging.FirebaseMessage::set_To(System.String)
+extern void FirebaseMessage_set_To_m760C1FD5853796C542F1252B1DA42DA830521018 (void);
+// 0x000000A3 System.String Firebase.Messaging.FirebaseMessage::get_To()
+extern void FirebaseMessage_get_To_m0D1BD6DDA27E4B38F1F8CA9E36226E0199D4499D (void);
+// 0x000000A4 System.String Firebase.Messaging.FirebaseMessage::get_CollapseKey()
+extern void FirebaseMessage_get_CollapseKey_m339C3DF6AE3DC040AF94426569EC2195C6BB82EA (void);
+// 0x000000A5 System.Void Firebase.Messaging.FirebaseMessage::set_Data(System.Collections.Generic.IDictionary`2<System.String,System.String>)
+extern void FirebaseMessage_set_Data_mAF86D91E3BAE98093F6B824F0DE0987F117775FE (void);
+// 0x000000A6 System.Collections.Generic.IDictionary`2<System.String,System.String> Firebase.Messaging.FirebaseMessage::get_Data()
+extern void FirebaseMessage_get_Data_m4633EBF49233BC6304EBA4E9701C6954DBF6BCDA (void);
+// 0x000000A7 Firebase.CharVector Firebase.Messaging.FirebaseMessage::get_RawDataInternal()
+extern void FirebaseMessage_get_RawDataInternal_m9BAAF0C9D87B488D82B68B1CB8E6A9712074B03D (void);
+// 0x000000A8 System.Void Firebase.Messaging.FirebaseMessage::set_MessageId(System.String)
+extern void FirebaseMessage_set_MessageId_m73059B5444A66AFBA4F3D9841786DADE503C5DB0 (void);
+// 0x000000A9 System.String Firebase.Messaging.FirebaseMessage::get_MessageId()
+extern void FirebaseMessage_get_MessageId_mA06224C6A9C60DA2E73C30DF894B9A66EA27FFEC (void);
+// 0x000000AA System.String Firebase.Messaging.FirebaseMessage::get_MessageType()
+extern void FirebaseMessage_get_MessageType_mE74F760E1067384AFF099776E1EB2E608298B779 (void);
+// 0x000000AB System.String Firebase.Messaging.FirebaseMessage::get_Priority()
+extern void FirebaseMessage_get_Priority_m154A74DED37BB580CD0B40B52417B5ADF9650841 (void);
+// 0x000000AC System.Int32 Firebase.Messaging.FirebaseMessage::get_TimeToLiveInternal()
+extern void FirebaseMessage_get_TimeToLiveInternal_m7B286723B3C6742919DD44E32BBF2E5A083239B9 (void);
+// 0x000000AD System.String Firebase.Messaging.FirebaseMessage::get_Error()
+extern void FirebaseMessage_get_Error_m628F181C4444596F5698E1AFCB6E67C00EE7B2EE (void);
+// 0x000000AE System.String Firebase.Messaging.FirebaseMessage::get_ErrorDescription()
+extern void FirebaseMessage_get_ErrorDescription_m887FE59C8D3D2335AAC0BBCE98C912DFE92BB23C (void);
+// 0x000000AF System.Boolean Firebase.Messaging.FirebaseMessage::get_NotificationOpened()
+extern void FirebaseMessage_get_NotificationOpened_m20366C61D5F048F1C7C65471A7961E3F21AC9C52 (void);
+// 0x000000B0 System.String Firebase.Messaging.FirebaseMessage::get_LinkInternal()
+extern void FirebaseMessage_get_LinkInternal_m54D8F42AB16E2B92AEB11DA05006E9692F86F506 (void);
+// 0x000000B1 System.String Firebase.Messaging.FirebaseMessage::get_original_priority()
+extern void FirebaseMessage_get_original_priority_m6AD8FA72315DEA5848FE158C019ADE192C1C7E7D (void);
+// 0x000000B2 System.Int64 Firebase.Messaging.FirebaseMessage::get_SentTimeInternal()
+extern void FirebaseMessage_get_SentTimeInternal_m5D5B6504F32A67B4F93D606B9575DAC7DC9AA15D (void);
+// 0x000000B3 System.Void Firebase.Messaging.FirebaseMessage::.cctor()
+extern void FirebaseMessage__cctor_m12B7C5830CB9A1250885E96B79B21628E9BAB953 (void);
+// 0x000000B4 System.Void Firebase.Messaging.FirebaseNotification::.ctor(System.IntPtr,System.Boolean)
+extern void FirebaseNotification__ctor_mCF6D66F4CD463FA93FCC5FA2C3CA435654534A9C (void);
+// 0x000000B5 System.Void Firebase.Messaging.FirebaseNotification::.ctor()
+extern void FirebaseNotification__ctor_mAC708CF5A2697DB927E89CFBD4E79A2B2173CD48 (void);
+// 0x000000B6 System.Runtime.InteropServices.HandleRef Firebase.Messaging.FirebaseNotification::getCPtr(Firebase.Messaging.FirebaseNotification)
+extern void FirebaseNotification_getCPtr_m46ABA54408E960FC1E679952A27A3856895A0331 (void);
+// 0x000000B7 System.Void Firebase.Messaging.FirebaseNotification::Finalize()
+extern void FirebaseNotification_Finalize_m2D0EF9490DB0BEDA888A2123584F957EF10B75E7 (void);
+// 0x000000B8 System.Void Firebase.Messaging.FirebaseNotification::Dispose()
+extern void FirebaseNotification_Dispose_m1630692AF5E7EE75695A7F14106FD10743753EB3 (void);
+// 0x000000B9 Firebase.Messaging.AndroidNotificationParams Firebase.Messaging.FirebaseNotification::get_Android()
+extern void FirebaseNotification_get_Android_mB972D002792C85C0ABF73EA076F729D5EECD0279 (void);
+// 0x000000BA System.String Firebase.Messaging.FirebaseNotification::get_Title()
+extern void FirebaseNotification_get_Title_mE13C0B56A0B81DECA17D6BC996E1376240A5F96D (void);
+// 0x000000BB System.String Firebase.Messaging.FirebaseNotification::get_Body()
+extern void FirebaseNotification_get_Body_mEFB4117BAE3B281BB0C92DE332459AE63DB32343 (void);
+// 0x000000BC System.String Firebase.Messaging.FirebaseNotification::get_Icon()
+extern void FirebaseNotification_get_Icon_m8D00AC4BA1191ED24F52B3F85D7B56DF4E9E6D7B (void);
+// 0x000000BD System.String Firebase.Messaging.FirebaseNotification::get_Sound()
+extern void FirebaseNotification_get_Sound_mCC04130300784A12DC864617A6FBC8C144CAF24F (void);
+// 0x000000BE System.String Firebase.Messaging.FirebaseNotification::get_Badge()
+extern void FirebaseNotification_get_Badge_mFAF2E4B800BCE96112724BEB780143D6E228670E (void);
+// 0x000000BF System.String Firebase.Messaging.FirebaseNotification::get_Tag()
+extern void FirebaseNotification_get_Tag_m519E0B46290C433EA85BFFC0435848CA0DC6EE8F (void);
+// 0x000000C0 System.String Firebase.Messaging.FirebaseNotification::get_Color()
+extern void FirebaseNotification_get_Color_m8E72F7B6988F032E60427AFABEC2CA3D4EEEB1B8 (void);
+// 0x000000C1 System.String Firebase.Messaging.FirebaseNotification::get_ClickAction()
+extern void FirebaseNotification_get_ClickAction_m4E42D4CF9017681EC8A66D54A397C7ED07F57EF0 (void);
+// 0x000000C2 System.String Firebase.Messaging.FirebaseNotification::get_BodyLocalizationKey()
+extern void FirebaseNotification_get_BodyLocalizationKey_mD3A07666F5C03B3DCCCD8ACB12B5CD7C1937E01F (void);
+// 0x000000C3 System.Collections.Generic.IEnumerable`1<System.String> Firebase.Messaging.FirebaseNotification::get_BodyLocalizationArgs()
+extern void FirebaseNotification_get_BodyLocalizationArgs_m3497C125427EEE8528663A71AF83071EC867F2DE (void);
+// 0x000000C4 System.String Firebase.Messaging.FirebaseNotification::get_TitleLocalizationKey()
+extern void FirebaseNotification_get_TitleLocalizationKey_m7B87BAD6A317D86656AC82E6242519E31092A1A9 (void);
+// 0x000000C5 System.Collections.Generic.IEnumerable`1<System.String> Firebase.Messaging.FirebaseNotification::get_TitleLocalizationArgs()
+extern void FirebaseNotification_get_TitleLocalizationArgs_mF276A7644F8D6DE696B39204A82CB705485ADCEA (void);
+// 0x000000C6 System.Void Firebase.Messaging.AndroidNotificationParams::.ctor(System.IntPtr,System.Boolean)
+extern void AndroidNotificationParams__ctor_m06AD4DA7A6AC447716D6A9EE4550DF106525F959 (void);
+// 0x000000C7 System.Void Firebase.Messaging.AndroidNotificationParams::.ctor()
+extern void AndroidNotificationParams__ctor_m14F9AA0AEAB945312E12E35AA16BE19E43A113CB (void);
+// 0x000000C8 System.Runtime.InteropServices.HandleRef Firebase.Messaging.AndroidNotificationParams::getCPtr(Firebase.Messaging.AndroidNotificationParams)
+extern void AndroidNotificationParams_getCPtr_m6B90A31C9281D038F642BD4767B0522C31210875 (void);
+// 0x000000C9 System.Void Firebase.Messaging.AndroidNotificationParams::Finalize()
+extern void AndroidNotificationParams_Finalize_m352EEFD6DCF828E48365139585BE77A21CE572B1 (void);
+// 0x000000CA System.Void Firebase.Messaging.AndroidNotificationParams::Dispose()
+extern void AndroidNotificationParams_Dispose_mCFA8A35D39A7E457B11297DC489E9503E05A28FB (void);
+// 0x000000CB System.String Firebase.Messaging.AndroidNotificationParams::get_ChannelId()
+extern void AndroidNotificationParams_get_ChannelId_mC1C24D8979C03D54B70F71FFD247C1015FD22647 (void);
+// 0x000000CC System.Void Firebase.Messaging.MessagingOptions::.ctor(System.IntPtr,System.Boolean)
+extern void MessagingOptions__ctor_m37015A43AAD16713DBED60EFAF1166BA1CBC4E66 (void);
+// 0x000000CD System.Void Firebase.Messaging.MessagingOptions::.ctor()
+extern void MessagingOptions__ctor_m4BF8BBF58B12D19C6D8969066A2F0F9B44FA4B6A (void);
+// 0x000000CE System.Runtime.InteropServices.HandleRef Firebase.Messaging.MessagingOptions::getCPtr(Firebase.Messaging.MessagingOptions)
+extern void MessagingOptions_getCPtr_m39F5A4D91600F431C7CCE1DED8C10C293E8BA80C (void);
+// 0x000000CF System.Void Firebase.Messaging.MessagingOptions::Finalize()
+extern void MessagingOptions_Finalize_mB89F803740F023F47867C11E6CEC35C8BDC81650 (void);
+// 0x000000D0 System.Void Firebase.Messaging.MessagingOptions::Dispose()
+extern void MessagingOptions_Dispose_m94380CF06AFC0085DE234447B1D7E1D09D2CC8D3 (void);
+// 0x000000D1 System.Void Firebase.Messaging.MessagingOptions::set_SuppressNotificationPermissionPrompt(System.Boolean)
+extern void MessagingOptions_set_SuppressNotificationPermissionPrompt_mF0705AB5502AE5D3211C451580B3CAFA91CCFBAC (void);
+// 0x000000D2 System.Boolean Firebase.Messaging.MessagingOptions::get_SuppressNotificationPermissionPrompt()
+extern void MessagingOptions_get_SuppressNotificationPermissionPrompt_m20AE260F5BD27068C369328EDBD4131C46DF2907 (void);
+// 0x000000D3 System.Void Firebase.Messaging.MessageReceivedEventArgs::.ctor(Firebase.Messaging.FirebaseMessage)
+extern void MessageReceivedEventArgs__ctor_mF420D689ACEE65740BA0E1A253DF2D33CBAFC061 (void);
+// 0x000000D4 Firebase.Messaging.FirebaseMessage Firebase.Messaging.MessageReceivedEventArgs::get_Message()
+extern void MessageReceivedEventArgs_get_Message_mB05C315AA155A3A35925369C5093FFB8B91C2BF6 (void);
+// 0x000000D5 System.Void Firebase.Messaging.MessageReceivedEventArgs::set_Message(Firebase.Messaging.FirebaseMessage)
+extern void MessageReceivedEventArgs_set_Message_m237AEA7C0AAB2533F89A673BA3F288F4E1F3D04A (void);
+// 0x000000D6 System.Void Firebase.Messaging.TokenReceivedEventArgs::.ctor(System.String)
+extern void TokenReceivedEventArgs__ctor_m834B72CF7DB04F86A4929BBDEFA7E969BFC09D21 (void);
+// 0x000000D7 System.String Firebase.Messaging.TokenReceivedEventArgs::get_Token()
+extern void TokenReceivedEventArgs_get_Token_m238B04731212F820259074BD576723DCED8B719A (void);
+// 0x000000D8 System.Void Firebase.Messaging.TokenReceivedEventArgs::set_Token(System.String)
+extern void TokenReceivedEventArgs_set_Token_mC42B0EC030BD8880FA31346108580505D1C4A318 (void);
+static Il2CppMethodPointer s_methodPointers[216] = 
+{
+	FirebaseMessaging__cctor_m45EE226B1C1F1F9135F774C848E2BF7338D0C1D1,
+	FirebaseMessaging__ctor_m5574C7C33D3F1A83E74A6F2711D6FD370C1F5B4E,
+	FirebaseMessaging_add_MessageReceivedInternal_mAC5DE7ED74C283AC7AE2EC37D227B00D22A61FFC,
+	FirebaseMessaging_remove_MessageReceivedInternal_m10D722935157A07D23EFB5EB3A7146CC0B050A15,
+	FirebaseMessaging_add_TokenReceivedInternal_m10E4057024EE240222342CCB7B0561E8B86A6118,
+	FirebaseMessaging_remove_TokenReceivedInternal_m0A58E53FE8B89547AB5B4A73164400784E619DEA,
+	FirebaseMessaging_CreateOrDestroyListener_m8A5BD5BDC87A8746952190E5F3BC682F8152BEB3,
+	FirebaseMessaging_get_App_mDCAE72EB21733A53ADE3764AA141D413031B566C,
+	FirebaseMessaging_get_TokenRegistrationOnInitEnabled_m4C19ACC05AE94D7F9CD860DF541C6208B1E4E9EA,
+	FirebaseMessaging_set_TokenRegistrationOnInitEnabled_m1831D76AC2FFAD2CC33C5A499FA7DBD422C250C3,
+	FirebaseMessaging_get_DeliveryMetricsExportedToBigQueryEnabled_m06018461B2F70F64433782B1DFBE4E1E6B533C80,
+	FirebaseMessaging_set_DeliveryMetricsExportedToBigQueryEnabled_mFA8D305949258F8796368CD315B21D72FD31DB83,
+	FirebaseMessaging_GetTokenAsync_m21AABFA9552959DD10479545CAE7E7C8FF7643AB,
+	FirebaseMessaging_DeleteTokenAsync_m8C3C653740DBB5E59BC0B044DBE607E1F772C8E9,
+	FirebaseMessaging_add_MessageReceived_m7593D2A9A31F8D9D6C63C5721DD27D6029AD51DD,
+	FirebaseMessaging_remove_MessageReceived_mC78F77D418BC853D058C936B5FD9F4653DBC6D0C,
+	FirebaseMessaging_add_TokenReceived_m104BD22FC0B8EB65EAD116DD143E307DC074B58D,
+	FirebaseMessaging_remove_TokenReceived_m57733EDA0C697B1C9C675C7222933E9DFD72D1DC,
+	FirebaseMessaging_Subscribe_m620D8DBDBB68CF5BF33EBE7EBF2EDDB99BB3ECEA,
+	FirebaseMessaging_Unsubscribe_m59CE7BC9AD3AA306D3807E4551403391FCD4F450,
+	FirebaseMessaging_IsTokenRegistrationOnInitEnabledInternal_m00B72038C042B665FC5FDE24C5813DB951A097A7,
+	FirebaseMessaging_SetTokenRegistrationOnInitEnabledInternal_m756EDCA5B31F361ECB5089127F7B1D9975BFAED8,
+	FirebaseMessaging_RequestPermissionAsync_mD58F048A50CD1B735BE6033456922A42671670DA,
+	FirebaseMessaging_SubscribeAsync_m648779F7705CF77214D393454CE0E00175C1858F,
+	FirebaseMessaging_UnsubscribeAsync_mA91F8F827D8AC38546796C20E4EDB2A9A42EC5C4,
+	FirebaseMessaging_DeliveryMetricsExportToBigQueryEnabledInternal_mF1AD3A2AEA2E327F22862EE8A270E6136196A11E,
+	FirebaseMessaging_SetDeliveryMetricsExportToBigQueryInternal_m80ECFE5606DE53BD7A0C6836D710603C8407A131,
+	FirebaseMessaging_GetTokenInternalAsync_mCB702AE3D2C04219844464C952E986771323DB67,
+	FirebaseMessaging_DeleteTokenInternalAsync_m31A43C4617CC07448FB4A543B2F9979ABE04FEE4,
+	FirebaseMessaging_SetListenerCallbacks_m2F889DF8DECE9469967BEF550C78D5EDDCFAB454,
+	FirebaseMessaging_SetListenerCallbacksEnabled_mCC6695D568D9818EA1F0D26712FB2A0EE87E73A3,
+	FirebaseMessaging_SendPendingEvents_m9AEBB8B89CA851876F0E41A21C8F517836378886,
+	FirebaseMessaging_MessageCopyNotification_mBDE449E1BE3BC2BDB06CD88250C714C6DDA6465A,
+	FirebaseMessaging_NotificationCopyAndroidNotificationParams_m7DD4C4D386B8C61E1DE718DC02B6A4E7DE6CD339,
+	Listener__ctor_m87D2A4FC1D1CFAF89AB68D83165777A9F92E63C0,
+	Listener_Create_m66A522F9620BBB2E3BD693E9DE08D843B27D89F3,
+	Listener_Destroy_m3D943DABEC593DC4A33D3321B9C6CCBE30F68ED7,
+	Listener_get_App_m74B7B56CA815EA9173AD5470B80CE6FE51A489AA,
+	Listener_Finalize_m1B8FDFA1B1FFD19A9F42B1C93B211A3274BD4851,
+	Listener_Dispose_m3C1C99DA6E56534E4A654434061702E518946B19,
+	Listener_MessageReceivedDelegateMethod_m95C378CA304819447149A2A4A9AEC137F47956DE,
+	Listener_TokenReceivedDelegateMethod_mB4ACFCE59C870A1CDAFDD056655102F56CD17C85,
+	MessageReceivedDelegate__ctor_m7C746AD1F9449816B6CFE442E53CB22D66785344,
+	MessageReceivedDelegate_Invoke_mF0C934D7A2A469F4B8A32D59984AB41641151EDF,
+	MessageReceivedDelegate_BeginInvoke_mF2940D30F9D8F8D3A04FDA7D206A98B84E8DEAB7,
+	MessageReceivedDelegate_EndInvoke_mDA1B54977055957DBEDBF8D66BCE7A6AA8B3F2C0,
+	TokenReceivedDelegate__ctor_m7213BFF7CDB058058B92B871EFE65B9C5C906EF3,
+	TokenReceivedDelegate_Invoke_m63E4E2B3A6D238DAF46E0B9B1A119BAD5E1259A0,
+	TokenReceivedDelegate_BeginInvoke_mF5B9047FA346E63998546B7445F892E8CD57407C,
+	TokenReceivedDelegate_EndInvoke_mEB332FB98E09FA220BBAFABA7BBAB1046A45533A,
+	U3CMessageReceivedDelegateMethodU3Ec__AnonStorey0__ctor_m762A83BDCF700C20F4D5EB358FEBA76246EED9FC,
+	U3CMessageReceivedDelegateMethodU3Ec__AnonStorey0_U3CU3Em__0_mD7FEE9E350C8DA15A5810CE09D1E6306186FDF1E,
+	U3CTokenReceivedDelegateMethodU3Ec__AnonStorey1__ctor_mF49B2EA70CE3B50B376905BF0379B60147A466C5,
+	U3CTokenReceivedDelegateMethodU3Ec__AnonStorey1_U3CU3Em__0_m39CC1C02602244E79D6C1CCE642F6BA3CBF57013,
+	FirebaseMessagingPINVOKE__cctor_mE8C924D788B5A3205542A4CE24631B01FDCA77F0,
+	FirebaseMessagingPINVOKE__ctor_m28D5E69F9FAD91D684DF701DFD2E89D665B4404D,
+	FirebaseMessagingPINVOKE_new_MessagingOptions_m62A6D9E43B5680C9C10438BB4CE0D501F7757832,
+	FirebaseMessagingPINVOKE_MessagingOptions_SuppressNotificationPermissionPrompt_set_mE87ACFF2EC98A7950978DD1F1CB96C862B3000BA,
+	FirebaseMessagingPINVOKE_MessagingOptions_SuppressNotificationPermissionPrompt_get_mD4FAB02A28C710E9968D74714523D2F6C9BBE9D6,
+	FirebaseMessagingPINVOKE_delete_MessagingOptions_m81B773FA04F99C2FCECE0A7C620C43257B9C94FA,
+	FirebaseMessagingPINVOKE_AndroidNotificationParams_ChannelId_get_mED7D6B65F23DE9A57FF98A764DE32FB5D748BFEF,
+	FirebaseMessagingPINVOKE_new_AndroidNotificationParams_m6AF890BC6F9461A69A85121F491C53BF484996A7,
+	FirebaseMessagingPINVOKE_delete_AndroidNotificationParams_mDB617E24E0DD728EBA986BED3393415C296C1B21,
+	FirebaseMessagingPINVOKE_new_FirebaseNotification_m8FCE37C2E5F68CF6579CC705B13FC29FDC55B788,
+	FirebaseMessagingPINVOKE_delete_FirebaseNotification_mF22FF56EE091E89BC9552FB1973ACA133164ABF2,
+	FirebaseMessagingPINVOKE_FirebaseNotification_Title_get_m79C024471BA851F554224435CA90A05B7F7EC437,
+	FirebaseMessagingPINVOKE_FirebaseNotification_Body_get_mA085D3A805C3AFA96693BBE2FEF5E04F776DC735,
+	FirebaseMessagingPINVOKE_FirebaseNotification_Icon_get_m5D3005E5668CE48C1E4D2E95D84A38A70320FC45,
+	FirebaseMessagingPINVOKE_FirebaseNotification_Sound_get_mD67E4581D401A3218868F95C51CE8D9DCB2302BE,
+	FirebaseMessagingPINVOKE_FirebaseNotification_Badge_get_m73E0B4DE7E95E04C3338A85F34DDF103812473A0,
+	FirebaseMessagingPINVOKE_FirebaseNotification_Tag_get_mC43AF80798202FB7D3B9B8C877A5563E25BEE0A8,
+	FirebaseMessagingPINVOKE_FirebaseNotification_Color_get_mA62578F5DF42D5999DAEC55E1E46F8909C546DB0,
+	FirebaseMessagingPINVOKE_FirebaseNotification_ClickAction_get_m5DCB41BCBD33804ADF1B2CCC4A74313650695165,
+	FirebaseMessagingPINVOKE_FirebaseNotification_BodyLocalizationKey_get_mD0E12483924A8228F556B8548F7900308E1073CA,
+	FirebaseMessagingPINVOKE_FirebaseNotification_BodyLocalizationArgs_get_m128D205AE4100A744598994A70638FB935722545,
+	FirebaseMessagingPINVOKE_FirebaseNotification_TitleLocalizationKey_get_mCAC46BCFA67C2B0B3E197B590EAB823F904851CC,
+	FirebaseMessagingPINVOKE_FirebaseNotification_TitleLocalizationArgs_get_m2E59E2D6B32B9C9E9DFA7AFF6988972C685C91BE,
+	FirebaseMessagingPINVOKE_new_FirebaseMessage_mECD55C5864C872A7F5CC08D66043B13A8915ADDC,
+	FirebaseMessagingPINVOKE_delete_FirebaseMessage_m6E96B7ED6F6A0B340134144BFA6FF591FD843FDB,
+	FirebaseMessagingPINVOKE_FirebaseMessage_From_get_m5AEE384F6239C758EF3196B8F70B993CFE0513A6,
+	FirebaseMessagingPINVOKE_FirebaseMessage_To_set_m2BF33B675534EB88FC4EA6876922D82ACD456884,
+	FirebaseMessagingPINVOKE_FirebaseMessage_To_get_m85EED0AFDF1BAAFC89D191FB9AB4F7A1BF30CBE3,
+	FirebaseMessagingPINVOKE_FirebaseMessage_CollapseKey_get_m2911462D893EB8BF5C4AECD1EB92CB0726334346,
+	FirebaseMessagingPINVOKE_FirebaseMessage_Data_set_mBC41D1822630F4A2F56E4603BCF8783529636411,
+	FirebaseMessagingPINVOKE_FirebaseMessage_Data_get_m4ACA036AE0D59F5BFEC187FFD6A79D0157028D7E,
+	FirebaseMessagingPINVOKE_FirebaseMessage_RawDataInternal_get_m79A050B510DA49202E6D8B45D1FC6741488234DA,
+	FirebaseMessagingPINVOKE_FirebaseMessage_MessageId_set_mC858D3361244FFD8BB5BA9813CE086626FD012F8,
+	FirebaseMessagingPINVOKE_FirebaseMessage_MessageId_get_m8A91EED8C6493AF99DE495240F4E26D18C180ACF,
+	FirebaseMessagingPINVOKE_FirebaseMessage_MessageType_get_m783E254011520D8809FFE1AB3A5821158BC9A88F,
+	FirebaseMessagingPINVOKE_FirebaseMessage_Priority_get_mC133DA4D5FD08040D6F868DF46DFCCBEB27EC7BF,
+	FirebaseMessagingPINVOKE_FirebaseMessage_TimeToLiveInternal_get_m9929FA0AD178B0E84260A59D14E307E9A1402493,
+	FirebaseMessagingPINVOKE_FirebaseMessage_Error_get_m17D2FE9C32CDAF67C09AA379C1AD495342276797,
+	FirebaseMessagingPINVOKE_FirebaseMessage_ErrorDescription_get_m2DE0CFDECB8640F66C5E3D3430D755D9163BB761,
+	FirebaseMessagingPINVOKE_FirebaseMessage_NotificationOpened_get_mAD956F57B433F63327F5B624E1FBFDF2977CC005,
+	FirebaseMessagingPINVOKE_FirebaseMessage_LinkInternal_get_m8264B3903B899E6BFEF3816D923D00DC5DF88D44,
+	FirebaseMessagingPINVOKE_FirebaseMessage_original_priority_get_m958F88AABD26BFE2B64DE52065DAF17CA886BD92,
+	FirebaseMessagingPINVOKE_FirebaseMessage_SentTimeInternal_get_mE88F2734F78764152137FD810C08776F229E0244,
+	FirebaseMessagingPINVOKE_IsTokenRegistrationOnInitEnabledInternal_m229BEA20B7B6678AACD4856107C37BF26FC2E56B,
+	FirebaseMessagingPINVOKE_SetTokenRegistrationOnInitEnabledInternal_mE6744A31D42AB6CBAB850C8344BE196975FDF00E,
+	FirebaseMessagingPINVOKE_RequestPermission_m237A8F3236EF76BA8CE80B72ACAFE2838A75A957,
+	FirebaseMessagingPINVOKE_Subscribe_m4DB87EBEAEF92E530628CCE7783CE30F5948662A,
+	FirebaseMessagingPINVOKE_Unsubscribe_m495FFB8DB434D036D8177D6522FDE700C6515223,
+	FirebaseMessagingPINVOKE_DeliveryMetricsExportToBigQueryEnabledInternal_m215ED893AC6F3F03AE39B6FE6898CDF090DBE108,
+	FirebaseMessagingPINVOKE_SetDeliveryMetricsExportToBigQueryInternal_mE26E739BAB29FF7E7F801F718F0BA15EE9F3CD20,
+	FirebaseMessagingPINVOKE_GetTokenInternalAsync_mC4AC0DB08B64E2107866CFCB5890F6A381981C92,
+	FirebaseMessagingPINVOKE_DeleteTokenInternalAsync_m7E9BD957C0D07B2154991F4F90BF4BEBA9B9DC82,
+	FirebaseMessagingPINVOKE_SetListenerCallbacks_mF1DDB441F19EC45D4388A39FD09B77D5A76D44D2,
+	FirebaseMessagingPINVOKE_SetListenerCallbacksEnabled_m8AA0CF4CD39336092A4701D553229A8A86B3F004,
+	FirebaseMessagingPINVOKE_SendPendingEvents_mAD2515BF6CA3B8BBA483D3ECDFFE3E9FFA5211A5,
+	FirebaseMessagingPINVOKE_MessageCopyNotification_m98242B60DA017BEFEB2B57BE3DC5BC41E9BEC561,
+	FirebaseMessagingPINVOKE_NotificationCopyAndroidNotificationParams_m449476925BD90CD8A2F1B215A948A6C8BE79BAE2,
+	SWIGExceptionHelper__cctor_m5133CA4E9E9E6D4988839DBC266EFF6A88DE8441,
+	SWIGExceptionHelper__ctor_m74E1F593CDD0E2FA4B49CBD999705045945E5EB9,
+	SWIGExceptionHelper_SWIGRegisterExceptionCallbacks_FirebaseMessaging_mE9FD8897A9E0114F13D220A164222ACC8572D236,
+	SWIGExceptionHelper_SWIGRegisterExceptionCallbacksArgument_FirebaseMessaging_m58DD8D2EF2B044A516367EC4A2E78EBB68641F13,
+	SWIGExceptionHelper_SetPendingApplicationException_m060171326D3019978B8787843E25864D51C7FAA1,
+	SWIGExceptionHelper_SetPendingArithmeticException_m275F6E5A16018DCBAA2681A7FD3FE45FD9389751,
+	SWIGExceptionHelper_SetPendingDivideByZeroException_m05C0DE6E237D8E63649531A8AAA6B8906E6EC630,
+	SWIGExceptionHelper_SetPendingIndexOutOfRangeException_mE5189F13B9831CFEEACC0F704AA1EE4C28D6977A,
+	SWIGExceptionHelper_SetPendingInvalidCastException_mBCAEC39E36BE3422612773135A1347C38B9EE204,
+	SWIGExceptionHelper_SetPendingInvalidOperationException_mE112B67C45E3FE746CC170726DCAE25F581F6321,
+	SWIGExceptionHelper_SetPendingIOException_mAE6AEF4401C6393115479364B05173FE5A4D4E20,
+	SWIGExceptionHelper_SetPendingNullReferenceException_m29AC22ED749B13344003A120E77C26E7C736A4E4,
+	SWIGExceptionHelper_SetPendingOutOfMemoryException_m85D046E64786517BF671D14464F013E6E10F74FF,
+	SWIGExceptionHelper_SetPendingOverflowException_m925DE663512069FE450704037A528E83270A91BE,
+	SWIGExceptionHelper_SetPendingSystemException_m801705A321121C304A58AD98B229F83BD2D974CE,
+	SWIGExceptionHelper_SetPendingArgumentException_mA9DCC213D165EE7CCA5227529BA5542A4D2D8751,
+	SWIGExceptionHelper_SetPendingArgumentNullException_m890F72E31BC6A96FF2A1F7906C188AA1D26C89AD,
+	SWIGExceptionHelper_SetPendingArgumentOutOfRangeException_mEB8E8B44C42D54AD9E0160B9EE2F7862637B3E0F,
+	ExceptionDelegate__ctor_m789977303B33F17AAA5360A3292D4A151C792D33,
+	ExceptionDelegate_Invoke_m4737E00FCEEDA47189CF121FBEF56854B2D0D391,
+	ExceptionDelegate_BeginInvoke_m38EC8BB036B505657F759A26E3F4BE28E09FCA79,
+	ExceptionDelegate_EndInvoke_mBBE70D90534AC1185A5518ED58587E2704DD41B5,
+	ExceptionArgumentDelegate__ctor_mD3AE8F3B0E1894F62FBDE8481B860EC23B3402C4,
+	ExceptionArgumentDelegate_Invoke_m98FEABFD2FC468FC00EDB504A85955B083FDC113,
+	ExceptionArgumentDelegate_BeginInvoke_m2D93C34636D1DFCB0EFCAC6EB2BF8139CBF7AE01,
+	ExceptionArgumentDelegate_EndInvoke_mF2E23F3FF01CC5A367280A2FDE39E9EA74601270,
+	SWIGPendingException__ctor_mEB4B15C81BFBBD3849B5E5499FBFB7FFF142E438,
+	SWIGPendingException_get_Pending_mB4EA8ACBC5721535378620BA12F382B9A7F5A661,
+	SWIGPendingException_Set_mAEBE63CCE77CE276D93CCD547FCABBDDA44CD41C,
+	SWIGPendingException_Retrieve_mB7742B33A82F51C884CE900D5D7363092288C16D,
+	SWIGPendingException__cctor_m981735CCDAD2214DDE217B250B501E50000624DC,
+	SWIGStringHelper__cctor_m2DBDB30961019C15858D5F5F9D24AA4AE522FCEA,
+	SWIGStringHelper__ctor_m374221329F17BCC4EED8997888A382721EFCF171,
+	SWIGStringHelper_SWIGRegisterStringCallback_FirebaseMessaging_m7E9D6DDEBAAB3D995163D4FE671EC98B7071F8FA,
+	SWIGStringHelper_CreateString_mD8088413B24D769437B4E09A4AB7826A55A5A9A7,
+	SWIGStringDelegate__ctor_m959EEC67F999197EA2457A7CD4684BD8588DE11E,
+	SWIGStringDelegate_Invoke_m866ADA89F2872028E0F92D392D9C9CE98DD5CE74,
+	SWIGStringDelegate_BeginInvoke_mFAB1DDA1D94AE9288BD29FF06D6A6F3E7B849D64,
+	SWIGStringDelegate_EndInvoke_m1471936A64F8A71B38B4C4AC78DD8A438DCE1BC8,
+	FirebaseMessage__ctor_mC5C9E0BADB0E232C7A30880B214C00E725862884,
+	FirebaseMessage__ctor_m742FE4419880C19B9763BD1D0AEC5E6BB048DCA0,
+	FirebaseMessage_getCPtr_mD81D6482F2E4D77D3C8B09A850FF2BB30084D9DF,
+	FirebaseMessage_Finalize_m4252175F6CDBBE170F715C29E46FDCFCF3939209,
+	FirebaseMessage_Dispose_mDF6750A30E95068A13849BA85014E518D949D461,
+	FirebaseMessage_get_TimeToLive_m6BD4BB702BDECAE1765DA2D2AA9930BF2B411FF3,
+	FirebaseMessage_get_SentTime_mF70776E0B6011F8A94F0C60AD1E692925EE67631,
+	FirebaseMessage_get_Notification_mC9378F111739D7593BC3E8F085D9500B218A4A2F,
+	FirebaseMessage_get_Link_m499FEB761A3F6A88E64F2D69F9A03F0E28D42E5A,
+	FirebaseMessage_get_RawData_mB4FC7C03D209D02B28D4357E19F3E776B4A4450B,
+	FirebaseMessage_get_From_m6A8B7F66B7C0E65663FF0054C694CF5C957AC8E4,
+	FirebaseMessage_set_To_m760C1FD5853796C542F1252B1DA42DA830521018,
+	FirebaseMessage_get_To_m0D1BD6DDA27E4B38F1F8CA9E36226E0199D4499D,
+	FirebaseMessage_get_CollapseKey_m339C3DF6AE3DC040AF94426569EC2195C6BB82EA,
+	FirebaseMessage_set_Data_mAF86D91E3BAE98093F6B824F0DE0987F117775FE,
+	FirebaseMessage_get_Data_m4633EBF49233BC6304EBA4E9701C6954DBF6BCDA,
+	FirebaseMessage_get_RawDataInternal_m9BAAF0C9D87B488D82B68B1CB8E6A9712074B03D,
+	FirebaseMessage_set_MessageId_m73059B5444A66AFBA4F3D9841786DADE503C5DB0,
+	FirebaseMessage_get_MessageId_mA06224C6A9C60DA2E73C30DF894B9A66EA27FFEC,
+	FirebaseMessage_get_MessageType_mE74F760E1067384AFF099776E1EB2E608298B779,
+	FirebaseMessage_get_Priority_m154A74DED37BB580CD0B40B52417B5ADF9650841,
+	FirebaseMessage_get_TimeToLiveInternal_m7B286723B3C6742919DD44E32BBF2E5A083239B9,
+	FirebaseMessage_get_Error_m628F181C4444596F5698E1AFCB6E67C00EE7B2EE,
+	FirebaseMessage_get_ErrorDescription_m887FE59C8D3D2335AAC0BBCE98C912DFE92BB23C,
+	FirebaseMessage_get_NotificationOpened_m20366C61D5F048F1C7C65471A7961E3F21AC9C52,
+	FirebaseMessage_get_LinkInternal_m54D8F42AB16E2B92AEB11DA05006E9692F86F506,
+	FirebaseMessage_get_original_priority_m6AD8FA72315DEA5848FE158C019ADE192C1C7E7D,
+	FirebaseMessage_get_SentTimeInternal_m5D5B6504F32A67B4F93D606B9575DAC7DC9AA15D,
+	FirebaseMessage__cctor_m12B7C5830CB9A1250885E96B79B21628E9BAB953,
+	FirebaseNotification__ctor_mCF6D66F4CD463FA93FCC5FA2C3CA435654534A9C,
+	FirebaseNotification__ctor_mAC708CF5A2697DB927E89CFBD4E79A2B2173CD48,
+	FirebaseNotification_getCPtr_m46ABA54408E960FC1E679952A27A3856895A0331,
+	FirebaseNotification_Finalize_m2D0EF9490DB0BEDA888A2123584F957EF10B75E7,
+	FirebaseNotification_Dispose_m1630692AF5E7EE75695A7F14106FD10743753EB3,
+	FirebaseNotification_get_Android_mB972D002792C85C0ABF73EA076F729D5EECD0279,
+	FirebaseNotification_get_Title_mE13C0B56A0B81DECA17D6BC996E1376240A5F96D,
+	FirebaseNotification_get_Body_mEFB4117BAE3B281BB0C92DE332459AE63DB32343,
+	FirebaseNotification_get_Icon_m8D00AC4BA1191ED24F52B3F85D7B56DF4E9E6D7B,
+	FirebaseNotification_get_Sound_mCC04130300784A12DC864617A6FBC8C144CAF24F,
+	FirebaseNotification_get_Badge_mFAF2E4B800BCE96112724BEB780143D6E228670E,
+	FirebaseNotification_get_Tag_m519E0B46290C433EA85BFFC0435848CA0DC6EE8F,
+	FirebaseNotification_get_Color_m8E72F7B6988F032E60427AFABEC2CA3D4EEEB1B8,
+	FirebaseNotification_get_ClickAction_m4E42D4CF9017681EC8A66D54A397C7ED07F57EF0,
+	FirebaseNotification_get_BodyLocalizationKey_mD3A07666F5C03B3DCCCD8ACB12B5CD7C1937E01F,
+	FirebaseNotification_get_BodyLocalizationArgs_m3497C125427EEE8528663A71AF83071EC867F2DE,
+	FirebaseNotification_get_TitleLocalizationKey_m7B87BAD6A317D86656AC82E6242519E31092A1A9,
+	FirebaseNotification_get_TitleLocalizationArgs_mF276A7644F8D6DE696B39204A82CB705485ADCEA,
+	AndroidNotificationParams__ctor_m06AD4DA7A6AC447716D6A9EE4550DF106525F959,
+	AndroidNotificationParams__ctor_m14F9AA0AEAB945312E12E35AA16BE19E43A113CB,
+	AndroidNotificationParams_getCPtr_m6B90A31C9281D038F642BD4767B0522C31210875,
+	AndroidNotificationParams_Finalize_m352EEFD6DCF828E48365139585BE77A21CE572B1,
+	AndroidNotificationParams_Dispose_mCFA8A35D39A7E457B11297DC489E9503E05A28FB,
+	AndroidNotificationParams_get_ChannelId_mC1C24D8979C03D54B70F71FFD247C1015FD22647,
+	MessagingOptions__ctor_m37015A43AAD16713DBED60EFAF1166BA1CBC4E66,
+	MessagingOptions__ctor_m4BF8BBF58B12D19C6D8969066A2F0F9B44FA4B6A,
+	MessagingOptions_getCPtr_m39F5A4D91600F431C7CCE1DED8C10C293E8BA80C,
+	MessagingOptions_Finalize_mB89F803740F023F47867C11E6CEC35C8BDC81650,
+	MessagingOptions_Dispose_m94380CF06AFC0085DE234447B1D7E1D09D2CC8D3,
+	MessagingOptions_set_SuppressNotificationPermissionPrompt_mF0705AB5502AE5D3211C451580B3CAFA91CCFBAC,
+	MessagingOptions_get_SuppressNotificationPermissionPrompt_m20AE260F5BD27068C369328EDBD4131C46DF2907,
+	MessageReceivedEventArgs__ctor_mF420D689ACEE65740BA0E1A253DF2D33CBAFC061,
+	MessageReceivedEventArgs_get_Message_mB05C315AA155A3A35925369C5093FFB8B91C2BF6,
+	MessageReceivedEventArgs_set_Message_m237AEA7C0AAB2533F89A673BA3F288F4E1F3D04A,
+	TokenReceivedEventArgs__ctor_m834B72CF7DB04F86A4929BBDEFA7E969BFC09D21,
+	TokenReceivedEventArgs_get_Token_m238B04731212F820259074BD576723DCED8B719A,
+	TokenReceivedEventArgs_set_Token_mC42B0EC030BD8880FA31346108580505D1C4A318,
+};
+static const int32_t s_InvokerIndices[216] = 
+{
+	8068,
+	5224,
+	7915,
+	7915,
+	7915,
+	7915,
+	8068,
+	8039,
+	8018,
+	7906,
+	8018,
+	7906,
+	8039,
+	8039,
+	7915,
+	7915,
+	7915,
+	7915,
+	7915,
+	7915,
+	8018,
+	7906,
+	8039,
+	7679,
+	7679,
+	8018,
+	7906,
+	8039,
+	8039,
+	7302,
+	7249,
+	8068,
+	7610,
+	7610,
+	5224,
+	8039,
+	8068,
+	8039,
+	5224,
+	5224,
+	7577,
+	7915,
+	2402,
+	3520,
+	1165,
+	3538,
+	2402,
+	4228,
+	1182,
+	4228,
+	5224,
+	5086,
+	5224,
+	5224,
+	8068,
+	5224,
+	8034,
+	7254,
+	7469,
+	7909,
+	7674,
+	8034,
+	7909,
+	8034,
+	7909,
+	7674,
+	7674,
+	7674,
+	7674,
+	7674,
+	7674,
+	7674,
+	7674,
+	7674,
+	7607,
+	7674,
+	7607,
+	8034,
+	7909,
+	7674,
+	7258,
+	7674,
+	7674,
+	7255,
+	7607,
+	7607,
+	7258,
+	7674,
+	7674,
+	7674,
+	7573,
+	7674,
+	7674,
+	7469,
+	7674,
+	7674,
+	7592,
+	8018,
+	7906,
+	8034,
+	7611,
+	7611,
+	8018,
+	7906,
+	8034,
+	8034,
+	7302,
+	7249,
+	8068,
+	7610,
+	7610,
+	8068,
+	5224,
+	5336,
+	6716,
+	7915,
+	7915,
+	7915,
+	7915,
+	7915,
+	7915,
+	7915,
+	7915,
+	7915,
+	7915,
+	7915,
+	7302,
+	7302,
+	7302,
+	2402,
+	4228,
+	1182,
+	4228,
+	2402,
+	2404,
+	827,
+	4228,
+	5224,
+	8018,
+	7915,
+	8039,
+	8068,
+	8068,
+	5224,
+	7915,
+	7679,
+	2402,
+	3749,
+	1182,
+	3749,
+	2380,
+	5224,
+	7547,
+	5224,
+	5224,
+	5197,
+	5051,
+	5110,
+	5110,
+	5110,
+	5110,
+	4228,
+	5110,
+	5110,
+	4228,
+	5110,
+	5110,
+	4228,
+	5110,
+	5110,
+	5110,
+	5086,
+	5110,
+	5110,
+	5037,
+	5110,
+	5110,
+	5087,
+	8068,
+	2380,
+	5224,
+	7547,
+	5224,
+	5224,
+	5110,
+	5110,
+	5110,
+	5110,
+	5110,
+	5110,
+	5110,
+	5110,
+	5110,
+	5110,
+	5110,
+	5110,
+	5110,
+	2380,
+	5224,
+	7547,
+	5224,
+	5224,
+	5110,
+	2380,
+	5224,
+	7547,
+	5224,
+	5224,
+	4154,
+	5037,
+	4228,
+	5110,
+	4228,
+	4228,
+	5110,
+	4228,
+};
+static const Il2CppTokenIndexMethodTuple s_reversePInvokeIndices[17] = 
+{
+	{ 0x06000029, 28,  (void**)&Listener_MessageReceivedDelegateMethod_m95C378CA304819447149A2A4A9AEC137F47956DE_RuntimeMethod_var, 0 },
+	{ 0x0600002A, 29,  (void**)&Listener_TokenReceivedDelegateMethod_mB4ACFCE59C870A1CDAFDD056655102F56CD17C85_RuntimeMethod_var, 0 },
+	{ 0x06000074, 30,  (void**)&SWIGExceptionHelper_SetPendingApplicationException_m060171326D3019978B8787843E25864D51C7FAA1_RuntimeMethod_var, 0 },
+	{ 0x06000075, 34,  (void**)&SWIGExceptionHelper_SetPendingArithmeticException_m275F6E5A16018DCBAA2681A7FD3FE45FD9389751_RuntimeMethod_var, 0 },
+	{ 0x06000076, 35,  (void**)&SWIGExceptionHelper_SetPendingDivideByZeroException_m05C0DE6E237D8E63649531A8AAA6B8906E6EC630_RuntimeMethod_var, 0 },
+	{ 0x06000077, 37,  (void**)&SWIGExceptionHelper_SetPendingIndexOutOfRangeException_mE5189F13B9831CFEEACC0F704AA1EE4C28D6977A_RuntimeMethod_var, 0 },
+	{ 0x06000078, 38,  (void**)&SWIGExceptionHelper_SetPendingInvalidCastException_mBCAEC39E36BE3422612773135A1347C38B9EE204_RuntimeMethod_var, 0 },
+	{ 0x06000079, 39,  (void**)&SWIGExceptionHelper_SetPendingInvalidOperationException_mE112B67C45E3FE746CC170726DCAE25F581F6321_RuntimeMethod_var, 0 },
+	{ 0x0600007A, 36,  (void**)&SWIGExceptionHelper_SetPendingIOException_mAE6AEF4401C6393115479364B05173FE5A4D4E20_RuntimeMethod_var, 0 },
+	{ 0x0600007B, 40,  (void**)&SWIGExceptionHelper_SetPendingNullReferenceException_m29AC22ED749B13344003A120E77C26E7C736A4E4_RuntimeMethod_var, 0 },
+	{ 0x0600007C, 41,  (void**)&SWIGExceptionHelper_SetPendingOutOfMemoryException_m85D046E64786517BF671D14464F013E6E10F74FF_RuntimeMethod_var, 0 },
+	{ 0x0600007D, 42,  (void**)&SWIGExceptionHelper_SetPendingOverflowException_m925DE663512069FE450704037A528E83270A91BE_RuntimeMethod_var, 0 },
+	{ 0x0600007E, 43,  (void**)&SWIGExceptionHelper_SetPendingSystemException_m801705A321121C304A58AD98B229F83BD2D974CE_RuntimeMethod_var, 0 },
+	{ 0x0600007F, 31,  (void**)&SWIGExceptionHelper_SetPendingArgumentException_mA9DCC213D165EE7CCA5227529BA5542A4D2D8751_RuntimeMethod_var, 0 },
+	{ 0x06000080, 32,  (void**)&SWIGExceptionHelper_SetPendingArgumentNullException_m890F72E31BC6A96FF2A1F7906C188AA1D26C89AD_RuntimeMethod_var, 0 },
+	{ 0x06000081, 33,  (void**)&SWIGExceptionHelper_SetPendingArgumentOutOfRangeException_mEB8E8B44C42D54AD9E0160B9EE2F7862637B3E0F_RuntimeMethod_var, 0 },
+	{ 0x06000092, 44,  (void**)&SWIGStringHelper_CreateString_mD8088413B24D769437B4E09A4AB7826A55A5A9A7_RuntimeMethod_var, 0 },
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Firebase_Messaging_CodeGenModule;
+const Il2CppCodeGenModule g_Firebase_Messaging_CodeGenModule = 
+{
+	"Firebase.Messaging.dll",
+	216,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	17,
+	s_reversePInvokeIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};

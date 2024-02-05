@@ -1,0 +1,425 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ludo.boomly"
+4    android:installLocation="auto"
+5    android:versionCode="1"
+6    android:versionName="1" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="22"
+9-->C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\launcher\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="30" />
+10-->C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\launcher\src\main\AndroidManifest.xml
+11
+12    <supports-screens
+12-->C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\launcher\src\main\AndroidManifest.xml:3:3-163
+13        android:anyDensity="true"
+13-->C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\launcher\src\main\AndroidManifest.xml:3:135-160
+14        android:largeScreens="true"
+14-->C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\launcher\src\main\AndroidManifest.xml:3:78-105
+15        android:normalScreens="true"
+15-->C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\launcher\src\main\AndroidManifest.xml:3:49-77
+16        android:smallScreens="true"
+16-->C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\launcher\src\main\AndroidManifest.xml:3:21-48
+17        android:xlargeScreens="true" />
+17-->C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\launcher\src\main\AndroidManifest.xml:3:106-134
+18
+19    <uses-feature android:glEsVersion="0x00030000" />
+19-->[:unityLibrary] C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-54
+19-->[:unityLibrary] C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:19-51
+20    <uses-feature
+20-->[:unityLibrary] C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-15:36
+21        android:name="android.hardware.vulkan.version"
+21-->[:unityLibrary] C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:9-55
+22        android:required="false" />
+22-->[:unityLibrary] C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:9-33
+23
+24    <uses-permission android:name="android.permission.INTERNET" />
+24-->[:unityLibrary] C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:5-67
+24-->[:unityLibrary] C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:22-64
+25    <uses-permission android:name="android.permission.VIBRATE" />
+25-->[:unityLibrary] C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:5-66
+25-->[:unityLibrary] C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:22-63
+26    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+26-->[:unityLibrary] C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:5-79
+26-->[:unityLibrary] C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:22-76
+27
+28    <uses-feature
+28-->[:unityLibrary] C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:5-23:36
+29        android:name="android.hardware.touchscreen"
+29-->[:unityLibrary] C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:9-52
+30        android:required="false" />
+30-->[:unityLibrary] C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:9-33
+31    <uses-feature
+31-->[:unityLibrary] C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:5-26:36
+32        android:name="android.hardware.touchscreen.multitouch"
+32-->[:unityLibrary] C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:9-63
+33        android:required="false" />
+33-->[:unityLibrary] C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:9-33
+34    <uses-feature
+34-->[:unityLibrary] C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:5-29:36
+35        android:name="android.hardware.touchscreen.multitouch.distinct"
+35-->[:unityLibrary] C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:9-72
+36        android:required="false" />
+36-->[:unityLibrary] C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:9-33
+37
+38    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+38-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\24a49ae1a6d94f6097812be7f287ac86\com.google.firebase.firebase-iid-21.1.0\AndroidManifest.xml:24:5-68
+38-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\24a49ae1a6d94f6097812be7f287ac86\com.google.firebase.firebase-iid-21.1.0\AndroidManifest.xml:24:22-65
+39    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+39-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\24a49ae1a6d94f6097812be7f287ac86\com.google.firebase.firebase-iid-21.1.0\AndroidManifest.xml:26:5-82
+39-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\24a49ae1a6d94f6097812be7f287ac86\com.google.firebase.firebase-iid-21.1.0\AndroidManifest.xml:26:22-79
+40
+41    <permission
+41-->[com.google.firebase:firebase-messaging-unity:8.6.2] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\97315f1cccf811eeb26734acdba97135\jetified-firebase-messaging-unity-8.6.2\AndroidManifest.xml:11:3-13:45
+42        android:name="com.ludo.boomly.permission.C2D_MESSAGE"
+42-->[com.google.firebase:firebase-messaging-unity:8.6.2] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\97315f1cccf811eeb26734acdba97135\jetified-firebase-messaging-unity-8.6.2\AndroidManifest.xml:12:7-61
+43        android:protectionLevel="signature" />
+43-->[com.google.firebase:firebase-messaging-unity:8.6.2] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\97315f1cccf811eeb26734acdba97135\jetified-firebase-messaging-unity-8.6.2\AndroidManifest.xml:13:7-42
+44
+45    <uses-permission android:name="com.ludo.boomly.permission.C2D_MESSAGE" />
+45-->[com.google.firebase:firebase-messaging-unity:8.6.2] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\97315f1cccf811eeb26734acdba97135\jetified-firebase-messaging-unity-8.6.2\AndroidManifest.xml:14:3-15:64
+45-->[com.google.firebase:firebase-messaging-unity:8.6.2] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\97315f1cccf811eeb26734acdba97135\jetified-firebase-messaging-unity-8.6.2\AndroidManifest.xml:15:7-61
+46
+47    <uses-feature
+47-->[:NativeCamera:] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\99cedf396abcf58a1ddcde975e2d5848\NativeCamera\AndroidManifest.xml:12:2-82
+48        android:name="android.hardware.camera"
+48-->[:NativeCamera:] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\99cedf396abcf58a1ddcde975e2d5848\NativeCamera\AndroidManifest.xml:12:16-54
+49        android:required="false" />
+49-->[:NativeCamera:] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\99cedf396abcf58a1ddcde975e2d5848\NativeCamera\AndroidManifest.xml:12:55-79
+50
+51    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+51-->[:NativeCamera:] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\99cedf396abcf58a1ddcde975e2d5848\NativeCamera\AndroidManifest.xml:13:2-77
+51-->[:NativeCamera:] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\99cedf396abcf58a1ddcde975e2d5848\NativeCamera\AndroidManifest.xml:13:19-74
+52    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+52-->[:NativeCamera:] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\99cedf396abcf58a1ddcde975e2d5848\NativeCamera\AndroidManifest.xml:14:5-81
+52-->[:NativeCamera:] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\99cedf396abcf58a1ddcde975e2d5848\NativeCamera\AndroidManifest.xml:14:22-78
+53    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+53-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\85cadd0a0eca5171cf88c91cc47e2b9b\com.google.android.gms.play-services-measurement-19.0.0\AndroidManifest.xml:26:5-110
+53-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\85cadd0a0eca5171cf88c91cc47e2b9b\com.google.android.gms.play-services-measurement-19.0.0\AndroidManifest.xml:26:22-107
+54
+55    <application
+55-->C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\launcher\src\main\AndroidManifest.xml:4:3-126
+56        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+56-->[androidx.core:core:1.2.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\278af5f982c8f484d0ae16cea0be6b72\androidx.core.core-1.2.0\AndroidManifest.xml:24:18-86
+57        android:debuggable="true"
+58        android:extractNativeLibs="true"
+58-->[:unityLibrary] C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:9-41
+59        android:icon="@mipmap/app_icon"
+59-->C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\launcher\src\main\AndroidManifest.xml:4:49-80
+60        android:label="@string/app_name"
+60-->C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\launcher\src\main\AndroidManifest.xml:4:16-48
+61        android:roundIcon="@mipmap/app_icon_round" >
+61-->C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\launcher\src\main\AndroidManifest.xml:4:81-123
+62        <!--
+63         The MessagingUnityPlayerActivity is a class that extends
+64         UnityPlayerActivity to work around a known issue when receiving
+65         notification data payloads in the background.
+66        -->
+67        <activity
+67-->[:unityLibrary] C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:41:9-60:20
+68            android:name="com.google.firebase.MessagingUnityPlayerActivity"
+68-->[:unityLibrary] C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:42:13-76
+69            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+69-->[:unityLibrary] C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:43:13-194
+70            android:hardwareAccelerated="false"
+70-->[:unityLibrary] C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:44:13-48
+71            android:launchMode="singleTask"
+71-->[:unityLibrary] C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:45:13-44
+72            android:resizeableActivity="false"
+72-->[:unityLibrary] C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:46:13-47
+73            android:screenOrientation="fullUser" >
+73-->[:unityLibrary] C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:47:13-49
+74            <intent-filter>
+74-->[:unityLibrary] C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:48:13-52:29
+75                <action android:name="android.intent.action.MAIN" />
+75-->[:unityLibrary] C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:49:17-69
+75-->[:unityLibrary] C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:49:25-66
+76
+77                <category android:name="android.intent.category.LAUNCHER" />
+77-->[:unityLibrary] C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:51:17-77
+77-->[:unityLibrary] C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:51:27-74
+78            </intent-filter>
+79
+80            <meta-data
+80-->[:unityLibrary] C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:54:13-56:40
+81                android:name="unityplayer.UnityActivity"
+81-->[:unityLibrary] C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:55:17-57
+82                android:value="true" />
+82-->[:unityLibrary] C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:56:17-37
+83            <meta-data
+83-->[:unityLibrary] C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:57:13-59:40
+84                android:name="android.notch_support"
+84-->[:unityLibrary] C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:58:17-53
+85                android:value="true" />
+85-->[:unityLibrary] C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:59:17-37
+86        </activity>
+87
+88        <service
+88-->[:unityLibrary] C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:62:9-66:19
+89            android:name="com.google.firebase.messaging.MessageForwardingService"
+89-->[:unityLibrary] C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:63:13-82
+90            android:exported="false"
+90-->[:unityLibrary] C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:64:13-37
+91            android:permission="android.permission.BIND_JOB_SERVICE" >
+91-->[:unityLibrary] C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:65:13-69
+92        </service>
+93
+94        <meta-data
+94-->[:unityLibrary] C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:68:9-70:33
+95            android:name="unity.splash-mode"
+95-->[:unityLibrary] C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:69:13-45
+96            android:value="0" />
+96-->[:unityLibrary] C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:70:13-30
+97        <meta-data
+97-->[:unityLibrary] C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:71:9-73:36
+98            android:name="unity.splash-enable"
+98-->[:unityLibrary] C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:72:13-47
+99            android:value="True" />
+99-->[:unityLibrary] C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:73:13-33
+100        <meta-data
+100-->[:unityLibrary] C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:74:9-76:36
+101            android:name="unity.launch-fullscreen"
+101-->[:unityLibrary] C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:75:13-51
+102            android:value="True" />
+102-->[:unityLibrary] C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:76:13-33
+103        <meta-data
+103-->[:unityLibrary] C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:77:9-79:37
+104            android:name="unity.allow-resizable-window"
+104-->[:unityLibrary] C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:78:13-56
+105            android:value="False" />
+105-->[:unityLibrary] C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:79:13-34
+106        <meta-data
+106-->[:unityLibrary] C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:80:9-82:50
+107            android:name="notch.config"
+107-->[:unityLibrary] C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:81:13-40
+108            android:value="portrait|landscape" />
+108-->[:unityLibrary] C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:82:13-47
+109        <meta-data
+109-->[:unityLibrary] C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:83:9-85:36
+110            android:name="unity.auto-report-fully-drawn"
+110-->[:unityLibrary] C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:84:13-57
+111            android:value="true" />
+111-->[:unityLibrary] C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:85:13-33
+112
+113        <activity
+113-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\a86544338a9dd0837dc58a1ffa949feb\jetified-play-services-auth-16.0.1\AndroidManifest.xml:23:9-27:75
+114            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+114-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\a86544338a9dd0837dc58a1ffa949feb\jetified-play-services-auth-16.0.1\AndroidManifest.xml:24:13-93
+115            android:excludeFromRecents="true"
+115-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\a86544338a9dd0837dc58a1ffa949feb\jetified-play-services-auth-16.0.1\AndroidManifest.xml:25:13-46
+116            android:exported="false"
+116-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\a86544338a9dd0837dc58a1ffa949feb\jetified-play-services-auth-16.0.1\AndroidManifest.xml:26:13-37
+117            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+117-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\a86544338a9dd0837dc58a1ffa949feb\jetified-play-services-auth-16.0.1\AndroidManifest.xml:27:13-72
+118        <!--
+119            Service handling Google Sign-In user revocation. For apps that do not integrate with
+120            Google Sign-In, this service will never be started.
+121        -->
+122        <service
+122-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\a86544338a9dd0837dc58a1ffa949feb\jetified-play-services-auth-16.0.1\AndroidManifest.xml:33:9-36:110
+123            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+123-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\a86544338a9dd0837dc58a1ffa949feb\jetified-play-services-auth-16.0.1\AndroidManifest.xml:34:13-89
+124            android:exported="true"
+124-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\a86544338a9dd0837dc58a1ffa949feb\jetified-play-services-auth-16.0.1\AndroidManifest.xml:35:13-36
+125            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+125-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\a86544338a9dd0837dc58a1ffa949feb\jetified-play-services-auth-16.0.1\AndroidManifest.xml:36:13-107
+126
+127        <activity
+127-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\e4373020589edfb2734bb90cb529ef0e\com.google.android.gms.play-services-base-17.6.0\AndroidManifest.xml:23:9-26:75
+128            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+128-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\e4373020589edfb2734bb90cb529ef0e\com.google.android.gms.play-services-base-17.6.0\AndroidManifest.xml:24:13-79
+129            android:exported="false"
+129-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\e4373020589edfb2734bb90cb529ef0e\com.google.android.gms.play-services-base-17.6.0\AndroidManifest.xml:25:13-37
+130            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+130-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\e4373020589edfb2734bb90cb529ef0e\com.google.android.gms.play-services-base-17.6.0\AndroidManifest.xml:26:13-72
+131
+132        <service
+132-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\24a49ae1a6d94f6097812be7f287ac86\com.google.firebase.firebase-iid-21.1.0\AndroidManifest.xml:29:9-35:19
+133            android:name="com.google.firebase.components.ComponentDiscoveryService"
+133-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\24a49ae1a6d94f6097812be7f287ac86\com.google.firebase.firebase-iid-21.1.0\AndroidManifest.xml:30:13-84
+134            android:directBootAware="true"
+134-->[com.google.firebase:firebase-common:20.0.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\500a224ff8b86ad0127ce17010fe1a57\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+135            android:exported="false" >
+135-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\24a49ae1a6d94f6097812be7f287ac86\com.google.firebase.firebase-iid-21.1.0\AndroidManifest.xml:31:13-37
+136            <meta-data
+136-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\24a49ae1a6d94f6097812be7f287ac86\com.google.firebase.firebase-iid-21.1.0\AndroidManifest.xml:32:13-34:85
+137                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+137-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\24a49ae1a6d94f6097812be7f287ac86\com.google.firebase.firebase-iid-21.1.0\AndroidManifest.xml:33:17-96
+138                android:value="com.google.firebase.components.ComponentRegistrar" />
+138-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\24a49ae1a6d94f6097812be7f287ac86\com.google.firebase.firebase-iid-21.1.0\AndroidManifest.xml:34:17-82
+139            <meta-data
+139-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\70765187f7d2803ab99c4330e91646a3\com.google.firebase.firebase-messaging-22.0.0\AndroidManifest.xml:52:13-54:85
+140                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+140-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\70765187f7d2803ab99c4330e91646a3\com.google.firebase.firebase-messaging-22.0.0\AndroidManifest.xml:53:17-119
+141                android:value="com.google.firebase.components.ComponentRegistrar" />
+141-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\70765187f7d2803ab99c4330e91646a3\com.google.firebase.firebase-messaging-22.0.0\AndroidManifest.xml:54:17-82
+142            <meta-data
+142-->[com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\a4196ce9a6ace2908f7c92a29abdf89b\com.google.android.gms.play-services-measurement-api-19.0.0\AndroidManifest.xml:30:13-32:85
+143                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+143-->[com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\a4196ce9a6ace2908f7c92a29abdf89b\com.google.android.gms.play-services-measurement-api-19.0.0\AndroidManifest.xml:31:17-139
+144                android:value="com.google.firebase.components.ComponentRegistrar" />
+144-->[com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\a4196ce9a6ace2908f7c92a29abdf89b\com.google.android.gms.play-services-measurement-api-19.0.0\AndroidManifest.xml:32:17-82
+145            <meta-data
+145-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\a68f79ff04d4eeb8da9165d5ad073dc6\com.google.firebase.firebase-installations-17.0.0\AndroidManifest.xml:18:13-20:85
+146                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+146-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\a68f79ff04d4eeb8da9165d5ad073dc6\com.google.firebase.firebase-installations-17.0.0\AndroidManifest.xml:19:17-127
+147                android:value="com.google.firebase.components.ComponentRegistrar" />
+147-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\a68f79ff04d4eeb8da9165d5ad073dc6\com.google.firebase.firebase-installations-17.0.0\AndroidManifest.xml:20:17-82
+148            <meta-data
+148-->[com.google.firebase:firebase-datatransport:18.0.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\4ac3341a41afad0455940a52cdd8730a\com.google.firebase.firebase-datatransport-18.0.0\AndroidManifest.xml:28:13-30:85
+149                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+149-->[com.google.firebase:firebase-datatransport:18.0.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\4ac3341a41afad0455940a52cdd8730a\com.google.firebase.firebase-datatransport-18.0.0\AndroidManifest.xml:29:17-115
+150                android:value="com.google.firebase.components.ComponentRegistrar" />
+150-->[com.google.firebase:firebase-datatransport:18.0.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\4ac3341a41afad0455940a52cdd8730a\com.google.firebase.firebase-datatransport-18.0.0\AndroidManifest.xml:30:17-82
+151        </service>
+152
+153        <receiver
+153-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\70765187f7d2803ab99c4330e91646a3\com.google.firebase.firebase-messaging-22.0.0\AndroidManifest.xml:28:9-35:20
+154            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+154-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\70765187f7d2803ab99c4330e91646a3\com.google.firebase.firebase-messaging-22.0.0\AndroidManifest.xml:29:13-78
+155            android:exported="true"
+155-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\70765187f7d2803ab99c4330e91646a3\com.google.firebase.firebase-messaging-22.0.0\AndroidManifest.xml:30:13-36
+156            android:permission="com.google.android.c2dm.permission.SEND" >
+156-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\70765187f7d2803ab99c4330e91646a3\com.google.firebase.firebase-messaging-22.0.0\AndroidManifest.xml:31:13-73
+157            <intent-filter>
+157-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\70765187f7d2803ab99c4330e91646a3\com.google.firebase.firebase-messaging-22.0.0\AndroidManifest.xml:32:13-34:29
+158                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+158-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\70765187f7d2803ab99c4330e91646a3\com.google.firebase.firebase-messaging-22.0.0\AndroidManifest.xml:33:17-81
+158-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\70765187f7d2803ab99c4330e91646a3\com.google.firebase.firebase-messaging-22.0.0\AndroidManifest.xml:33:25-78
+159            </intent-filter>
+160        </receiver>
+161        <!--
+162             FirebaseMessagingService performs security checks at runtime,
+163             but set to not exported to explicitly avoid allowing another app to call it.
+164        -->
+165        <service
+165-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\70765187f7d2803ab99c4330e91646a3\com.google.firebase.firebase-messaging-22.0.0\AndroidManifest.xml:41:9-48:19
+166            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+166-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\70765187f7d2803ab99c4330e91646a3\com.google.firebase.firebase-messaging-22.0.0\AndroidManifest.xml:42:13-82
+167            android:directBootAware="true"
+167-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\70765187f7d2803ab99c4330e91646a3\com.google.firebase.firebase-messaging-22.0.0\AndroidManifest.xml:43:13-43
+168            android:exported="false" >
+168-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\70765187f7d2803ab99c4330e91646a3\com.google.firebase.firebase-messaging-22.0.0\AndroidManifest.xml:44:13-37
+169            <intent-filter android:priority="-500" >
+169-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\70765187f7d2803ab99c4330e91646a3\com.google.firebase.firebase-messaging-22.0.0\AndroidManifest.xml:45:13-47:29
+169-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\70765187f7d2803ab99c4330e91646a3\com.google.firebase.firebase-messaging-22.0.0\AndroidManifest.xml:45:28-51
+170                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+170-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\70765187f7d2803ab99c4330e91646a3\com.google.firebase.firebase-messaging-22.0.0\AndroidManifest.xml:46:17-78
+170-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\70765187f7d2803ab99c4330e91646a3\com.google.firebase.firebase-messaging-22.0.0\AndroidManifest.xml:46:25-75
+171            </intent-filter>
+172        </service>
+173
+174        <provider
+174-->[com.google.firebase:firebase-common:20.0.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\500a224ff8b86ad0127ce17010fe1a57\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+175            android:name="com.google.firebase.provider.FirebaseInitProvider"
+175-->[com.google.firebase:firebase-common:20.0.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\500a224ff8b86ad0127ce17010fe1a57\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+176            android:authorities="com.ludo.boomly.firebaseinitprovider"
+176-->[com.google.firebase:firebase-common:20.0.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\500a224ff8b86ad0127ce17010fe1a57\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+177            android:directBootAware="true"
+177-->[com.google.firebase:firebase-common:20.0.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\500a224ff8b86ad0127ce17010fe1a57\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+178            android:exported="false"
+178-->[com.google.firebase:firebase-common:20.0.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\500a224ff8b86ad0127ce17010fe1a57\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+179            android:initOrder="100" />
+179-->[com.google.firebase:firebase-common:20.0.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\500a224ff8b86ad0127ce17010fe1a57\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+180
+181        <service
+181-->[com.google.firebase:firebase-messaging-unity:8.6.2] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\97315f1cccf811eeb26734acdba97135\jetified-firebase-messaging-unity-8.6.2\AndroidManifest.xml:18:5-23:15
+182            android:name="com.google.firebase.messaging.cpp.ListenerService"
+182-->[com.google.firebase:firebase-messaging-unity:8.6.2] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\97315f1cccf811eeb26734acdba97135\jetified-firebase-messaging-unity-8.6.2\AndroidManifest.xml:18:14-78
+183            android:exported="false" >
+183-->[com.google.firebase:firebase-messaging-unity:8.6.2] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\97315f1cccf811eeb26734acdba97135\jetified-firebase-messaging-unity-8.6.2\AndroidManifest.xml:19:14-38
+184            <intent-filter>
+184-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\70765187f7d2803ab99c4330e91646a3\com.google.firebase.firebase-messaging-22.0.0\AndroidManifest.xml:45:13-47:29
+185                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+185-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\70765187f7d2803ab99c4330e91646a3\com.google.firebase.firebase-messaging-22.0.0\AndroidManifest.xml:46:17-78
+185-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\70765187f7d2803ab99c4330e91646a3\com.google.firebase.firebase-messaging-22.0.0\AndroidManifest.xml:46:25-75
+186            </intent-filter>
+187        </service>
+188        <service
+188-->[com.google.firebase:firebase-messaging-unity:8.6.2] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\97315f1cccf811eeb26734acdba97135\jetified-firebase-messaging-unity-8.6.2\AndroidManifest.xml:25:5-27:15
+189            android:name="com.google.firebase.messaging.cpp.RegistrationIntentService"
+189-->[com.google.firebase:firebase-messaging-unity:8.6.2] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\97315f1cccf811eeb26734acdba97135\jetified-firebase-messaging-unity-8.6.2\AndroidManifest.xml:25:14-88
+190            android:exported="false" >
+190-->[com.google.firebase:firebase-messaging-unity:8.6.2] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\97315f1cccf811eeb26734acdba97135\jetified-firebase-messaging-unity-8.6.2\AndroidManifest.xml:26:14-38
+191        </service>
+192
+193        <provider
+193-->[:NativeCamera:] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\99cedf396abcf58a1ddcde975e2d5848\NativeCamera\AndroidManifest.xml:4:3-8:42
+194            android:name="com.yasirkula.unity.NativeCameraContentProvider"
+194-->[:NativeCamera:] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\99cedf396abcf58a1ddcde975e2d5848\NativeCamera\AndroidManifest.xml:5:5-67
+195            android:authorities="com.ludo.boomly.NativeCameraContentProvider"
+195-->[:NativeCamera:] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\99cedf396abcf58a1ddcde975e2d5848\NativeCamera\AndroidManifest.xml:6:5-71
+196            android:exported="false"
+196-->[:NativeCamera:] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\99cedf396abcf58a1ddcde975e2d5848\NativeCamera\AndroidManifest.xml:7:5-29
+197            android:grantUriPermissions="true" />
+197-->[:NativeCamera:] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\99cedf396abcf58a1ddcde975e2d5848\NativeCamera\AndroidManifest.xml:8:5-39
+198
+199        <receiver
+199-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\85cadd0a0eca5171cf88c91cc47e2b9b\com.google.android.gms.play-services-measurement-19.0.0\AndroidManifest.xml:29:9-33:20
+200            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+200-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\85cadd0a0eca5171cf88c91cc47e2b9b\com.google.android.gms.play-services-measurement-19.0.0\AndroidManifest.xml:30:13-85
+201            android:enabled="true"
+201-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\85cadd0a0eca5171cf88c91cc47e2b9b\com.google.android.gms.play-services-measurement-19.0.0\AndroidManifest.xml:31:13-35
+202            android:exported="false" >
+202-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\85cadd0a0eca5171cf88c91cc47e2b9b\com.google.android.gms.play-services-measurement-19.0.0\AndroidManifest.xml:32:13-37
+203        </receiver>
+204
+205        <service
+205-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\85cadd0a0eca5171cf88c91cc47e2b9b\com.google.android.gms.play-services-measurement-19.0.0\AndroidManifest.xml:35:9-38:40
+206            android:name="com.google.android.gms.measurement.AppMeasurementService"
+206-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\85cadd0a0eca5171cf88c91cc47e2b9b\com.google.android.gms.play-services-measurement-19.0.0\AndroidManifest.xml:36:13-84
+207            android:enabled="true"
+207-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\85cadd0a0eca5171cf88c91cc47e2b9b\com.google.android.gms.play-services-measurement-19.0.0\AndroidManifest.xml:37:13-35
+208            android:exported="false" />
+208-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\85cadd0a0eca5171cf88c91cc47e2b9b\com.google.android.gms.play-services-measurement-19.0.0\AndroidManifest.xml:38:13-37
+209        <service
+209-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\85cadd0a0eca5171cf88c91cc47e2b9b\com.google.android.gms.play-services-measurement-19.0.0\AndroidManifest.xml:39:9-43:72
+210            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+210-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\85cadd0a0eca5171cf88c91cc47e2b9b\com.google.android.gms.play-services-measurement-19.0.0\AndroidManifest.xml:40:13-87
+211            android:enabled="true"
+211-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\85cadd0a0eca5171cf88c91cc47e2b9b\com.google.android.gms.play-services-measurement-19.0.0\AndroidManifest.xml:41:13-35
+212            android:exported="false"
+212-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\85cadd0a0eca5171cf88c91cc47e2b9b\com.google.android.gms.play-services-measurement-19.0.0\AndroidManifest.xml:42:13-37
+213            android:permission="android.permission.BIND_JOB_SERVICE" />
+213-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\85cadd0a0eca5171cf88c91cc47e2b9b\com.google.android.gms.play-services-measurement-19.0.0\AndroidManifest.xml:43:13-69
+214
+215        <meta-data
+215-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\fbdb4bd3ff214299c95f36e04daf761a\jetified-play-services-basement-17.6.0\AndroidManifest.xml:23:9-25:69
+216            android:name="com.google.android.gms.version"
+216-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\fbdb4bd3ff214299c95f36e04daf761a\jetified-play-services-basement-17.6.0\AndroidManifest.xml:24:13-58
+217            android:value="@integer/google_play_services_version" />
+217-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\fbdb4bd3ff214299c95f36e04daf761a\jetified-play-services-basement-17.6.0\AndroidManifest.xml:25:13-66
+218
+219        <service
+219-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\22bcf1acd3ba7187cab112315f2b82c6\com.google.android.datatransport.transport-backend-cct-3.0.0\AndroidManifest.xml:29:9-35:19
+220            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+220-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\22bcf1acd3ba7187cab112315f2b82c6\com.google.android.datatransport.transport-backend-cct-3.0.0\AndroidManifest.xml:30:13-103
+221            android:exported="false" >
+221-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\22bcf1acd3ba7187cab112315f2b82c6\com.google.android.datatransport.transport-backend-cct-3.0.0\AndroidManifest.xml:31:13-37
+222            <meta-data
+222-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\22bcf1acd3ba7187cab112315f2b82c6\com.google.android.datatransport.transport-backend-cct-3.0.0\AndroidManifest.xml:32:13-34:39
+223                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+223-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\22bcf1acd3ba7187cab112315f2b82c6\com.google.android.datatransport.transport-backend-cct-3.0.0\AndroidManifest.xml:33:17-94
+224                android:value="cct" />
+224-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\22bcf1acd3ba7187cab112315f2b82c6\com.google.android.datatransport.transport-backend-cct-3.0.0\AndroidManifest.xml:34:17-36
+225        </service>
+226        <service
+226-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\053fd1fef906598b8c2fa23bf8f51c16\com.google.android.datatransport.transport-runtime-3.0.0\AndroidManifest.xml:26:9-30:19
+227            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+227-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\053fd1fef906598b8c2fa23bf8f51c16\com.google.android.datatransport.transport-runtime-3.0.0\AndroidManifest.xml:27:13-117
+228            android:exported="false"
+228-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\053fd1fef906598b8c2fa23bf8f51c16\com.google.android.datatransport.transport-runtime-3.0.0\AndroidManifest.xml:28:13-37
+229            android:permission="android.permission.BIND_JOB_SERVICE" >
+229-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\053fd1fef906598b8c2fa23bf8f51c16\com.google.android.datatransport.transport-runtime-3.0.0\AndroidManifest.xml:29:13-69
+230        </service>
+231
+232        <receiver
+232-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\053fd1fef906598b8c2fa23bf8f51c16\com.google.android.datatransport.transport-runtime-3.0.0\AndroidManifest.xml:32:9-34:40
+233            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+233-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\053fd1fef906598b8c2fa23bf8f51c16\com.google.android.datatransport.transport-runtime-3.0.0\AndroidManifest.xml:33:13-132
+234            android:exported="false" />
+234-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\palpr\.gradle\caches\transforms-2\files-2.1\053fd1fef906598b8c2fa23bf8f51c16\com.google.android.datatransport.transport-runtime-3.0.0\AndroidManifest.xml:34:13-37
+235    </application>
+236
+237</manifest>

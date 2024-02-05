@@ -1,0 +1,37 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\FirebaseApp.androidlib\AndroidManifest.xml:2:1-6:12
+INJECTED from C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\FirebaseApp.androidlib\AndroidManifest.xml:2:1-6:12
+INJECTED from C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\FirebaseApp.androidlib\AndroidManifest.xml:2:1-6:12
+INJECTED from C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\FirebaseApp.androidlib\AndroidManifest.xml:2:1-6:12
+INJECTED from C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\FirebaseApp.androidlib\AndroidManifest.xml:2:1-6:12
+INJECTED from C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\FirebaseApp.androidlib\AndroidManifest.xml:2:1-6:12
+INJECTED from C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\FirebaseApp.androidlib\AndroidManifest.xml:2:1-6:12
+	package
+		ADDED from C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\FirebaseApp.androidlib\AndroidManifest.xml:3:11-50
+		INJECTED from C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\FirebaseApp.androidlib\AndroidManifest.xml
+		INJECTED from C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\FirebaseApp.androidlib\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\FirebaseApp.androidlib\AndroidManifest.xml:5:11-36
+		INJECTED from C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\FirebaseApp.androidlib\AndroidManifest.xml
+		INJECTED from C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\FirebaseApp.androidlib\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\FirebaseApp.androidlib\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\FirebaseApp.androidlib\AndroidManifest.xml:4:11-34
+		INJECTED from C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\FirebaseApp.androidlib\AndroidManifest.xml
+		INJECTED from C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\FirebaseApp.androidlib\AndroidManifest.xml
+uses-sdk
+INJECTED from C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\FirebaseApp.androidlib\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\FirebaseApp.androidlib\AndroidManifest.xml
+INJECTED from C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\FirebaseApp.androidlib\AndroidManifest.xml
+INJECTED from C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\FirebaseApp.androidlib\AndroidManifest.xml
+INJECTED from C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\FirebaseApp.androidlib\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\FirebaseApp.androidlib\AndroidManifest.xml
+		ADDED from C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\FirebaseApp.androidlib\AndroidManifest.xml
+		INJECTED from C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\FirebaseApp.androidlib\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\FirebaseApp.androidlib\AndroidManifest.xml
+		ADDED from C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\FirebaseApp.androidlib\AndroidManifest.xml
+		INJECTED from C:\Game Build\Real Win Jeeto 2\Library\PramData\AndroidApplicationController\Cache\com.ludo.boomly\gradle-project\unityLibrary\FirebaseApp.androidlib\AndroidManifest.xml
