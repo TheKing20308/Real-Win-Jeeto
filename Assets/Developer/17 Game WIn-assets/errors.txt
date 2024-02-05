@@ -1,0 +1,4 @@
+[2020-9-24 13:01:52] layer "+2000": Expected Either a default asset specification or a layer asset specification but "+" found.
+[2020-9-24 13:01:52] layer "+1000": Expected Either a default asset specification or a layer asset specification but "+" found.
+[2020-9-24 13:01:52] layer "Coin.png copy": Expected end of input but "c" found.
+[2020-9-24 13:01:52] layer "Chatbox.png copy": Expected end of input but "c" found.

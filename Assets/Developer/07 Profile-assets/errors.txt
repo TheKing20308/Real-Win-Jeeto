@@ -1,0 +1,2 @@
+[2020-9-24 13:17:30] layer "Coin.png copy": Expected end of input but "c" found.
+[2020-9-24 13:17:30] layer "Coin.png copy 2": Expected end of input but "c" found.

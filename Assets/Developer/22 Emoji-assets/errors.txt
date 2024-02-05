@@ -1,0 +1,4 @@
+[2020-9-24 12:55:46] layer "Chatbox.png copy": Expected end of input but "c" found.
+[2020-9-24 12:55:46] layer "Chatbox.png copy 3": Expected end of input but "c" found.
+[2020-9-24 12:55:46] layer "Buy Now.png": Duplicate path: Buy Now.png
+[2020-9-24 12:55:46] layer "Coin.png copy 3": Expected end of input but "c" found.

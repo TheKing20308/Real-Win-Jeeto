@@ -1,0 +1,5 @@
+[2020-9-24 13:14:18] layer "Profile.png": Duplicate path: Profile.png
+[2020-9-24 13:14:18] layer "Profile.png": Duplicate path: Profile.png
+[2020-9-24 13:14:18] layer "Profile.png": Duplicate path: Profile.png
+[2020-9-24 13:14:18] layer "Coinbox.png": Duplicate path: Coinbox.png
+[2020-9-24 13:14:18] layer "Coin.png": Duplicate path: Coin.png
