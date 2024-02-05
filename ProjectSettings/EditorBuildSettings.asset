@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Game/Main Scenes/LoginSplash.unity
+    guid: 4a2f5622cbdf149f99c1d5f0d23a622e
+  - enabled: 1
+    path: Assets/Game/Main Scenes/Lucky Number.unity
+    guid: cd69111ec85c9234cb3f45dbca6bdd2f
+  - enabled: 1
+    path: Assets/Game/Main Scenes/LudoGameScene.unity
+    guid: ab8c954096f9b4e7794e7f7284cd686a
+  - enabled: 1
+    path: Assets/Game/Main Scenes/Rummy.unity
+    guid: 8ea454fb8f783483c97a46a185c18c16
+  - enabled: 1
+    path: Assets/Game/Main Scenes/Snake.unity
+    guid: 3e7a906d166fb9b449f8a2bf38f17d07
+  - enabled: 1
+    path: Assets/Game/Main Scenes/FruitNinja.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  m_configObjects: {}
