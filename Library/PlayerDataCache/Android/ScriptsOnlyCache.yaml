@@ -150,6 +150,8 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
     - TMPro.TextMeshProUGUI
+    Unity.Timeline.Editor.dll:
+    - TimelineProjectSettings
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
@@ -264,6 +266,54 @@ ScriptsOnlyBuild:
     fullTypeName: SpinButton
     methodName: OnClick
   - assembly: Assembly-CSharp
+    fullTypeName: rummy.UI.PlayerName
+    methodName: EnableUnderline
+  - assembly: Assembly-CSharp
+    fullTypeName: rummy.UI.HighlightPlayer
+    methodName: EnableHighlight
+  - assembly: Assembly-CSharp
+    fullTypeName: rummy.UI.HighlightPlayer
+    methodName: EnableHighlight
+  - assembly: Assembly-CSharp
+    fullTypeName: rummy.UI.PlayerName
+    methodName: UpdateName
+  - assembly: Assembly-CSharp
+    fullTypeName: rummy.UI.PlayerName
+    methodName: EnableUnderline
+  - assembly: Assembly-CSharp
+    fullTypeName: rummy.UI.HighlightPlayer
+    methodName: EnableHighlight
+  - assembly: Assembly-CSharp
+    fullTypeName: rummy.UI.HighlightPlayer
+    methodName: EnableHighlight
+  - assembly: Assembly-CSharp
+    fullTypeName: rummy.UI.PlayerName
+    methodName: UpdateName
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: rummy.HumanPlayer
+    methodName: SwitchStage
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
     fullTypeName: rummy.GameMaster
     methodName: TogglePause
   - assembly: Assembly-CSharp
@@ -344,54 +394,6 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: rummy.GameMaster
     methodName: SetDealCardMoveSpeed
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: Assembly-CSharp
-    fullTypeName: rummy.UI.PlayerName
-    methodName: EnableUnderline
-  - assembly: Assembly-CSharp
-    fullTypeName: rummy.UI.HighlightPlayer
-    methodName: EnableHighlight
-  - assembly: Assembly-CSharp
-    fullTypeName: rummy.UI.HighlightPlayer
-    methodName: EnableHighlight
-  - assembly: Assembly-CSharp
-    fullTypeName: rummy.UI.PlayerName
-    methodName: UpdateName
-  - assembly: Assembly-CSharp
-    fullTypeName: rummy.UI.PlayerName
-    methodName: EnableUnderline
-  - assembly: Assembly-CSharp
-    fullTypeName: rummy.UI.HighlightPlayer
-    methodName: EnableHighlight
-  - assembly: Assembly-CSharp
-    fullTypeName: rummy.UI.HighlightPlayer
-    methodName: EnableHighlight
-  - assembly: Assembly-CSharp
-    fullTypeName: rummy.UI.PlayerName
-    methodName: UpdateName
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: Assembly-CSharp
-    fullTypeName: rummy.HumanPlayer
-    methodName: SwitchStage
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
@@ -643,7 +645,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 24806}
     - Class: 114
-      Script: {instanceID: 29496}
+      Script: {instanceID: 29850}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -863,7 +865,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 24170}
     - Class: 114
-      Script: {instanceID: 66020}
+      Script: {instanceID: 136704}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -1783,7 +1785,7 @@ ScriptsOnlyBuild:
     className: NetworkCullingHandler
   - hash:
       serializedVersion: 2
-      Hash: 98df4bbcf8523e9295307028e0f3e4e5
+      Hash: c0faeed345cdc68cd930b93898aedcc0
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SignIn
@@ -2383,7 +2385,7 @@ ScriptsOnlyBuild:
     className: GameInitScript
   - hash:
       serializedVersion: 2
-      Hash: 545bfa026e7369a6b716af4f0e8ba84a
+      Hash: 5cc243302b9b0163d3770933ace86db8
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: VerifyOtp
@@ -3565,4 +3567,4 @@ ScriptsOnlyBuild:
   - Assets/Game/Main Scenes/Rummy.unity
   - Assets/Game/Main Scenes/Snake.unity
   - Assets/Game/Main Scenes/FruitNinja.unity
-  playerPath: C:/Game Build/Build/Real Win Jeeto.apk
+  playerPath: C:/Game Build/Build/Real Win Jeeto Final.apk.aab

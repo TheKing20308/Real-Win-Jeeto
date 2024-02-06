@@ -47,6 +47,9 @@ public class SignUp : MonoBehaviour
     
     void OnSignUp()
     {
+        _signIn.interactable = false;
+        _signUp.interactable = false;
+        
         SignUpRequest signUpData = new SignUpRequest
         {
             playername = userName.text,
@@ -84,11 +87,16 @@ public class SignUp : MonoBehaviour
 
             yield return new WaitForSeconds(2);
                 
+            _signIn.interactable = true;
+            _signUp.interactable = true;
+            
             UIManager.ChangeScreen(UIManager.Screen.Otp);
         }
         else
         {
             Debug.LogError($"Error: {request.error}");
+            _signIn.interactable = true;
+            _signUp.interactable = true;
             // Handle error, display error message, or retry logic
         }
     }

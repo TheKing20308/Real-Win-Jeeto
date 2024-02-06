@@ -12,7 +12,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{643850a0-2960-6e83-9fd9-d99c193810ea}</ProjectGuid>
+    <ProjectGuid>{b03d5db1-b775-5439-20ed-b5fffe441475}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -287,10 +287,10 @@
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
      </Reference>
      <Reference Include="0Harmony">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Assets\FastScriptReload\Plugins\Harmony\net48\0Harmony.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Assets\FastScriptReload\Plugins\Harmony\net48\0Harmony.dll</HintPath>
      </Reference>
      <Reference Include="ImmersiveVRTools.Common.Runtime">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Assets\FastScriptReload\Plugins\ImmersiveVrToolsCommon\ImmersiveVRTools.Common.Runtime.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Assets\FastScriptReload\Plugins\ImmersiveVrToolsCommon\ImmersiveVRTools.Common.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.iOS.Extensions.Xcode">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -671,10 +671,10 @@
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.UI">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UI">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>

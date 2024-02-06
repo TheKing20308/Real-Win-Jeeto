@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{0805a27a-3e9f-e251-4082-4bb54c23325b}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NativeGallery.Runtime", "NativeGallery.Runtime.csproj", "{74ce0819-2fdd-bc9f-10b5-e0ec3e58231b}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-firstpass", "Assembly-CSharp-firstpass.csproj", "{dcff922d-2612-83e7-f309-b596bb1b45d7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastScriptReload.Runtime", "FastScriptReload.Runtime.csproj", "{b03d5db1-b775-5439-20ed-b5fffe441475}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NativeCamera.Runtime", "NativeCamera.Runtime.csproj", "{4de81316-04be-4416-1ab9-7cbdd495241c}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{656b2d99-c86c-2f43-9e7f-c192339f7ec3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NativeCamera.Editor", "NativeCamera.Editor.csproj", "{aabcb823-d2c7-a30d-f701-5eda408b6395}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastScriptReload.Editor", "FastScriptReload.Editor.csproj", "{d2c8b11e-7647-654f-8393-306e119c18cf}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NativeGallery.Editor", "NativeGallery.Editor.csproj", "{857c355d-5ddb-41f7-b219-b51e8a934230}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastScriptReload.Tests.Editor", "FastScriptReload.Tests.Editor.csproj", "{4bc7f1ec-a2c5-d001-b2cb-4032df7e7e2c}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastScriptReload.Tests.Runtime", "FastScriptReload.Tests.Runtime.csproj", "{5ec39c56-5e23-d268-5e7b-439da00ec031}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0805a27a-3e9f-e251-4082-4bb54c23325b}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0805a27a-3e9f-e251-4082-4bb54c23325b}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74ce0819-2fdd-bc9f-10b5-e0ec3e58231b}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74ce0819-2fdd-bc9f-10b5-e0ec3e58231b}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{dcff922d-2612-83e7-f309-b596bb1b45d7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{dcff922d-2612-83e7-f309-b596bb1b45d7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{b03d5db1-b775-5439-20ed-b5fffe441475}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{b03d5db1-b775-5439-20ed-b5fffe441475}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4de81316-04be-4416-1ab9-7cbdd495241c}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4de81316-04be-4416-1ab9-7cbdd495241c}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{656b2d99-c86c-2f43-9e7f-c192339f7ec3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{656b2d99-c86c-2f43-9e7f-c192339f7ec3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{aabcb823-d2c7-a30d-f701-5eda408b6395}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{aabcb823-d2c7-a30d-f701-5eda408b6395}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{d2c8b11e-7647-654f-8393-306e119c18cf}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{d2c8b11e-7647-654f-8393-306e119c18cf}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{857c355d-5ddb-41f7-b219-b51e8a934230}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{857c355d-5ddb-41f7-b219-b51e8a934230}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4bc7f1ec-a2c5-d001-b2cb-4032df7e7e2c}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4bc7f1ec-a2c5-d001-b2cb-4032df7e7e2c}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ec39c56-5e23-d268-5e7b-439da00ec031}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ec39c56-5e23-d268-5e7b-439da00ec031}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

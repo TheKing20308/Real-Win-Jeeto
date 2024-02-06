@@ -115,8 +115,8 @@
 -define:ROSLYN_ANALYZER_FIX
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
--r:"C:/Game Build/Real Win Jeeto 2/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
--r:"C:/Game Build/Real Win Jeeto 2/Library/PackageCache/com.unity.ide.rider@3.0.26/Rider/Editor/JetBrains.Rider.PathLocator.dll"
+-r:"C:/Game Build/Real-Win-Jeeto/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
+-r:"C:/Game Build/Real-Win-Jeeto/Library/PackageCache/com.unity.ide.rider@3.0.26/Rider/Editor/JetBrains.Rider.PathLocator.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"

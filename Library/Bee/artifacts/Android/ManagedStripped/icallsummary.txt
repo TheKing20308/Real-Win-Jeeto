@@ -393,6 +393,7 @@ UnityEngine.GameObject::SetActive
 UnityEngine.GameObject::TryGetComponentFastPath
 UnityEngine.GameObject::set_isStatic
 UnityEngine.GameObject::set_layer
+UnityEngine.GameObject::set_tag
 UnityEngine.GameObject::GetComponent
 UnityEngine.GameObject::GetComponentInChildren
 UnityEngine.GameObject::GetComponentInParent
@@ -740,8 +741,6 @@ UnityEngine.PlayerPrefs::GetString
 UnityEngine.PlayerPrefs::DeleteAll
 UnityEngine.PlayerPrefs::DeleteKey
 UnityEngine.PlayerPrefs::Save
-UnityEngine.Profiling.Profiler::BeginSampleImpl
-UnityEngine.Profiling.Profiler::EndSample
 UnityEngine.PropertyNameUtils::PropertyNameFromString_Injected
 UnityEngine.QualitySettings::set_vSyncCount
 UnityEngine.QualitySettings::get_activeColorSpace

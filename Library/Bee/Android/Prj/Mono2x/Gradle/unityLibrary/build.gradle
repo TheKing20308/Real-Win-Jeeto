@@ -1,7 +1,7 @@
 // Android Resolver Repos Start
 ([rootProject] + (rootProject.subprojects as List)).each { project ->
     project.repositories {
-        def unityProjectPath = $/file:///C:/Game Build/Real Win Jeeto 2/$.replace("\\", "/")
+        def unityProjectPath = $/file:///C:/Game Build/Real-Win-Jeeto/$.replace("\\", "/")
         maven {
             url "https://maven.google.com"
         }

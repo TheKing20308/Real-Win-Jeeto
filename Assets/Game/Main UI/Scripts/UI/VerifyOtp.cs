@@ -11,19 +11,33 @@ using UnityEngine.Networking;
 public class VerifyOtp : MonoBehaviour
 {
     [SerializeField] private Button _verifyOTP;
+    [SerializeField] private Button _resendOTP;
+    [SerializeField] private Button _back;
+    
     [SerializeField] private TMP_Text showOtp;
     [SerializeField] private TMP_InputField otpInput;
+    
+    [SerializeField] private GameObject _info;
+    private GenerateOtp _otpScript;
+    
     public static string otpResponse;
 
     private string verifyOtpUrl = ServiceUrl.baseUrl + ServiceUrl.verifyOtp;
     private void OnEnable()
     {
+        _otpScript = GetComponent<GenerateOtp>();
+        
         _verifyOTP.onClick.AddListener(OnVerify);
+        _resendOTP.onClick.AddListener(OnResend);
+        _back.onClick.AddListener(OnBack);
+        _info.SetActive(false);
     }
 
     private void OnDisable()
     {
         _verifyOTP.onClick.RemoveListener(OnVerify);
+        _resendOTP.onClick.AddListener(OnResend);
+        _back.onClick.RemoveListener(OnBack);
         StopCoroutine("SendOtpRequest");
     }
 
@@ -32,8 +46,21 @@ public class VerifyOtp : MonoBehaviour
         showOtp.text = ("OTP:" + otpResponse);
     }
 
+    void OnBack()
+    {
+        UIManager.ChangeScreen(UIManager.Screen.SignIn);
+    }
+
+    void OnResend()
+    {
+        _otpScript.OnGenerateOtp();
+    }
+    
     void OnVerify()
     {
+        _verifyOTP.interactable = false;
+        _back.interactable = false;
+        
         OtpRequest otpRequestData = new OtpRequest
         {
             otp = otpInput.text
@@ -64,15 +91,24 @@ public class VerifyOtp : MonoBehaviour
             {
                 UIManager.ChangeScreen(UIManager.Screen.Home);
                 PlayerPrefs.SetString("isLoggedIn", "yes");
+                
+                _verifyOTP.interactable = true;
+                _back.interactable = true;
+                _info.SetActive(false);
             }
             else
             {
-                
+                _verifyOTP.interactable = true;
+                _back.interactable = true;
+                _info.SetActive(true);
             }
         }
         else
         {
             Debug.LogError($"Error: {request.error}");
+            _verifyOTP.interactable = true;
+            _back.interactable = true;
+            _info.SetActive(true);
         }
     }
 

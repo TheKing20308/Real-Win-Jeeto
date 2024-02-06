@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Game Build\\Real Win Jeeto 2\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values\\values.xml",
+            "outputFile": "C:\\Game Build\\Real-Win-Jeeto\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
                     "source": "C:\\Users\\palpr\\.gradle\\caches\\transforms-2\\files-2.1\\e4373020589edfb2734bb90cb529ef0e\\com.google.android.gms.play-services-base-17.6.0\\res\\values\\values.xml",
@@ -42,37 +42,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Game Build\\Real Win Jeeto 2\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\unityLibrary\\build\\intermediates\\packaged_res\\release\\values\\values.xml",
+                    "source": "C:\\Game Build\\Real-Win-Jeeto\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\values\\strings.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6,7",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "55,101,158,214,263,309",
-                        "endColumns": "45,56,55,48,45,46",
-                        "endOffsets": "96,153,209,258,304,351"
+                        "startLines": "2,3",
+                        "startColumns": "2,2",
+                        "startOffsets": "55,106",
+                        "endColumns": "49,65",
+                        "endOffsets": "102,169"
                     },
                     "to": {
-                        "startLines": "85,88,89,90,91,92",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "5320,5504,5561,5617,5666,5712",
-                        "endColumns": "45,56,55,48,45,46",
-                        "endOffsets": "5361,5556,5612,5661,5707,5754"
-                    }
-                },
-                {
-                    "source": "C:\\Game Build\\Real Win Jeeto 2\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\unityLibrary\\FirebaseApp.androidlib\\build\\intermediates\\packaged_res\\release\\values\\values.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "55,199,281,385,494,614,710",
-                        "endColumns": "143,81,103,108,119,95,72",
-                        "endOffsets": "194,276,380,489,609,705,778"
-                    },
-                    "to": {
-                        "startLines": "112,115,116,117,118,119,120",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "8144,8438,8520,8624,8733,8853,8949",
-                        "endColumns": "143,81,103,108,119,95,72",
-                        "endOffsets": "8283,8515,8619,8728,8848,8944,9017"
+                        "startLines": "93,114",
+                        "startColumns": "4,4",
+                        "startOffsets": "5759,8370",
+                        "endColumns": "51,67",
+                        "endOffsets": "5806,8433"
                     }
                 },
                 {
@@ -93,7 +76,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Game Build\\Real Win Jeeto 2\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\values\\styles.xml",
+                    "source": "C:\\Game Build\\Real-Win-Jeeto\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\values\\styles.xml",
                     "from": {
                         "startLines": "5,2,7",
                         "startColumns": "0,0,0",
@@ -131,6 +114,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Game Build\\Real-Win-Jeeto\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\unityLibrary\\build\\intermediates\\packaged_res\\release\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,101,158,214,263,309",
+                        "endColumns": "45,56,55,48,45,46",
+                        "endOffsets": "96,153,209,258,304,351"
+                    },
+                    "to": {
+                        "startLines": "85,88,89,90,91,92",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "5320,5504,5561,5617,5666,5712",
+                        "endColumns": "45,56,55,48,45,46",
+                        "endOffsets": "5361,5556,5612,5661,5707,5754"
+                    }
+                },
+                {
                     "source": "C:\\Users\\palpr\\.gradle\\caches\\transforms-2\\files-2.1\\fbdb4bd3ff214299c95f36e04daf761a\\jetified-play-services-basement-17.6.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "4,7",
@@ -148,20 +148,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Game Build\\Real Win Jeeto 2\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\values\\strings.xml",
+                    "source": "C:\\Game Build\\Real-Win-Jeeto\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\unityLibrary\\FirebaseApp.androidlib\\build\\intermediates\\packaged_res\\release\\values\\values.xml",
                     "from": {
-                        "startLines": "2,3",
-                        "startColumns": "2,2",
-                        "startOffsets": "55,106",
-                        "endColumns": "49,65",
-                        "endOffsets": "102,169"
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,199,281,385,494,614,710",
+                        "endColumns": "143,81,103,108,119,95,72",
+                        "endOffsets": "194,276,380,489,609,705,778"
                     },
                     "to": {
-                        "startLines": "93,114",
-                        "startColumns": "4,4",
-                        "startOffsets": "5759,8370",
-                        "endColumns": "51,67",
-                        "endOffsets": "5806,8433"
+                        "startLines": "112,115,116,117,118,119,120",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "8144,8438,8520,8624,8733,8853,8949",
+                        "endColumns": "143,81,103,108,119,95,72",
+                        "endOffsets": "8283,8515,8619,8728,8848,8944,9017"
                     }
                 }
             ]

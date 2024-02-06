@@ -15,6 +15,7 @@ public class SignIn : MonoBehaviour
     
     [SerializeField] private Button _signIn;
     [SerializeField] private Button _signUp;
+    [SerializeField] private GameObject _info;
 
     [SerializeField] private TMP_InputField mobileNumberInput;
 
@@ -25,6 +26,8 @@ public class SignIn : MonoBehaviour
         _signUp.onClick.AddListener(OnSignUp);
         _signIn.onClick.AddListener(OnSignIn);
         otpScript = GetComponent<GenerateOtp>();
+        
+        _info.SetActive(false);
 
         if (PlayerPrefs.GetString("mobileNumber") != null)
         {
@@ -46,6 +49,9 @@ public class SignIn : MonoBehaviour
     
     void OnSignIn()
     {
+
+        _signIn.interactable = false;
+        _signUp.interactable = false;
         SignInRequest signInData = new SignInRequest
         {
             mobilenumber = mobileNumberInput.text
@@ -93,11 +99,17 @@ public class SignIn : MonoBehaviour
 
                 yield return new WaitForSeconds(2);
                 
+                _signIn.interactable = true;
+                _signUp.interactable = true;
+                _info.SetActive(false);
+                
                 UIManager.ChangeScreen(UIManager.Screen.Otp);
             }
             else
             {
-                
+                _signIn.interactable = true;
+                _signUp.interactable = true;
+                _info.SetActive(true);
             }
 
             
@@ -105,7 +117,9 @@ public class SignIn : MonoBehaviour
         else
         {
             Debug.LogError($"Error: {request.error}");
-            
+            _signIn.interactable = true;
+            _signUp.interactable = true;
+            _info.SetActive(true);
         }
     }
 

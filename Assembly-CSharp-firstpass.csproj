@@ -12,7 +12,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{7b77bee6-0645-421d-fa8b-c4b40ff95b2a}</ProjectGuid>
+    <ProjectGuid>{dcff922d-2612-83e7-f309-b596bb1b45d7}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -303,37 +303,37 @@
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
      </Reference>
      <Reference Include="Firebase.App">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Assets\Firebase\Plugins\Firebase.App.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Assets\Firebase\Plugins\Firebase.App.dll</HintPath>
      </Reference>
      <Reference Include="System.Runtime.CompilerServices.Unsafe">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Assets\FastScriptReload\Plugins\Roslyn\2021+\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Assets\FastScriptReload\Plugins\Roslyn\2021+\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
      </Reference>
      <Reference Include="Firebase.TaskExtension">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Assets\Firebase\Plugins\Firebase.TaskExtension.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Assets\Firebase\Plugins\Firebase.TaskExtension.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Library\PackageCache\com.unity.visualscripting@1.9.1\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Library\PackageCache\com.unity.visualscripting@1.9.1\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="Photon3Unity3D">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Assets\Plugins\Photon3Unity3D.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Assets\Plugins\Photon3Unity3D.dll</HintPath>
      </Reference>
      <Reference Include="Firebase.Messaging">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Assets\Firebase\Plugins\Firebase.Messaging.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Assets\Firebase\Plugins\Firebase.Messaging.dll</HintPath>
      </Reference>
      <Reference Include="Newtonsoft.Json">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1\Runtime\Newtonsoft.Json.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1\Runtime\Newtonsoft.Json.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Tasks">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Assets\Parse\Plugins\dotNet45\Unity.Tasks.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Assets\Parse\Plugins\dotNet45\Unity.Tasks.dll</HintPath>
      </Reference>
      <Reference Include="Firebase.Platform">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Assets\Firebase\Plugins\Firebase.Platform.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Assets\Firebase\Plugins\Firebase.Platform.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Compat">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Assets\Parse\Plugins\dotNet45\Unity.Compat.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Assets\Parse\Plugins\dotNet45\Unity.Compat.dll</HintPath>
      </Reference>
      <Reference Include="Google.MiniJson">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Assets\Firebase\Plugins\Google.MiniJson.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Assets\Firebase\Plugins\Google.MiniJson.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.iOS.Extensions.Xcode">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -714,156 +714,156 @@
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Flow.Editor">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.2D.Tilemap.Extras">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll</HintPath>
      </Reference>
      <Reference Include="Unity.InternalAPIEngineBridge.001">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VSCode.Editor">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.2D.PixelPerfect">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll</HintPath>
      </Reference>
      <Reference Include="Unity.2D.Tilemap.Editor">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.2D.Animation.Editor">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll</HintPath>
      </Reference>
      <Reference Include="PsdPlugin">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Library\ScriptAssemblies\PsdPlugin.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Library\ScriptAssemblies\PsdPlugin.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TextMeshPro.Editor">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualStudio.Editor">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Timeline">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Core.Editor">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TextMeshPro">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.State.Editor">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Burst.Editor">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.2D.IK.Editor">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.2D.Sprite.Editor">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.2D.Path.Editor">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.2D.Psdimporter.Editor">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Flow">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.UI">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
      </Reference>
      <Reference Include="Unity.PlasticSCM.Editor">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Rider.Editor">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.InternalAPIEditorBridge.001">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UI">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
      </Reference>
      <Reference Include="Unity.2D.Tilemap.Extras.Editor">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Core">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Mathematics">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
      </Reference>
      <Reference Include="Unity.2D.IK.Runtime">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Burst">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
      </Reference>
      <Reference Include="Unity.2D.Aseprite.Editor">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Library\ScriptAssemblies\Unity.2D.Aseprite.Editor.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Library\ScriptAssemblies\Unity.2D.Aseprite.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Shared.Editor">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.2D.Animation.Runtime">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="Unity.2D.PixelPerfect.Editor">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll</HintPath>
      </Reference>
      <Reference Include="ZxLog">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Library\ScriptAssemblies\ZxLog.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Library\ScriptAssemblies\ZxLog.dll</HintPath>
      </Reference>
      <Reference Include="Unity.InternalAPIEditorBridge.005">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.005.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.005.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Timeline.Editor">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Mathematics.Editor">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.2D.Aseprite.Common">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Library\ScriptAssemblies\Unity.2D.Aseprite.Common.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Library\ScriptAssemblies\Unity.2D.Aseprite.Common.dll</HintPath>
      </Reference>
      <Reference Include="Unity.2D.Common.Runtime">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="Unity.2D.SpriteShape.Editor">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.2D.Common.Editor">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.2D.SpriteShape.Runtime">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.State">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="NativeCamera.Runtime.csproj">
-      <Project>{c53dd516-165d-4eb3-10d8-bd84bf7bc6e1}</Project>
+      <Project>{4de81316-04be-4416-1ab9-7cbdd495241c}</Project>
       <Name>NativeCamera.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="NativeGallery.Editor.csproj">
-      <Project>{62c3e313-3337-3bfe-a357-5b82c62c9631}</Project>
+      <Project>{857c355d-5ddb-41f7-b219-b51e8a934230}</Project>
       <Name>NativeGallery.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="NativeGallery.Runtime.csproj">
-      <Project>{4353bbce-afba-e21f-b46d-f4767e38e4d5}</Project>
+      <Project>{74ce0819-2fdd-bc9f-10b5-e0ec3e58231b}</Project>
       <Name>NativeGallery.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="NativeCamera.Editor.csproj">
-      <Project>{365cc099-488c-fe22-c307-1434f4d07aea}</Project>
+      <Project>{aabcb823-d2c7-a30d-f701-5eda408b6395}</Project>
       <Name>NativeCamera.Editor</Name>
     </ProjectReference>
   </ItemGroup>

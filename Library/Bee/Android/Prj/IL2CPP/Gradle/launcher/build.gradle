@@ -34,7 +34,7 @@ android {
             storeFile file('C:/Users/palpr/user.keystore')
             storePassword '123456'
             keyAlias 'prothom'
-            keyPassword '123456'
+            keyPassword '23456'
         }
     }
 
@@ -50,7 +50,7 @@ android {
             jniDebuggable true
         }
         release {
-            minifyEnabled false
+            minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt')
             signingConfig signingConfigs.release
         }

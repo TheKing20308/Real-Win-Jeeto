@@ -330,10 +330,10 @@ struct U3CdelayedShareU3Ed__2_t1E0220369AC294DBEC7BABF6772583C385AD9E42  : publi
 	RuntimeObject* ___U3CU3E2__current_1;
 	// System.String NativeShare/<delayedShare>d__2::screenShotPath
 	String_t* ___screenShotPath_2;
-	// System.String NativeShare/<delayedShare>d__2::text
-	String_t* ___text_3;
 	// NativeShare NativeShare/<delayedShare>d__2::<>4__this
-	NativeShare_t0B7C725A1FCE1E52BA01E79041E8138DFE73D1D4* ___U3CU3E4__this_4;
+	NativeShare_t0B7C725A1FCE1E52BA01E79041E8138DFE73D1D4* ___U3CU3E4__this_3;
+	// System.String NativeShare/<delayedShare>d__2::text
+	String_t* ___text_4;
 };
 
 // iTween/<Start>d__229
@@ -1449,7 +1449,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeShare_ShareScreenshotWithText_m3EB
 		s_Il2CppMethodInitialized = true;
 	}
 	String_t* V_0 = NULL;
-	bool V_1 = false;
 	{
 		// string screenShotPath = Application.persistentDataPath + "/" + ScreenshotName;
 		String_t* L_0;
@@ -1462,38 +1461,36 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeShare_ShareScreenshotWithText_m3EB
 		String_t* L_3 = V_0;
 		bool L_4;
 		L_4 = File_Exists_m95E329ABBE3EAD6750FE1989BBA6884457136D4A(L_3, NULL);
-		V_1 = L_4;
-		bool L_5 = V_1;
-		if (!L_5)
+		if (!L_4)
 		{
-			goto IL_0028;
+			goto IL_0024;
 		}
 	}
 	{
 		// if (File.Exists(screenShotPath)) File.Delete(screenShotPath);
-		String_t* L_6 = V_0;
-		File_Delete_mE29829DA504F3E1B8BCB78F21E2862C9ED7EC386(L_6, NULL);
+		String_t* L_5 = V_0;
+		File_Delete_mE29829DA504F3E1B8BCB78F21E2862C9ED7EC386(L_5, NULL);
 	}
 
-IL_0028:
+IL_0024:
 	{
 		// ScreenCapture.CaptureScreenshot(ScreenshotName);
-		String_t* L_7 = __this->___ScreenshotName_4;
-		ScreenCapture_CaptureScreenshot_m897B0264A202824D377CCD9A5221B164DE2CF9DE(L_7, NULL);
+		String_t* L_6 = __this->___ScreenshotName_4;
+		ScreenCapture_CaptureScreenshot_m897B0264A202824D377CCD9A5221B164DE2CF9DE(L_6, NULL);
 		// Debug.Log("Screenshot path: " + screenShotPath + " Text: " + text);
-		String_t* L_8 = V_0;
-		String_t* L_9 = ___0_text;
-		String_t* L_10;
-		L_10 = String_Concat_m093934F71A9B351911EE46311674ED463B180006(_stringLiteral1D9C73213467ACA0976AF1A295C00E0E2B583B27, L_8, _stringLiteral4C067C1DC94D7C88107C16AADB27E06C3779644B, L_9, NULL);
+		String_t* L_7 = V_0;
+		String_t* L_8 = ___0_text;
+		String_t* L_9;
+		L_9 = String_Concat_m093934F71A9B351911EE46311674ED463B180006(_stringLiteral1D9C73213467ACA0976AF1A295C00E0E2B583B27, L_7, _stringLiteral4C067C1DC94D7C88107C16AADB27E06C3779644B, L_8, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_10, NULL);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_9, NULL);
 		// StartCoroutine(delayedShare(screenShotPath, text));
-		String_t* L_11 = V_0;
-		String_t* L_12 = ___0_text;
-		RuntimeObject* L_13;
-		L_13 = NativeShare_delayedShare_mDD6A9C889C2BDF378AA28546BB648B0D2DA3EE95(__this, L_11, L_12, NULL);
-		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_14;
-		L_14 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_13, NULL);
+		String_t* L_10 = V_0;
+		String_t* L_11 = ___0_text;
+		RuntimeObject* L_12;
+		L_12 = NativeShare_delayedShare_mDD6A9C889C2BDF378AA28546BB648B0D2DA3EE95(__this, L_10, L_11, NULL);
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_13;
+		L_13 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_12, NULL);
 		// }
 		return;
 	}
@@ -1513,8 +1510,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* NativeShare_delayedShare_mDD6A
 		U3CdelayedShareU3Ed__2__ctor_m24409C2A5994633B55D3168CA763104DEC882C76(L_0, 0, NULL);
 		U3CdelayedShareU3Ed__2_t1E0220369AC294DBEC7BABF6772583C385AD9E42* L_1 = L_0;
 		NullCheck(L_1);
-		L_1->___U3CU3E4__this_4 = __this;
-		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this_4), (void*)__this);
+		L_1->___U3CU3E4__this_3 = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this_3), (void*)__this);
 		U3CdelayedShareU3Ed__2_t1E0220369AC294DBEC7BABF6772583C385AD9E42* L_2 = L_1;
 		String_t* L_3 = ___0_screenShotPath;
 		NullCheck(L_2);
@@ -1523,8 +1520,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* NativeShare_delayedShare_mDD6A
 		U3CdelayedShareU3Ed__2_t1E0220369AC294DBEC7BABF6772583C385AD9E42* L_4 = L_2;
 		String_t* L_5 = ___1_text;
 		NullCheck(L_4);
-		L_4->___text_3 = L_5;
-		Il2CppCodeGenWriteBarrier((void**)(&L_4->___text_3), (void*)L_5);
+		L_4->___text_4 = L_5;
+		Il2CppCodeGenWriteBarrier((void**)(&L_4->___text_4), (void*)L_5);
 		return L_4;
 	}
 }
@@ -1562,12 +1559,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeShare_Share_m4EA92FA14509DB032AEFF
 	}
 	AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* V_0 = NULL;
 	AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* V_1 = NULL;
-	AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* V_2 = NULL;
+	AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* V_2 = NULL;
 	AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* V_3 = NULL;
 	AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* V_4 = NULL;
-	bool V_5 = false;
-	AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* V_6 = NULL;
-	AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* V_7 = NULL;
 	{
 		// AndroidJavaClass intentClass = new AndroidJavaClass("android.content.Intent");
 		AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* L_0 = (AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03*)il2cpp_codegen_object_new(AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03_il2cpp_TypeInfo_var);
@@ -1597,138 +1591,132 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeShare_Share_m4EA92FA14509DB032AEFF
 		L_8 = AndroidJavaObject_Call_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_m020246E0988293B6126B690BD6CE4D894276AA3D(L_3, _stringLiteralF2465BB6789DD1B3A37EEA353A2ADE8B9F4E9E37, L_5, AndroidJavaObject_Call_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_m020246E0988293B6126B690BD6CE4D894276AA3D_RuntimeMethod_var);
 		// if (imagePath != null)
 		String_t* L_9 = ___1_imagePath;
-		V_5 = (bool)((!(((RuntimeObject*)(String_t*)L_9) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
-		bool L_10 = V_5;
-		if (!L_10)
+		if (!L_9)
 		{
-			goto IL_00b7;
+			goto IL_00a9;
 		}
 	}
 	{
 		// AndroidJavaClass uriClass = new AndroidJavaClass("android.net.Uri");
-		AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* L_11 = (AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03*)il2cpp_codegen_object_new(AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03_il2cpp_TypeInfo_var);
-		NullCheck(L_11);
-		AndroidJavaClass__ctor_mB5466169E1151B8CC44C8FED234D79984B431389(L_11, _stringLiteralE67D89BB61E8A81A2B0B7802F9E515D915AA51E7, NULL);
-		V_6 = L_11;
+		AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* L_10 = (AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03*)il2cpp_codegen_object_new(AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03_il2cpp_TypeInfo_var);
+		NullCheck(L_10);
+		AndroidJavaClass__ctor_mB5466169E1151B8CC44C8FED234D79984B431389(L_10, _stringLiteralE67D89BB61E8A81A2B0B7802F9E515D915AA51E7, NULL);
 		// AndroidJavaObject uriObject = uriClass.CallStatic<AndroidJavaObject>("parse", "file://" + imagePath);
-		AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* L_12 = V_6;
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_13 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)1);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_14 = L_13;
-		String_t* L_15 = ___1_imagePath;
-		String_t* L_16;
-		L_16 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral218F5A08519088A96BE3C1074984C53EA49F1CCA, L_15, NULL);
-		NullCheck(L_14);
-		ArrayElementTypeCheck (L_14, L_16);
-		(L_14)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_16);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_11 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)1);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_12 = L_11;
+		String_t* L_13 = ___1_imagePath;
+		String_t* L_14;
+		L_14 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral218F5A08519088A96BE3C1074984C53EA49F1CCA, L_13, NULL);
 		NullCheck(L_12);
-		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_17;
-		L_17 = AndroidJavaObject_CallStatic_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_m398EA96C1DE1BB885F2B1DD0E00E8BBA86B49E63(L_12, _stringLiteral99687916B1E6EF7CC358E7CD63DCB485D6ACFEEA, L_14, AndroidJavaObject_CallStatic_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_m398EA96C1DE1BB885F2B1DD0E00E8BBA86B49E63_RuntimeMethod_var);
-		V_7 = L_17;
+		ArrayElementTypeCheck (L_12, L_14);
+		(L_12)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_14);
+		NullCheck(L_10);
+		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_15;
+		L_15 = AndroidJavaObject_CallStatic_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_m398EA96C1DE1BB885F2B1DD0E00E8BBA86B49E63(L_10, _stringLiteral99687916B1E6EF7CC358E7CD63DCB485D6ACFEEA, L_12, AndroidJavaObject_CallStatic_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_m398EA96C1DE1BB885F2B1DD0E00E8BBA86B49E63_RuntimeMethod_var);
+		V_4 = L_15;
 		// intentObject.Call<AndroidJavaObject>("putExtra", intentClass.GetStatic<string>("EXTRA_STREAM"), uriObject);
-		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_18 = V_1;
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_19 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)2);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_20 = L_19;
-		AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* L_21 = V_0;
-		NullCheck(L_21);
-		String_t* L_22;
-		L_22 = AndroidJavaObject_GetStatic_TisString_t_mF408A1C0C6E5BF8154F00A450A97A51B2ABFCBDE(L_21, _stringLiteralC9ADF473A30BA80282FCBE6EF8685B62B5E4AF76, AndroidJavaObject_GetStatic_TisString_t_mF408A1C0C6E5BF8154F00A450A97A51B2ABFCBDE_RuntimeMethod_var);
-		NullCheck(L_20);
-		ArrayElementTypeCheck (L_20, L_22);
-		(L_20)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_22);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_23 = L_20;
-		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_24 = V_7;
-		NullCheck(L_23);
-		ArrayElementTypeCheck (L_23, L_24);
-		(L_23)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_24);
+		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_16 = V_1;
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_17 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)2);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_18 = L_17;
+		AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* L_19 = V_0;
+		NullCheck(L_19);
+		String_t* L_20;
+		L_20 = AndroidJavaObject_GetStatic_TisString_t_mF408A1C0C6E5BF8154F00A450A97A51B2ABFCBDE(L_19, _stringLiteralC9ADF473A30BA80282FCBE6EF8685B62B5E4AF76, AndroidJavaObject_GetStatic_TisString_t_mF408A1C0C6E5BF8154F00A450A97A51B2ABFCBDE_RuntimeMethod_var);
 		NullCheck(L_18);
-		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_25;
-		L_25 = AndroidJavaObject_Call_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_m020246E0988293B6126B690BD6CE4D894276AA3D(L_18, _stringLiteralF0DFD88B71BA2D095018DE492D01EDE1C32D4BD4, L_23, AndroidJavaObject_Call_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_m020246E0988293B6126B690BD6CE4D894276AA3D_RuntimeMethod_var);
+		ArrayElementTypeCheck (L_18, L_20);
+		(L_18)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_20);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_21 = L_18;
+		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_22 = V_4;
+		NullCheck(L_21);
+		ArrayElementTypeCheck (L_21, L_22);
+		(L_21)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_22);
+		NullCheck(L_16);
+		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_23;
+		L_23 = AndroidJavaObject_Call_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_m020246E0988293B6126B690BD6CE4D894276AA3D(L_16, _stringLiteralF0DFD88B71BA2D095018DE492D01EDE1C32D4BD4, L_21, AndroidJavaObject_Call_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_m020246E0988293B6126B690BD6CE4D894276AA3D_RuntimeMethod_var);
 		// intentObject.Call<AndroidJavaObject>("setType", "image/png");
-		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_26 = V_1;
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_27 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)1);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_28 = L_27;
-		NullCheck(L_28);
-		ArrayElementTypeCheck (L_28, _stringLiteral75E05143EB132AAA8A22B48813DB8E6047380821);
-		(L_28)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)_stringLiteral75E05143EB132AAA8A22B48813DB8E6047380821);
+		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_24 = V_1;
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_25 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)1);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_26 = L_25;
 		NullCheck(L_26);
-		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_29;
-		L_29 = AndroidJavaObject_Call_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_m020246E0988293B6126B690BD6CE4D894276AA3D(L_26, _stringLiteral76C41506C48C50491E7B491CC16239D496B8C6CA, L_28, AndroidJavaObject_Call_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_m020246E0988293B6126B690BD6CE4D894276AA3D_RuntimeMethod_var);
-		goto IL_00d3;
+		ArrayElementTypeCheck (L_26, _stringLiteral75E05143EB132AAA8A22B48813DB8E6047380821);
+		(L_26)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)_stringLiteral75E05143EB132AAA8A22B48813DB8E6047380821);
+		NullCheck(L_24);
+		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_27;
+		L_27 = AndroidJavaObject_Call_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_m020246E0988293B6126B690BD6CE4D894276AA3D(L_24, _stringLiteral76C41506C48C50491E7B491CC16239D496B8C6CA, L_26, AndroidJavaObject_Call_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_m020246E0988293B6126B690BD6CE4D894276AA3D_RuntimeMethod_var);
+		goto IL_00c3;
 	}
 
-IL_00b7:
+IL_00a9:
 	{
 		// intentObject.Call<AndroidJavaObject>("setType", "text/plain");
-		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_30 = V_1;
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_31 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)1);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_32 = L_31;
-		NullCheck(L_32);
-		ArrayElementTypeCheck (L_32, _stringLiteral67184A92CF8F6E59BA82AAF4A94C237CF2E0EB48);
-		(L_32)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)_stringLiteral67184A92CF8F6E59BA82AAF4A94C237CF2E0EB48);
+		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_28 = V_1;
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_29 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)1);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_30 = L_29;
 		NullCheck(L_30);
-		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_33;
-		L_33 = AndroidJavaObject_Call_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_m020246E0988293B6126B690BD6CE4D894276AA3D(L_30, _stringLiteral76C41506C48C50491E7B491CC16239D496B8C6CA, L_32, AndroidJavaObject_Call_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_m020246E0988293B6126B690BD6CE4D894276AA3D_RuntimeMethod_var);
+		ArrayElementTypeCheck (L_30, _stringLiteral67184A92CF8F6E59BA82AAF4A94C237CF2E0EB48);
+		(L_30)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)_stringLiteral67184A92CF8F6E59BA82AAF4A94C237CF2E0EB48);
+		NullCheck(L_28);
+		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_31;
+		L_31 = AndroidJavaObject_Call_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_m020246E0988293B6126B690BD6CE4D894276AA3D(L_28, _stringLiteral76C41506C48C50491E7B491CC16239D496B8C6CA, L_30, AndroidJavaObject_Call_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_m020246E0988293B6126B690BD6CE4D894276AA3D_RuntimeMethod_var);
 	}
 
-IL_00d3:
+IL_00c3:
 	{
 		// intentObject.Call<AndroidJavaObject>("putExtra", intentClass.GetStatic<string>("EXTRA_TEXT"), shareText);
-		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_34 = V_1;
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_35 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)2);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_36 = L_35;
-		AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* L_37 = V_0;
-		NullCheck(L_37);
-		String_t* L_38;
-		L_38 = AndroidJavaObject_GetStatic_TisString_t_mF408A1C0C6E5BF8154F00A450A97A51B2ABFCBDE(L_37, _stringLiteral3DFC2D8E2B0854967C8EA0AC932952BDB07081DD, AndroidJavaObject_GetStatic_TisString_t_mF408A1C0C6E5BF8154F00A450A97A51B2ABFCBDE_RuntimeMethod_var);
-		NullCheck(L_36);
-		ArrayElementTypeCheck (L_36, L_38);
-		(L_36)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_38);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_39 = L_36;
-		String_t* L_40 = ___0_shareText;
-		NullCheck(L_39);
-		ArrayElementTypeCheck (L_39, L_40);
-		(L_39)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_40);
+		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_32 = V_1;
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_33 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)2);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_34 = L_33;
+		AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* L_35 = V_0;
+		NullCheck(L_35);
+		String_t* L_36;
+		L_36 = AndroidJavaObject_GetStatic_TisString_t_mF408A1C0C6E5BF8154F00A450A97A51B2ABFCBDE(L_35, _stringLiteral3DFC2D8E2B0854967C8EA0AC932952BDB07081DD, AndroidJavaObject_GetStatic_TisString_t_mF408A1C0C6E5BF8154F00A450A97A51B2ABFCBDE_RuntimeMethod_var);
 		NullCheck(L_34);
-		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_41;
-		L_41 = AndroidJavaObject_Call_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_m020246E0988293B6126B690BD6CE4D894276AA3D(L_34, _stringLiteralF0DFD88B71BA2D095018DE492D01EDE1C32D4BD4, L_39, AndroidJavaObject_Call_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_m020246E0988293B6126B690BD6CE4D894276AA3D_RuntimeMethod_var);
+		ArrayElementTypeCheck (L_34, L_36);
+		(L_34)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_36);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_37 = L_34;
+		String_t* L_38 = ___0_shareText;
+		NullCheck(L_37);
+		ArrayElementTypeCheck (L_37, L_38);
+		(L_37)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_38);
+		NullCheck(L_32);
+		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_39;
+		L_39 = AndroidJavaObject_Call_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_m020246E0988293B6126B690BD6CE4D894276AA3D(L_32, _stringLiteralF0DFD88B71BA2D095018DE492D01EDE1C32D4BD4, L_37, AndroidJavaObject_Call_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_m020246E0988293B6126B690BD6CE4D894276AA3D_RuntimeMethod_var);
 		// AndroidJavaClass unity = new AndroidJavaClass("com.unity3d.player.UnityPlayer");
-		AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* L_42 = (AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03*)il2cpp_codegen_object_new(AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03_il2cpp_TypeInfo_var);
-		NullCheck(L_42);
-		AndroidJavaClass__ctor_mB5466169E1151B8CC44C8FED234D79984B431389(L_42, _stringLiteral4D613657609485AE586A3379BA0E3FC13C1E1078, NULL);
-		V_2 = L_42;
+		AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* L_40 = (AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03*)il2cpp_codegen_object_new(AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03_il2cpp_TypeInfo_var);
+		NullCheck(L_40);
+		AndroidJavaClass__ctor_mB5466169E1151B8CC44C8FED234D79984B431389(L_40, _stringLiteral4D613657609485AE586A3379BA0E3FC13C1E1078, NULL);
 		// AndroidJavaObject currentActivity = unity.GetStatic<AndroidJavaObject>("currentActivity");
-		AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* L_43 = V_2;
-		NullCheck(L_43);
-		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_44;
-		L_44 = AndroidJavaObject_GetStatic_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_mD7D192A35EB2B2DA3775FAB081958B72088251DD(L_43, _stringLiteralFB4AE4F77150C3A8E8E4F8B23E734E0C7277B7D9, AndroidJavaObject_GetStatic_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_mD7D192A35EB2B2DA3775FAB081958B72088251DD_RuntimeMethod_var);
-		V_3 = L_44;
+		NullCheck(L_40);
+		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_41;
+		L_41 = AndroidJavaObject_GetStatic_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_mD7D192A35EB2B2DA3775FAB081958B72088251DD(L_40, _stringLiteralFB4AE4F77150C3A8E8E4F8B23E734E0C7277B7D9, AndroidJavaObject_GetStatic_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_mD7D192A35EB2B2DA3775FAB081958B72088251DD_RuntimeMethod_var);
+		V_2 = L_41;
 		// AndroidJavaObject jChooser = intentClass.CallStatic<AndroidJavaObject>("createChooser", intentObject, subject);
-		AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* L_45 = V_0;
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_46 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)2);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_47 = L_46;
-		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_48 = V_1;
-		NullCheck(L_47);
-		ArrayElementTypeCheck (L_47, L_48);
-		(L_47)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_48);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_49 = L_47;
-		String_t* L_50 = ___3_subject;
-		NullCheck(L_49);
-		ArrayElementTypeCheck (L_49, L_50);
-		(L_49)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_50);
-		NullCheck(L_45);
-		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_51;
-		L_51 = AndroidJavaObject_CallStatic_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_m398EA96C1DE1BB885F2B1DD0E00E8BBA86B49E63(L_45, _stringLiteral54E9884C2A8A9804F2757FB402718D03522F4946, L_49, AndroidJavaObject_CallStatic_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_m398EA96C1DE1BB885F2B1DD0E00E8BBA86B49E63_RuntimeMethod_var);
-		V_4 = L_51;
+		AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* L_42 = V_0;
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_43 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)2);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_44 = L_43;
+		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_45 = V_1;
+		NullCheck(L_44);
+		ArrayElementTypeCheck (L_44, L_45);
+		(L_44)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_45);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_46 = L_44;
+		String_t* L_47 = ___3_subject;
+		NullCheck(L_46);
+		ArrayElementTypeCheck (L_46, L_47);
+		(L_46)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject*)L_47);
+		NullCheck(L_42);
+		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_48;
+		L_48 = AndroidJavaObject_CallStatic_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_m398EA96C1DE1BB885F2B1DD0E00E8BBA86B49E63(L_42, _stringLiteral54E9884C2A8A9804F2757FB402718D03522F4946, L_46, AndroidJavaObject_CallStatic_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_m398EA96C1DE1BB885F2B1DD0E00E8BBA86B49E63_RuntimeMethod_var);
+		V_3 = L_48;
 		// currentActivity.Call("startActivity", jChooser);
+		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_49 = V_2;
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_50 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)1);
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_51 = L_50;
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_52 = V_3;
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_53 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)1);
-		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_54 = L_53;
-		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_55 = V_4;
-		NullCheck(L_54);
-		ArrayElementTypeCheck (L_54, L_55);
-		(L_54)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_55);
-		NullCheck(L_52);
-		AndroidJavaObject_Call_mDEF7846E2AB1C5379069BB21049ED55A9D837B1C(L_52, _stringLiteral6CB60CD0F517BE0AB5DBF3CCB647F6428F1FA6D1, L_54, NULL);
+		NullCheck(L_51);
+		ArrayElementTypeCheck (L_51, L_52);
+		(L_51)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_52);
+		NullCheck(L_49);
+		AndroidJavaObject_Call_mDEF7846E2AB1C5379069BB21049ED55A9D837B1C(L_49, _stringLiteral6CB60CD0F517BE0AB5DBF3CCB647F6428F1FA6D1, L_51, NULL);
 		// }
 		return;
 	}
@@ -1788,94 +1776,74 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CdelayedShareU3Ed__2_MoveNext_m762985C
 		s_Il2CppMethodInitialized = true;
 	}
 	int32_t V_0 = 0;
-	bool V_1 = false;
+	NativeShare_t0B7C725A1FCE1E52BA01E79041E8138DFE73D1D4* V_1 = NULL;
 	{
 		int32_t L_0 = __this->___U3CU3E1__state_0;
 		V_0 = L_0;
-		int32_t L_1 = V_0;
-		switch (L_1)
+		NativeShare_t0B7C725A1FCE1E52BA01E79041E8138DFE73D1D4* L_1 = __this->___U3CU3E4__this_3;
+		V_1 = L_1;
+		int32_t L_2 = V_0;
+		switch (L_2)
 		{
 			case 0:
 			{
-				goto IL_001b;
+				goto IL_0022;
 			}
 			case 1:
 			{
-				goto IL_001d;
+				goto IL_004e;
 			}
 			case 2:
 			{
-				goto IL_001f;
+				goto IL_008e;
 			}
 		}
 	}
 	{
-		goto IL_0021;
-	}
-
-IL_001b:
-	{
-		goto IL_0023;
-	}
-
-IL_001d:
-	{
-		goto IL_0052;
-	}
-
-IL_001f:
-	{
-		goto IL_009e;
-	}
-
-IL_0021:
-	{
 		return (bool)0;
 	}
 
-IL_0023:
+IL_0022:
 	{
 		__this->___U3CU3E1__state_0 = (-1);
 		// Debug.Log("Delay share");
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral64EA3A4D4CEAA0103D370C28892B3E60E5F08818, NULL);
-		goto IL_005a;
+		goto IL_0055;
 	}
 
-IL_0038:
+IL_0035:
 	{
 		// yield return new WaitForSeconds(.05f);
-		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_2 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
-		NullCheck(L_2);
-		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_2, (0.0500000007f), NULL);
-		__this->___U3CU3E2__current_1 = L_2;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current_1), (void*)L_2);
+		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_3 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
+		NullCheck(L_3);
+		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_3, (0.0500000007f), NULL);
+		__this->___U3CU3E2__current_1 = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current_1), (void*)L_3);
 		__this->___U3CU3E1__state_0 = 1;
 		return (bool)1;
 	}
 
-IL_0052:
+IL_004e:
 	{
 		__this->___U3CU3E1__state_0 = (-1);
 	}
 
-IL_005a:
+IL_0055:
 	{
 		// while (!File.Exists(screenShotPath))
-		String_t* L_3 = __this->___screenShotPath_2;
-		bool L_4;
-		L_4 = File_Exists_m95E329ABBE3EAD6750FE1989BBA6884457136D4A(L_3, NULL);
-		V_1 = (bool)((((int32_t)L_4) == ((int32_t)0))? 1 : 0);
-		bool L_5 = V_1;
-		if (L_5)
+		String_t* L_4 = __this->___screenShotPath_2;
+		bool L_5;
+		L_5 = File_Exists_m95E329ABBE3EAD6750FE1989BBA6884457136D4A(L_4, NULL);
+		if (!L_5)
 		{
-			goto IL_0038;
+			goto IL_0035;
 		}
 	}
 	{
 		// Share(text, screenShotPath, "");
-		NativeShare_t0B7C725A1FCE1E52BA01E79041E8138DFE73D1D4* L_6 = __this->___U3CU3E4__this_4;
-		String_t* L_7 = __this->___text_3;
+		NativeShare_t0B7C725A1FCE1E52BA01E79041E8138DFE73D1D4* L_6 = V_1;
+		String_t* L_7 = __this->___text_4;
 		String_t* L_8 = __this->___screenShotPath_2;
 		NullCheck(L_6);
 		NativeShare_Share_m4EA92FA14509DB032AEFF37A80EFEC673BA45260(L_6, L_7, L_8, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, NULL);
@@ -1886,7 +1854,7 @@ IL_005a:
 		return (bool)1;
 	}
 
-IL_009e:
+IL_008e:
 	{
 		__this->___U3CU3E1__state_0 = (-1);
 		// }
@@ -2256,8 +2224,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 	memset((&V_5), 0, sizeof(V_5));
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_6;
 	memset((&V_6), 0, sizeof(V_6));
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_7;
-	memset((&V_7), 0, sizeof(V_7));
 	{
 		// int numSections = pts.Length - 3;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_0 = __this->___pts_0;
@@ -2367,15 +2333,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 		L_62 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_59, L_61, NULL);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_63;
 		L_63 = Vector3_op_Multiply_m7F3B0FA9256CE368D7636558EFEFC4AB0E1A0F41_inline((0.5f), L_62, NULL);
-		V_7 = L_63;
-		goto IL_0114;
-	}
-
-IL_0114:
-	{
-		// }
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_64 = V_7;
-		return L_64;
+		return L_63;
 	}
 }
 #ifdef __clang__
@@ -2413,95 +2371,75 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CTweenDelayU3Ed__145_MoveNext_m3F9BEA5
 		s_Il2CppMethodInitialized = true;
 	}
 	int32_t V_0 = 0;
-	bool V_1 = false;
+	iTween_tC88C6F153D4639FF44518ED4B54A2E44BC3DC6AE* V_1 = NULL;
 	{
 		int32_t L_0 = __this->___U3CU3E1__state_0;
 		V_0 = L_0;
-		int32_t L_1 = V_0;
-		if (!L_1)
-		{
-			goto IL_0012;
-		}
-	}
-	{
-		goto IL_000c;
-	}
-
-IL_000c:
-	{
+		iTween_tC88C6F153D4639FF44518ED4B54A2E44BC3DC6AE* L_1 = __this->___U3CU3E4__this_2;
+		V_1 = L_1;
 		int32_t L_2 = V_0;
-		if ((((int32_t)L_2) == ((int32_t)1)))
+		if (!L_2)
 		{
-			goto IL_0014;
+			goto IL_0017;
 		}
 	}
 	{
-		goto IL_0016;
+		int32_t L_3 = V_0;
+		if ((((int32_t)L_3) == ((int32_t)1)))
+		{
+			goto IL_0043;
+		}
 	}
-
-IL_0012:
-	{
-		goto IL_0018;
-	}
-
-IL_0014:
-	{
-		goto IL_004f;
-	}
-
-IL_0016:
 	{
 		return (bool)0;
 	}
 
-IL_0018:
+IL_0017:
 	{
 		__this->___U3CU3E1__state_0 = (-1);
 		// delayStarted = Time.time;
-		iTween_tC88C6F153D4639FF44518ED4B54A2E44BC3DC6AE* L_3 = __this->___U3CU3E4__this_2;
-		float L_4;
-		L_4 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
-		NullCheck(L_3);
-		L_3->___delayStarted_17 = L_4;
+		iTween_tC88C6F153D4639FF44518ED4B54A2E44BC3DC6AE* L_4 = V_1;
+		float L_5;
+		L_5 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
+		NullCheck(L_4);
+		L_4->___delayStarted_17 = L_5;
 		// yield return new WaitForSeconds (delay);
-		iTween_tC88C6F153D4639FF44518ED4B54A2E44BC3DC6AE* L_5 = __this->___U3CU3E4__this_2;
-		NullCheck(L_5);
-		float L_6 = L_5->___delay_10;
-		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_7 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
-		NullCheck(L_7);
-		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_7, L_6, NULL);
-		__this->___U3CU3E2__current_1 = L_7;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current_1), (void*)L_7);
+		iTween_tC88C6F153D4639FF44518ED4B54A2E44BC3DC6AE* L_6 = V_1;
+		NullCheck(L_6);
+		float L_7 = L_6->___delay_10;
+		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_8 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
+		NullCheck(L_8);
+		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_8, L_7, NULL);
+		__this->___U3CU3E2__current_1 = L_8;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current_1), (void*)L_8);
 		__this->___U3CU3E1__state_0 = 1;
 		return (bool)1;
 	}
 
-IL_004f:
+IL_0043:
 	{
 		__this->___U3CU3E1__state_0 = (-1);
 		// if(wasPaused){
-		iTween_tC88C6F153D4639FF44518ED4B54A2E44BC3DC6AE* L_8 = __this->___U3CU3E4__this_2;
-		NullCheck(L_8);
-		bool L_9 = L_8->___wasPaused_22;
-		V_1 = L_9;
-		bool L_10 = V_1;
+		iTween_tC88C6F153D4639FF44518ED4B54A2E44BC3DC6AE* L_9 = V_1;
+		NullCheck(L_9);
+		bool L_10 = L_9->___wasPaused_22;
 		if (!L_10)
 		{
-			goto IL_007f;
+			goto IL_005f;
 		}
 	}
 	{
 		// wasPaused=false;
-		iTween_tC88C6F153D4639FF44518ED4B54A2E44BC3DC6AE* L_11 = __this->___U3CU3E4__this_2;
+		iTween_tC88C6F153D4639FF44518ED4B54A2E44BC3DC6AE* L_11 = V_1;
 		NullCheck(L_11);
 		L_11->___wasPaused_22 = (bool)0;
 		// TweenStart();
-		iTween_tC88C6F153D4639FF44518ED4B54A2E44BC3DC6AE* L_12 = __this->___U3CU3E4__this_2;
+		iTween_tC88C6F153D4639FF44518ED4B54A2E44BC3DC6AE* L_12 = V_1;
 		NullCheck(L_12);
 		iTween_TweenStart_mB5252F8A233491758874358A5D10BC91E236ABB5(L_12, NULL);
 	}
 
-IL_007f:
+IL_005f:
 	{
 		// }
 		return (bool)0;
@@ -2568,70 +2506,50 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CTweenRestartU3Ed__147_MoveNext_m9615D
 		s_Il2CppMethodInitialized = true;
 	}
 	int32_t V_0 = 0;
-	bool V_1 = false;
+	iTween_tC88C6F153D4639FF44518ED4B54A2E44BC3DC6AE* V_1 = NULL;
 	{
 		int32_t L_0 = __this->___U3CU3E1__state_0;
 		V_0 = L_0;
-		int32_t L_1 = V_0;
-		if (!L_1)
-		{
-			goto IL_0012;
-		}
-	}
-	{
-		goto IL_000c;
-	}
-
-IL_000c:
-	{
+		iTween_tC88C6F153D4639FF44518ED4B54A2E44BC3DC6AE* L_1 = __this->___U3CU3E4__this_2;
+		V_1 = L_1;
 		int32_t L_2 = V_0;
-		if ((((int32_t)L_2) == ((int32_t)1)))
+		if (!L_2)
 		{
-			goto IL_0014;
+			goto IL_0017;
 		}
 	}
 	{
-		goto IL_0016;
+		int32_t L_3 = V_0;
+		if ((((int32_t)L_3) == ((int32_t)1)))
+		{
+			goto IL_0050;
+		}
 	}
-
-IL_0012:
-	{
-		goto IL_0018;
-	}
-
-IL_0014:
-	{
-		goto IL_0066;
-	}
-
-IL_0016:
 	{
 		return (bool)0;
 	}
 
-IL_0018:
+IL_0017:
 	{
 		__this->___U3CU3E1__state_0 = (-1);
 		// if(delay > 0){
-		iTween_tC88C6F153D4639FF44518ED4B54A2E44BC3DC6AE* L_3 = __this->___U3CU3E4__this_2;
-		NullCheck(L_3);
-		float L_4 = L_3->___delay_10;
-		V_1 = (bool)((((float)L_4) > ((float)(0.0f)))? 1 : 0);
-		bool L_5 = V_1;
-		if (!L_5)
+		iTween_tC88C6F153D4639FF44518ED4B54A2E44BC3DC6AE* L_4 = V_1;
+		NullCheck(L_4);
+		float L_5 = L_4->___delay_10;
+		if ((!(((float)L_5) > ((float)(0.0f)))))
 		{
-			goto IL_006e;
+			goto IL_0057;
 		}
 	}
 	{
 		// delayStarted = Time.time;
-		iTween_tC88C6F153D4639FF44518ED4B54A2E44BC3DC6AE* L_6 = __this->___U3CU3E4__this_2;
+		iTween_tC88C6F153D4639FF44518ED4B54A2E44BC3DC6AE* L_6 = V_1;
 		float L_7;
 		L_7 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
 		NullCheck(L_6);
 		L_6->___delayStarted_17 = L_7;
 		// yield return new WaitForSeconds (delay);
-		iTween_tC88C6F153D4639FF44518ED4B54A2E44BC3DC6AE* L_8 = __this->___U3CU3E4__this_2;
+		iTween_tC88C6F153D4639FF44518ED4B54A2E44BC3DC6AE* L_8 = V_1;
 		NullCheck(L_8);
 		float L_9 = L_8->___delay_10;
 		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_10 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
@@ -2643,19 +2561,19 @@ IL_0018:
 		return (bool)1;
 	}
 
-IL_0066:
+IL_0050:
 	{
 		__this->___U3CU3E1__state_0 = (-1);
 	}
 
-IL_006e:
+IL_0057:
 	{
 		// loop=true;
-		iTween_tC88C6F153D4639FF44518ED4B54A2E44BC3DC6AE* L_11 = __this->___U3CU3E4__this_2;
+		iTween_tC88C6F153D4639FF44518ED4B54A2E44BC3DC6AE* L_11 = V_1;
 		NullCheck(L_11);
 		L_11->___loop_20 = (bool)1;
 		// TweenStart();
-		iTween_tC88C6F153D4639FF44518ED4B54A2E44BC3DC6AE* L_12 = __this->___U3CU3E4__this_2;
+		iTween_tC88C6F153D4639FF44518ED4B54A2E44BC3DC6AE* L_12 = V_1;
 		NullCheck(L_12);
 		iTween_TweenStart_mB5252F8A233491758874358A5D10BC91E236ABB5(L_12, NULL);
 		// }
@@ -2723,64 +2641,44 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CStartU3Ed__229_MoveNext_mB6D380267754
 		s_Il2CppMethodInitialized = true;
 	}
 	int32_t V_0 = 0;
-	bool V_1 = false;
+	iTween_tC88C6F153D4639FF44518ED4B54A2E44BC3DC6AE* V_1 = NULL;
 	{
 		int32_t L_0 = __this->___U3CU3E1__state_0;
 		V_0 = L_0;
-		int32_t L_1 = V_0;
-		if (!L_1)
-		{
-			goto IL_0012;
-		}
-	}
-	{
-		goto IL_000c;
-	}
-
-IL_000c:
-	{
+		iTween_tC88C6F153D4639FF44518ED4B54A2E44BC3DC6AE* L_1 = __this->___U3CU3E4__this_2;
+		V_1 = L_1;
 		int32_t L_2 = V_0;
-		if ((((int32_t)L_2) == ((int32_t)1)))
+		if (!L_2)
 		{
-			goto IL_0014;
+			goto IL_0017;
 		}
 	}
 	{
-		goto IL_0016;
+		int32_t L_3 = V_0;
+		if ((((int32_t)L_3) == ((int32_t)1)))
+		{
+			goto IL_0045;
+		}
 	}
-
-IL_0012:
-	{
-		goto IL_0018;
-	}
-
-IL_0014:
-	{
-		goto IL_0056;
-	}
-
-IL_0016:
 	{
 		return (bool)0;
 	}
 
-IL_0018:
+IL_0017:
 	{
 		__this->___U3CU3E1__state_0 = (-1);
 		// if(delay > 0){
-		iTween_tC88C6F153D4639FF44518ED4B54A2E44BC3DC6AE* L_3 = __this->___U3CU3E4__this_2;
-		NullCheck(L_3);
-		float L_4 = L_3->___delay_10;
-		V_1 = (bool)((((float)L_4) > ((float)(0.0f)))? 1 : 0);
-		bool L_5 = V_1;
-		if (!L_5)
+		iTween_tC88C6F153D4639FF44518ED4B54A2E44BC3DC6AE* L_4 = V_1;
+		NullCheck(L_4);
+		float L_5 = L_4->___delay_10;
+		if ((!(((float)L_5) > ((float)(0.0f)))))
 		{
-			goto IL_005e;
+			goto IL_004c;
 		}
 	}
 	{
 		// yield return StartCoroutine("TweenDelay");
-		iTween_tC88C6F153D4639FF44518ED4B54A2E44BC3DC6AE* L_6 = __this->___U3CU3E4__this_2;
+		iTween_tC88C6F153D4639FF44518ED4B54A2E44BC3DC6AE* L_6 = V_1;
 		NullCheck(L_6);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_7;
 		L_7 = MonoBehaviour_StartCoroutine_m10C4B693B96175C42B0FD00911E072701C220DB4(L_6, _stringLiteralB0658EBD7117F5F9DCFBFF0FBF0210D62373F387, NULL);
@@ -2790,15 +2688,15 @@ IL_0018:
 		return (bool)1;
 	}
 
-IL_0056:
+IL_0045:
 	{
 		__this->___U3CU3E1__state_0 = (-1);
 	}
 
-IL_005e:
+IL_004c:
 	{
 		// TweenStart();
-		iTween_tC88C6F153D4639FF44518ED4B54A2E44BC3DC6AE* L_8 = __this->___U3CU3E4__this_2;
+		iTween_tC88C6F153D4639FF44518ED4B54A2E44BC3DC6AE* L_8 = V_1;
 		NullCheck(L_8);
 		iTween_TweenStart_mB5252F8A233491758874358A5D10BC91E236ABB5(L_8, NULL);
 		// }
@@ -3016,7 +2914,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SampleInfo_OnGUI_m0FE7127B70E2C60835E302
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE80F6E8491010499B7D49D765924D7ACBD9F9967);
 		s_Il2CppMethodInitialized = true;
 	}
-	bool V_0 = false;
 	{
 		// GUILayout.Label("iTween can spin, shake, punch, move, handle audio, fade color and transparency \nand much more with each task needing only one line of code.");
 		GUILayoutOptionU5BU5D_t24AB80AB9355D784F2C65E12A4D0CC2E0C914CA2* L_0;
@@ -3035,11 +2932,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SampleInfo_OnGUI_m0FE7127B70E2C60835E302
 		L_3 = Array_Empty_TisGUILayoutOption_t8B0AA056521747053A3176FCC43E9C3608940A14_mC7F345AC4C0CA86560FAA00174268F70FBBE577F_inline(Array_Empty_TisGUILayoutOption_t8B0AA056521747053A3176FCC43E9C3608940A14_mC7F345AC4C0CA86560FAA00174268F70FBBE577F_RuntimeMethod_var);
 		bool L_4;
 		L_4 = GUILayout_Button_m8CF27DB531C6A54FF0F7BD8CDE4FB5030B159E9E(_stringLiteral1A2CC37DDC5F3BB20ABA156EB40A3ABE9A0B1A1B, L_3, NULL);
-		V_0 = L_4;
-		bool L_5 = V_0;
-		if (!L_5)
+		if (!L_4)
 		{
-			goto IL_004c;
+			goto IL_0043;
 		}
 	}
 	{
@@ -3047,7 +2942,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SampleInfo_OnGUI_m0FE7127B70E2C60835E302
 		Application_OpenURL_mE748FA4D503715DEE12BCA4BDD8A5305AE41DB89(_stringLiteral1A2CC37DDC5F3BB20ABA156EB40A3ABE9A0B1A1B, NULL);
 	}
 
-IL_004c:
+IL_0043:
 	{
 		// GUILayout.EndHorizontal();
 		GUILayout_EndHorizontal_m694C622FEE40FFF0DD77EFFD026F899C193507C0(NULL);
@@ -3080,7 +2975,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t U3CPrivateImplementationDetailsU3E_C
 		String_t* L_0 = ___0_s;
 		if (!L_0)
 		{
-			goto IL_002c;
+			goto IL_002a;
 		}
 	}
 	{
@@ -3109,16 +3004,13 @@ IL_0021:
 		NullCheck(L_7);
 		int32_t L_8;
 		L_8 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_7, NULL);
-		if ((((int32_t)L_6) >= ((int32_t)L_8)))
+		if ((((int32_t)L_6) < ((int32_t)L_8)))
 		{
-			goto IL_002c;
+			goto IL_000d;
 		}
 	}
-	{
-		goto IL_000d;
-	}
 
-IL_002c:
+IL_002a:
 	{
 		uint32_t L_9 = V_0;
 		return L_9;

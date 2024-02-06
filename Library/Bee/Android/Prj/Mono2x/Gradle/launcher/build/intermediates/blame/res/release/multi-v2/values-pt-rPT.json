@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Game Build\\Real Win Jeeto 2\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-pt-rPT\\values-pt-rPT.xml",
+            "outputFile": "C:\\Game Build\\Real-Win-Jeeto\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-pt-rPT\\values-pt-rPT.xml",
             "map": [
                 {
                     "source": "C:\\Users\\palpr\\.gradle\\caches\\transforms-2\\files-2.1\\fbdb4bd3ff214299c95f36e04daf761a\\jetified-play-services-basement-17.6.0\\res\\values-pt-rPT\\values.xml",

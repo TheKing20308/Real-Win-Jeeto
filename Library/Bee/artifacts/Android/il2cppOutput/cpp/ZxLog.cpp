@@ -367,52 +367,49 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Print_CustomLog_mB658B7B038C08780D563B34
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF32F3E56650C3F80BE23A9D6B31340C467EACE97);
 		s_Il2CppMethodInitialized = true;
 	}
-	bool V_0 = false;
 	{
 		// if (IsValidHexCode(hexCode))
 		String_t* L_0 = ___1_hexCode;
 		il2cpp_codegen_runtime_class_init_inline(Print_tABE5AC1243446FAEFFF7EBD0779B5AE34262E1D1_il2cpp_TypeInfo_var);
 		bool L_1;
 		L_1 = Print_IsValidHexCode_m433E28D75191B4CA902CE9A8277B983B9A01C5EB(L_0, NULL);
-		V_0 = L_1;
-		bool L_2 = V_0;
-		if (!L_2)
+		if (!L_1)
 		{
-			goto IL_003e;
+			goto IL_0038;
 		}
 	}
 	{
 		// Debug.Log($"<color={hexCode}>{message}</color>");
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_3 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)5);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_2 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)5);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_3 = L_2;
+		NullCheck(L_3);
+		ArrayElementTypeCheck (L_3, _stringLiteralF32F3E56650C3F80BE23A9D6B31340C467EACE97);
+		(L_3)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteralF32F3E56650C3F80BE23A9D6B31340C467EACE97);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_4 = L_3;
+		String_t* L_5 = ___1_hexCode;
 		NullCheck(L_4);
-		ArrayElementTypeCheck (L_4, _stringLiteralF32F3E56650C3F80BE23A9D6B31340C467EACE97);
-		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteralF32F3E56650C3F80BE23A9D6B31340C467EACE97);
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_5 = L_4;
-		String_t* L_6 = ___1_hexCode;
-		NullCheck(L_5);
-		ArrayElementTypeCheck (L_5, L_6);
-		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)L_6);
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_7 = L_5;
+		ArrayElementTypeCheck (L_4, L_5);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)L_5);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_6 = L_4;
+		NullCheck(L_6);
+		ArrayElementTypeCheck (L_6, _stringLiteralEF8AE9E6CBCFDABA932FBEB4C85964F450F724F5);
+		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteralEF8AE9E6CBCFDABA932FBEB4C85964F450F724F5);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_7 = L_6;
+		String_t* L_8 = ___0_message;
 		NullCheck(L_7);
-		ArrayElementTypeCheck (L_7, _stringLiteralEF8AE9E6CBCFDABA932FBEB4C85964F450F724F5);
-		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteralEF8AE9E6CBCFDABA932FBEB4C85964F450F724F5);
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_8 = L_7;
-		String_t* L_9 = ___0_message;
-		NullCheck(L_8);
-		ArrayElementTypeCheck (L_8, L_9);
-		(L_8)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)L_9);
-		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_10 = L_8;
-		NullCheck(L_10);
-		ArrayElementTypeCheck (L_10, _stringLiteralCBE844AF922BC0AC1AB4CA94466DC7FD7038D0E2);
-		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(4), (String_t*)_stringLiteralCBE844AF922BC0AC1AB4CA94466DC7FD7038D0E2);
-		String_t* L_11;
-		L_11 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_10, NULL);
+		ArrayElementTypeCheck (L_7, L_8);
+		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)L_8);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_9 = L_7;
+		NullCheck(L_9);
+		ArrayElementTypeCheck (L_9, _stringLiteralCBE844AF922BC0AC1AB4CA94466DC7FD7038D0E2);
+		(L_9)->SetAt(static_cast<il2cpp_array_size_t>(4), (String_t*)_stringLiteralCBE844AF922BC0AC1AB4CA94466DC7FD7038D0E2);
+		String_t* L_10;
+		L_10 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_9, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_11, NULL);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_10, NULL);
 	}
 
-IL_003e:
+IL_0038:
 	{
 		// }
 		return;
@@ -430,34 +427,31 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Print_CustomLog_m7A09D0CE3653F98690D356C
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral197FB9B83D286C318AFC75AADAC7004FA8597204);
 		s_Il2CppMethodInitialized = true;
 	}
-	bool V_0 = false;
 	{
 		// if (IsValidHexCode(hexCode))
 		String_t* L_0 = ___2_hexCode;
 		il2cpp_codegen_runtime_class_init_inline(Print_tABE5AC1243446FAEFFF7EBD0779B5AE34262E1D1_il2cpp_TypeInfo_var);
 		bool L_1;
 		L_1 = Print_IsValidHexCode_m433E28D75191B4CA902CE9A8277B983B9A01C5EB(L_0, NULL);
-		V_0 = L_1;
-		bool L_2 = V_0;
-		if (!L_2)
+		if (!L_1)
 		{
-			goto IL_0025;
+			goto IL_001f;
 		}
 	}
 	{
 		// Debug.Log($"<b><size={fontSize}><color={hexCode}>{message}</color></size></b>");
-		int32_t L_3 = ___1_fontSize;
-		int32_t L_4 = L_3;
-		RuntimeObject* L_5 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_4);
-		String_t* L_6 = ___2_hexCode;
-		String_t* L_7 = ___0_message;
-		String_t* L_8;
-		L_8 = String_Format_mA0534D6E2AE4D67A6BD8D45B3321323930EB930C(_stringLiteral197FB9B83D286C318AFC75AADAC7004FA8597204, L_5, L_6, L_7, NULL);
+		int32_t L_2 = ___1_fontSize;
+		int32_t L_3 = L_2;
+		RuntimeObject* L_4 = Box(Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_il2cpp_TypeInfo_var, &L_3);
+		String_t* L_5 = ___2_hexCode;
+		String_t* L_6 = ___0_message;
+		String_t* L_7;
+		L_7 = String_Format_mA0534D6E2AE4D67A6BD8D45B3321323930EB930C(_stringLiteral197FB9B83D286C318AFC75AADAC7004FA8597204, L_4, L_5, L_6, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_8, NULL);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_7, NULL);
 	}
 
-IL_0025:
+IL_001f:
 	{
 		// }
 		return;
@@ -473,22 +467,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Print_IsValidHexCode_m433E28D75191B4CA90
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6EF2B79F1C8017C73EFBCF0016915B4A4A42E5D8);
 		s_Il2CppMethodInitialized = true;
 	}
-	bool V_0 = false;
 	{
 		// return Regex.IsMatch(hexCode, "^#(?:[0-9a-fA-F]{3}){1,2}$");
 		String_t* L_0 = ___0_hexCode;
 		il2cpp_codegen_runtime_class_init_inline(Regex_tE773142C2BE45C5D362B0F815AFF831707A51772_il2cpp_TypeInfo_var);
 		bool L_1;
 		L_1 = Regex_IsMatch_m66D13054C7992322810B0CFC6B46AF11A927C9AA(L_0, _stringLiteral6EF2B79F1C8017C73EFBCF0016915B4A4A42E5D8, NULL);
-		V_0 = L_1;
-		goto IL_000f;
-	}
-
-IL_000f:
-	{
-		// }
-		bool L_2 = V_0;
-		return L_2;
+		return L_1;
 	}
 }
 // System.Void ZxLog.Print::.cctor()

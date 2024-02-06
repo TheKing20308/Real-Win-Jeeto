@@ -1734,6 +1734,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_GameObject_set_layer();
 		Register_UnityEngine_GameObject_set_layer();
 
+		//System.Void UnityEngine.GameObject::set_tag(System.String)
+		void Register_UnityEngine_GameObject_set_tag();
+		Register_UnityEngine_GameObject_set_tag();
+
 		//UnityEngine.Component UnityEngine.GameObject::GetComponent(System.Type)
 		void Register_UnityEngine_GameObject_GetComponent();
 		Register_UnityEngine_GameObject_GetComponent();
@@ -3291,18 +3295,6 @@ void RegisterAllStrippedInternalCalls()
 		Register_UnityEngine_PlayerPrefs_Save();
 
 	//End Registrations for type : UnityEngine.PlayerPrefs
-
-	//Start Registrations for type : UnityEngine.Profiling.Profiler
-
-		//System.Void UnityEngine.Profiling.Profiler::BeginSampleImpl(System.String,UnityEngine.Object)
-		void Register_UnityEngine_Profiling_Profiler_BeginSampleImpl();
-		Register_UnityEngine_Profiling_Profiler_BeginSampleImpl();
-
-		//System.Void UnityEngine.Profiling.Profiler::EndSample()
-		void Register_UnityEngine_Profiling_Profiler_EndSample();
-		Register_UnityEngine_Profiling_Profiler_EndSample();
-
-	//End Registrations for type : UnityEngine.Profiling.Profiler
 
 	//Start Registrations for type : UnityEngine.PropertyNameUtils
 

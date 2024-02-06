@@ -113,11 +113,11 @@
 -define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
--r:"C:/Game Build/Real Win Jeeto 2/Library/PackageCache/com.unity.burst@1.8.11/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll"
--r:"C:/Game Build/Real Win Jeeto 2/Library/PackageCache/com.unity.burst@1.8.11/Unity.Burst.CodeGen/Unity.Burst.Cecil.Mdb.dll"
--r:"C:/Game Build/Real Win Jeeto 2/Library/PackageCache/com.unity.burst@1.8.11/Unity.Burst.CodeGen/Unity.Burst.Cecil.Pdb.dll"
--r:"C:/Game Build/Real Win Jeeto 2/Library/PackageCache/com.unity.burst@1.8.11/Unity.Burst.CodeGen/Unity.Burst.Cecil.Rocks.dll"
--r:"C:/Game Build/Real Win Jeeto 2/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
+-r:"C:/Game Build/Real-Win-Jeeto/Library/PackageCache/com.unity.burst@1.8.11/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll"
+-r:"C:/Game Build/Real-Win-Jeeto/Library/PackageCache/com.unity.burst@1.8.11/Unity.Burst.CodeGen/Unity.Burst.Cecil.Mdb.dll"
+-r:"C:/Game Build/Real-Win-Jeeto/Library/PackageCache/com.unity.burst@1.8.11/Unity.Burst.CodeGen/Unity.Burst.Cecil.Pdb.dll"
+-r:"C:/Game Build/Real-Win-Jeeto/Library/PackageCache/com.unity.burst@1.8.11/Unity.Burst.CodeGen/Unity.Burst.Cecil.Rocks.dll"
+-r:"C:/Game Build/Real-Win-Jeeto/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/Managed/Unity.CompilationPipeline.Common.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.33f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"

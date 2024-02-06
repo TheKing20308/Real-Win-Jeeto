@@ -12,7 +12,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{365cc099-488c-fe22-c307-1434f4d07aea}</ProjectGuid>
+    <ProjectGuid>{aabcb823-d2c7-a30d-f701-5eda408b6395}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -306,85 +306,85 @@
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
      </Reference>
      <Reference Include="Google.PackageManagerResolver">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Assets\ExternalDependencyManager\Editor\1.2.167\Google.PackageManagerResolver.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Assets\ExternalDependencyManager\Editor\1.2.167\Google.PackageManagerResolver.dll</HintPath>
      </Reference>
      <Reference Include="log4netPlastic">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Library\PackageCache\com.unity.collab-proxy@2.2.0\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Library\PackageCache\com.unity.collab-proxy@2.2.0\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
      </Reference>
      <Reference Include="Firebase.Messaging.Editor">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Assets\Firebase\Editor\Firebase.Messaging.Editor.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Assets\Firebase\Editor\Firebase.Messaging.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Firebase.App">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Assets\Firebase\Plugins\Firebase.App.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Assets\Firebase\Plugins\Firebase.App.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Plastic.Newtonsoft.Json">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Library\PackageCache\com.unity.collab-proxy@2.2.0\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Library\PackageCache\com.unity.collab-proxy@2.2.0\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
      </Reference>
      <Reference Include="System.Runtime.CompilerServices.Unsafe">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Assets\FastScriptReload\Plugins\Roslyn\2021+\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Assets\FastScriptReload\Plugins\Roslyn\2021+\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Plastic.Antlr3.Runtime">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Library\PackageCache\com.unity.collab-proxy@2.2.0\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Library\PackageCache\com.unity.collab-proxy@2.2.0\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.TextureAssets">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
      </Reference>
      <Reference Include="Firebase.TaskExtension">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Assets\Firebase\Plugins\Firebase.TaskExtension.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Assets\Firebase\Plugins\Firebase.TaskExtension.dll</HintPath>
      </Reference>
      <Reference Include="Google.VersionHandler">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Assets\ExternalDependencyManager\Editor\Google.VersionHandler.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Assets\ExternalDependencyManager\Editor\Google.VersionHandler.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Library\PackageCache\com.unity.visualscripting@1.9.1\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Library\PackageCache\com.unity.visualscripting@1.9.1\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="Google.IOSResolver">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Assets\ExternalDependencyManager\Editor\1.2.167\Google.IOSResolver.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Assets\ExternalDependencyManager\Editor\1.2.167\Google.IOSResolver.dll</HintPath>
      </Reference>
      <Reference Include="Photon3Unity3D">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Assets\Plugins\Photon3Unity3D.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Assets\Plugins\Photon3Unity3D.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.IonicZip">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
      </Reference>
      <Reference Include="unityplastic">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Library\PackageCache\com.unity.collab-proxy@2.2.0\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Library\PackageCache\com.unity.collab-proxy@2.2.0\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
      </Reference>
      <Reference Include="Firebase.Messaging">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Assets\Firebase\Plugins\Firebase.Messaging.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Assets\Firebase\Plugins\Firebase.Messaging.dll</HintPath>
      </Reference>
      <Reference Include="Newtonsoft.Json">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1\Runtime\Newtonsoft.Json.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1\Runtime\Newtonsoft.Json.dll</HintPath>
      </Reference>
      <Reference Include="Firebase.Editor">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Assets\Firebase\Editor\Firebase.Editor.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Assets\Firebase\Editor\Firebase.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.YamlDotNet">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Tasks">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Assets\Parse\Plugins\dotNet45\Unity.Tasks.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Assets\Parse\Plugins\dotNet45\Unity.Tasks.dll</HintPath>
      </Reference>
      <Reference Include="Google.VersionHandlerImpl">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Assets\ExternalDependencyManager\Editor\1.2.167\Google.VersionHandlerImpl.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Assets\ExternalDependencyManager\Editor\1.2.167\Google.VersionHandlerImpl.dll</HintPath>
      </Reference>
      <Reference Include="Google.JarResolver">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Assets\ExternalDependencyManager\Editor\1.2.167\Google.JarResolver.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Assets\ExternalDependencyManager\Editor\1.2.167\Google.JarResolver.dll</HintPath>
      </Reference>
      <Reference Include="Firebase.Platform">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Assets\Firebase\Plugins\Firebase.Platform.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Assets\Firebase\Plugins\Firebase.Platform.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Compat">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Assets\Parse\Plugins\dotNet45\Unity.Compat.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Assets\Parse\Plugins\dotNet45\Unity.Compat.dll</HintPath>
      </Reference>
      <Reference Include="Google.MiniJson">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Assets\Firebase\Plugins\Google.MiniJson.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Assets\Firebase\Plugins\Google.MiniJson.dll</HintPath>
      </Reference>
      <Reference Include="RainbowFolders">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Assets\RainbowFolders\Editor\Assemblies\RainbowFolders.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Assets\RainbowFolders\Editor\Assemblies\RainbowFolders.dll</HintPath>
      </Reference>
      <Reference Include="nunit.framework">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.iOS.Extensions.Xcode">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -774,16 +774,16 @@
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.33f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XPath.XDocument.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.UI">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UI">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.TestRunner">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Library\ScriptAssemblies\UnityEngine.TestRunner.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Library\ScriptAssemblies\UnityEngine.TestRunner.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.TestRunner">
-     <HintPath>C:\Game Build\Real Win Jeeto 2\Library\ScriptAssemblies\UnityEditor.TestRunner.dll</HintPath>
+     <HintPath>C:\Game Build\Real-Win-Jeeto\Library\ScriptAssemblies\UnityEditor.TestRunner.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>
